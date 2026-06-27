@@ -58,10 +58,11 @@
           localStorage.setItem('admin_user', data.user.username);
           window.location.href = '/admin-dashboard.html';
         } else {
+          document.getElementById('login-error').textContent = data.error || 'Invalid credentials (HTTP ' + res.status + ')';
           document.getElementById('login-error').style.display = 'block';
         }
-      } catch {
-        document.getElementById('login-error').textContent = 'Server error. Make sure server is running.';
+      } catch (err) {
+        document.getElementById('login-error').textContent = 'Network/JS error: ' + (err.message || 'unknown');
         document.getElementById('login-error').style.display = 'block';
       }
       btn.disabled = false;
