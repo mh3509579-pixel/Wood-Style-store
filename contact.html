@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Wood Style Furniture</title>
+  <meta name="description" content="Get in touch with the Wood Style Furniture team.">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { walnut: { DEFAULT: '#4A3728', light: '#6B5340', dark: '#2D1F14' }, ivory: { DEFAULT: '#F5F0E8', dark: '#E8E0D4' }, black: { DEFAULT: '#1A1A1A', light: '#2A2A2A' }, gold: { DEFAULT: '#C9A96E', light: '#DFC08A', dark: '#A8884A' } },
+          fontFamily: { playfair: ['Playfair Display', 'Georgia', 'serif'], inter: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <script src="/js/main.js"></script>
+  <script src="/js/cart.js" defer></script>
+</head>
+<body>
+
+<div class="announcement-bar" id="announcement-bar"><span class="announcement-bar-inner">Complimentary shipping on orders over Rs. 500,000 &mdash; <a href="/collections.html">Explore the collection</a></span></div>
+
+<header class="header">
+  <div class="header-inner">
+    <button class="mobile-toggle" id="mobile-open">&#9776;</button>
+    <a href="/" class="logo"><img src="/assets/images/logo.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <div class="nav-item">
+        <a href="/collections.html">Collections</a>
+        <div class="dropdown">
+          <a href="/beds.html">Beds</a>
+          <a href="/sofa.html">Sofa</a>
+          <a href="/dining-tables.html">Dining Tables</a>
+          <a href="/stool.html">Stool</a>
+          <a href="/dining-chairs.html">Dining Chairs</a>
+          <a href="/side-tables.html">Side Tables</a>
+          <a href="/dressing-tables.html">Dressing Tables</a>
+          <a href="/showcase.html">Showcase</a>
+          <a href="/doors.html">Doors</a>
+          <a href="/simple-tables.html">Simple Tables</a>
+          <a href="/bench.html">Bench</a>
+          <a href="/collections.html">All Collections</a>
+        </div>
+      </div>
+      <a href="/product.html?id=1">Shop</a>
+      <a href="/blog.html">Journal</a>
+      <a href="/about.html">Our Story</a>
+      <a href="/contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button onclick="window.location.href='/collections.html'"><img src="/assets/images/search.png" alt="Search" style="width:22px;height:22px;display:block"></button>
+      <button onclick="window.location.href='/cart.html'"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"><span class="cart-count">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-nav-close" id="mobile-close">&times;</button>
+  <nav class="mobile-nav-links">
+    <a href="/">Home</a>
+    <a href="/collections.html">Collections</a>
+    <a href="/product.html?id=1">Shop</a>
+    <a href="/blog.html">Journal</a>
+    <a href="/about.html">Our Story</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div>
+
+<section class="page-header">
+  <h1>Get in Touch</h1>
+  <p>We'd love to hear from you. Every message is read by a real person.</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-layout">
+      <div>
+        <div class="contact-info">
+          <h2>Concierge Service</h2>
+          <p>Our team is available to assist with product inquiries, customization requests, and design consultations.</p>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">&#128222;</div>
+            <div>
+              <h4>Phone</h4>
+              <p>0322 6405743</p>
+              <p style="font-size:0.78rem;color:var(--text-light);">Mon–Fri, 9 AM – 6 PM EST</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">&#9993;</div>
+            <div>
+              <h4>Email</h4>
+              <p>info@woodstylefurniture.com</p>
+              <p style="font-size:0.78rem;color:var(--text-light);">We respond within 24 hours</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">&#128205;</div>
+            <div>
+              <h4>Showroom</h4>
+              <p>Pak Avune colony Sahiwal</p>
+              <p style="font-size:0.78rem;color:var(--text-light);">By appointment only</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon"><img src="/assets/images/wattsapp_green%20icon.png" alt="WhatsApp" style="width:32px;height:32px;display:block"></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>0321 5173146</p>
+              <p style="font-size:0.78rem;color:var(--text-light);">Available 24/7 for urgent inquiries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form id="contact-form" onsubmit="return handleContact(event)">
+          <div class="form-group">
+            <label for="contact-name">Full Name</label>
+            <input type="text" id="contact-name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <select id="contact-subject">
+              <option value="general">General Inquiry</option>
+              <option value="product">Product Question</option>
+              <option value="order">Order Support</option>
+              <option value="custom">Custom Commission</option>
+              <option value="press">Press / Media</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" rows="5" placeholder="Tell us how we can help..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo"><img src="/assets/images/footerlogo_image.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+        <p class="footer-desc">Handcrafted luxury furniture, objects, and textiles for the discerning home.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">&#119816;</a>
+          <a href="#" aria-label="Pinterest">&#119822;</a>
+          <a href="#" aria-label="Facebook">&#119815;</a>
+          <a href="#" aria-label="Twitter">&#120143;</a>
+        </div>
+      </div>
+      <div><h4>Collections</h4><ul class="footer-links"><li><a href="/beds.html">Beds</a></li><li><a href="/sofa.html">Sofa</a></li><li><a href="/dining-tables.html">Dining Tables</a></li><li><a href="/stool.html">Stool</a></li><li><a href="/dining-chairs.html">Dining Chairs</a></li><li><a href="/side-tables.html">Side Tables</a></li><li><a href="/dressing-tables.html">Dressing Tables</a></li><li><a href="/showcase.html">Showcase</a></li><li><a href="/doors.html">Doors</a></li><li><a href="/simple-tables.html">Simple Tables</a></li><li><a href="/bench.html">Bench</a></li></ul></div>
+      <div><h4>Company</h4><ul class="footer-links"><li><a href="/about.html">Our Story</a></li><li><a href="/blog.html">Journal</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
+      <div><h4>Support</h4><ul class="footer-links"><li><a href="/shipping-returns.html">Shipping &amp; Returns</a></li><li><a href="/care-guide.html">Care Guide</a></li><li><a href="/warranty.html">Warranty</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/privacy-policy.html">Privacy Policy</a></li><li><a href="/admin-login.html">Admin</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Wood Style Furniture. All rights reserved.</p>
+      <div class="footer-payments"><span>Visa</span><span>MC</span><span>Amex</span><span>PayPal</span><span>JazzCash</span><span>EasyPaisa</span></div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923215173146" target="_blank" rel="noopener" class="whatsapp-float"><img src="/assets/images/wattsapp_green%20icon.png" alt="WhatsApp" style="width:28px;height:28px;display:block"></a>
+
+<script>
+async function handleContact(e) {
+  e.preventDefault();
+  const btn = e.target.querySelector('button[type="submit"]');
+  btn.disabled = true;
+  btn.textContent = 'Sending...';
+
+  const data = {
+    name: document.getElementById('contact-name').value,
+    email: document.getElementById('contact-email').value,
+    subject: document.getElementById('contact-subject').value,
+    message: document.getElementById('contact-message').value
+  };
+
+  try {
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    const result = await res.json();
+    alert(result.message || 'Thank you for your message. We will respond within 24 hours.');
+    e.target.reset();
+  } catch {
+    alert('Thank you for your message. We will respond within 24 hours.');
+    e.target.reset();
+  }
+
+  btn.disabled = false;
+  btn.textContent = 'Send Message';
+  return false;
+}
+</script>
+<script>
+async function loadAnnouncement() {
+  try {
+    const res = await fetch('/api/admin/announcement');
+    const data = await res.json();
+    const bar = document.getElementById('announcement-bar');
+    if (bar && data.text) {
+      bar.innerHTML = '<span class="announcement-bar-inner">' + data.text + ' &mdash; <a href="/collections.html">Explore the collection</a></span>';
+    }
+  } catch {}
+}
+loadAnnouncement();
+</script>
+</body>
+</html>

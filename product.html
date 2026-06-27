@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product — Wood Style Furniture</title>
+  <meta name="description" content="View product details with interactive 3D and AR preview.">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { walnut: { DEFAULT: '#4A3728', light: '#6B5340', dark: '#2D1F14' }, ivory: { DEFAULT: '#F5F0E8', dark: '#E8E0D4' }, black: { DEFAULT: '#1A1A1A', light: '#2A2A2A' }, gold: { DEFAULT: '#C9A96E', light: '#DFC08A', dark: '#A8884A' } },
+          fontFamily: { playfair: ['Playfair Display', 'Georgia', 'serif'], inter: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/cart.js" defer></script>
+  <script src="/js/three-demo.js" defer></script>
+</head>
+<body>
+
+<div class="announcement-bar" id="announcement-bar"><span class="announcement-bar-inner">Complimentary shipping on orders over Rs. 500,000 &mdash; <a href="/collections.html">Explore the collection</a></span></div>
+
+<header class="header">
+  <div class="header-inner">
+    <button class="mobile-toggle" id="mobile-open">&#9776;</button>
+    <a href="/" class="logo"><img src="/assets/images/logo.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <div class="nav-item">
+        <a href="/collections.html">Collections</a>
+        <div class="dropdown">
+          <a href="/beds.html">Beds</a>
+          <a href="/sofa.html">Sofa</a>
+          <a href="/dining-tables.html">Dining Tables</a>
+          <a href="/stool.html">Stool</a>
+          <a href="/dining-chairs.html">Dining Chairs</a>
+          <a href="/side-tables.html">Side Tables</a>
+          <a href="/dressing-tables.html">Dressing Tables</a>
+          <a href="/showcase.html">Showcase</a>
+          <a href="/doors.html">Doors</a>
+          <a href="/simple-tables.html">Simple Tables</a>
+          <a href="/bench.html">Bench</a>
+          <a href="/collections.html">All Collections</a>
+        </div>
+      </div>
+      <a href="/product.html?id=1" class="active">Shop</a>
+      <a href="/blog.html">Journal</a>
+      <a href="/about.html">Our Story</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button onclick="window.location.href='/collections.html'"><img src="/assets/images/search.png" alt="Search" style="width:22px;height:22px;display:block"></button>
+      <button onclick="window.location.href='/cart.html'"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"><span class="cart-count">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-nav-close" id="mobile-close">&times;</button>
+  <nav class="mobile-nav-links">
+    <a href="/">Home</a>
+    <a href="/collections.html">Collections</a>
+    <a href="/product.html?id=1">Shop</a>
+    <a href="/blog.html">Journal</a>
+    <a href="/about.html">Our Story</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div>
+
+<section class="product-page">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="/">Home</a> / <a href="/collections.html">Collections</a> / <span id="breadcrumb-product">Loading...</span>
+    </div>
+
+    <div id="product-content">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- 3D / AR Viewer Section -->
+    <div class="viewer-section" id="viewer-section" style="display:none;">
+      <div class="viewer-tabs">
+        <button class="viewer-tab active" data-viewer="3d">Interactive 3D</button>
+        <button class="viewer-tab" data-viewer="ar">Augmented Reality (AR)</button>
+      </div>
+      <div class="viewer-panel active" id="panel-3d">
+        <div id="three-container" style="width:100%;height:500px;"></div>
+      </div>
+      <div class="viewer-panel" id="panel-ar">
+        <model-viewer
+          id="ar-viewer"
+          src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+          alt="3D model"
+          ar
+          ar-modes="webxr scene-viewer quick-look"
+          camera-controls
+          shadow-intensity="1"
+          autoplay
+          style="width:100%;height:500px;background:var(--cream);">
+        </model-viewer>
+      </div>
+    </div>
+
+    <!-- Reviews -->
+    <div class="reviews-section" id="reviews-section" style="display:none;">
+      <h2 style="font-family:var(--font-heading);font-size:1.8rem;font-weight:500;color:var(--walnut-dark);margin-bottom:1.5rem;">Customer Reviews</h2>
+      <div id="reviews-container"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+    <a href="/" class="logo"><img src="/assets/images/footerlogo_image.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+        <p class="footer-desc">Handcrafted luxury furniture, objects, and textiles for the discerning home.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">&#119816;</a>
+          <a href="#" aria-label="Pinterest">&#119822;</a>
+          <a href="#" aria-label="Facebook">&#119815;</a>
+          <a href="#" aria-label="Twitter">&#120143;</a>
+        </div>
+      </div>
+      <div><h4>Collections</h4><ul class="footer-links"><li><a href="/beds.html">Beds</a></li><li><a href="/sofa.html">Sofa</a></li><li><a href="/dining-tables.html">Dining Tables</a></li><li><a href="/stool.html">Stool</a></li><li><a href="/dining-chairs.html">Dining Chairs</a></li><li><a href="/side-tables.html">Side Tables</a></li><li><a href="/dressing-tables.html">Dressing Tables</a></li><li><a href="/showcase.html">Showcase</a></li><li><a href="/doors.html">Doors</a></li><li><a href="/simple-tables.html">Simple Tables</a></li><li><a href="/bench.html">Bench</a></li></ul></div>
+      <div><h4>Company</h4><ul class="footer-links"><li><a href="/about.html">Our Story</a></li><li><a href="/blog.html">Journal</a></li><li><a href="/contact.html">Contact</a></li><li><a href="#">Careers</a></li></ul></div>
+      <div><h4>Support</h4><ul class="footer-links"><li><a href="/shipping-returns.html">Shipping &amp; Returns</a></li><li><a href="/care-guide.html">Care Guide</a></li><li><a href="/warranty.html">Warranty</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/privacy-policy.html">Privacy Policy</a></li><li><a href="/admin-login.html">Admin</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Wood Style Furniture. All rights reserved.</p>
+      <div class="footer-payments"><span>Visa</span><span>MC</span><span>Amex</span><span>PayPal</span><span>JazzCash</span><span>EasyPaisa</span></div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923215173146" target="_blank" rel="noopener" class="whatsapp-float"><img src="/assets/images/wattsapp_green%20icon.png" alt="WhatsApp" style="width:28px;height:28px;display:block"></a>
+
+<script>
+async function loadAnnouncement() {
+  try {
+    const res = await fetch('/api/admin/announcement');
+    const data = await res.json();
+    const bar = document.getElementById('announcement-bar');
+    if (bar && data.text) {
+      bar.innerHTML = '<span class="announcement-bar-inner">' + data.text + ' &mdash; <a href="/collections.html">Explore the collection</a></span>';
+    }
+  } catch {}
+}
+loadAnnouncement();
+
+document.addEventListener('DOMContentLoaded', async () => {
+  const productId = getProductIdFromUrl();
+  const container = document.getElementById('product-content');
+  const viewerSection = document.getElementById('viewer-section');
+  const reviewsSection = document.getElementById('reviews-section');
+  const breadcrumbEl = document.getElementById('breadcrumb-product');
+
+  const product = await loadProduct(productId);
+  if (!product) {
+    container.innerHTML = '<div style="text-align:center;padding:4rem;"><h2 style="font-family:var(--font-heading);font-size:2rem;color:var(--walnut-dark);">Product Not Found</h2><p style="color:var(--text-light);margin-top:1rem;">This piece may have been claimed. <a href="/collections.html" style="color:var(--gold);text-decoration:underline;">Browse our collection</a></p></div>';
+    return;
+  }
+
+  breadcrumbEl.textContent = product.name;
+
+  container.innerHTML = `
+    <div class="product-layout">
+      <div class="product-gallery">
+        <div class="product-main-image">
+          <img id="main-image" src="${product.images?.[0] || 'https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?w=800'}" alt="${product.name}">
+        </div>
+        <div class="product-thumbnails" id="thumbnails">
+          ${(product.images || []).map((img, i) => `
+            <img class="product-thumbnail ${i === 0 ? 'active' : ''}" src="${img}?w=200" alt="${product.name} view ${i+1}" onclick="switchImage(this, '${img}?w=800')">
+          `).join('')}
+        </div>
+      </div>
+      <div class="product-info">
+        <p class="product-category">${product.category}</p>
+        <h1 class="product-name">${product.name}</h1>
+        <div class="product-price">
+          Rs. ${product.price.toLocaleString("en-PK")}
+        </div>
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span class="count">(12 reviews)</span>
+        </div>
+        <p class="product-description">${product.description}</p>
+        <div class="product-meta">
+          <div class="product-meta-item"><strong>Materials</strong> ${(product.materials || []).join(', ')}</div>
+          <div class="product-meta-item"><strong>Dimensions</strong> ${product.dimensions || 'Various'}</div>
+          <div class="product-meta-item"><strong>Weight</strong> ${product.weight || 'N/A'}</div>
+          <div class="product-meta-item"><strong>Availability</strong> ${product.inStock ? '<span style="color:var(--success);">In Stock</span>' : '<span style="color:var(--error);">Made to Order</span>'}</div>
+        </div>
+        <div class="product-actions">
+          <div class="qty-selector">
+            <button onclick="adjustQty(-1)">−</button>
+            <input type="text" id="qty-input" value="1" readonly>
+            <button onclick="adjustQty(1)">+</button>
+          </div>
+          <button class="btn btn-primary add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div style="display:flex;gap:1rem;margin-top:1rem;">
+          <button class="btn btn-secondary btn-sm" onclick="alert('Added to wishlist!')">&#9825; Add to Wishlist</button>
+          <button class="btn btn-secondary btn-sm" onclick="window.location.href='https://wa.me/923215173146?text=I%27m%20interested%20in%20${encodeURIComponent(product.name)}'"><img src="/assets/images/wattsapp_green%20icon.png" alt="WhatsApp" style="width:22px;height:22px;display:inline-block;vertical-align:middle"> Enquire on WhatsApp</button>
+        </div>
+        <div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--border);">
+          <p style="font-size:0.8rem;color:var(--text-light);margin-bottom:0.75rem;letter-spacing:0.08em;text-transform:uppercase;">Secure Payment</p>
+          <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+            <span class="payment-icon">Visa</span>
+            <span class="payment-icon">MC</span>
+            <span class="payment-icon">Amex</span>
+            <span class="payment-icon">PayPal</span>
+            <span class="payment-icon">JazzCash</span>
+            <span class="payment-icon">EasyPaisa</span>
+          </div>
+        </div>
+        <div style="margin-top:1rem;display:flex;gap:0.5rem;flex-wrap:wrap;">
+          <span style="font-size:0.75rem;color:var(--text-light);">&#127758; Multi-currency support:</span>
+          <span style="font-size:0.75rem;font-weight:500;">PKR &#8360;</span>
+          <span style="font-size:0.75rem;font-weight:500;">USD $</span>
+          <span style="font-size:0.75rem;font-weight:500;">EUR &euro;</span>
+          <span style="font-size:0.75rem;font-weight:500;">GBP &pound;</span>
+        </div>
+      </div>
+    </div>`;
+
+  // Show 3D/AR section for products with 3D model support
+  if (product.threeDModel) {
+    viewerSection.style.display = 'block';
+    setTimeout(() => {
+      if (typeof initThreeViewer === 'function') {
+        initThreeViewer('three-container');
+      }
+    }, 300);
+  }
+
+  // Reviews
+  const reviews = await loadReviews(productId);
+  if (reviews.length > 0) {
+    reviewsSection.style.display = 'block';
+    document.getElementById('reviews-container').innerHTML = reviews.map(r => `
+      <div class="review-card">
+        <div class="review-header">
+          <div class="review-avatar">${r.author[0]}</div>
+          <div>
+            <p class="review-author">${r.author}</p>
+            <p class="review-date">${r.date} · ${'★'.repeat(rating)}${'☆'.repeat(5 - rating)}</p>
+          </div>
+        </div>
+        <p class="review-text">${r.text}</p>
+      </div>
+    `).join('');
+  }
+
+  // Viewer tabs
+  document.querySelectorAll('.viewer-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.viewer-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.viewer-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(`panel-${tab.dataset.viewer}`).classList.add('active');
+    });
+  });
+});
+
+function switchImage(el, src) {
+  document.querySelectorAll('.product-thumbnail').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('main-image').src = src;
+}
+
+function adjustQty(delta) {
+  const input = document.getElementById('qty-input');
+  const val = parseInt(input.value) || 1;
+  input.value = Math.max(1, val + delta);
+}
+
+function addToCart() {
+  const product = {
+    id: parseInt(new URLSearchParams(window.location.search).get('id')) || 1,
+    name: document.querySelector('.product-name')?.textContent || 'Product',
+    price: parseFloat(document.querySelector('.product-price')?.textContent?.replace(/[^0-9]/g, '') || '0'),
+    images: [document.getElementById('main-image')?.src || '']
+  };
+  const qty = parseInt(document.getElementById('qty-input')?.value || '1');
+  if (typeof cart !== 'undefined') {
+    cart.add(product, qty);
+  } else {
+    alert(`${product.name} added to cart (${qty}x)`);
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart — Wood Style Furniture</title>
+  <meta name="description" content="Review your selections at Wood Style Furniture.">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { walnut: { DEFAULT: '#4A3728', light: '#6B5340', dark: '#2D1F14' }, ivory: { DEFAULT: '#F5F0E8', dark: '#E8E0D4' }, black: { DEFAULT: '#1A1A1A', light: '#2A2A2A' }, gold: { DEFAULT: '#C9A96E', light: '#DFC08A', dark: '#A8884A' } },
+          fontFamily: { playfair: ['Playfair Display', 'Georgia', 'serif'], inter: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <script src="/js/main.js"></script>
+  <script src="/js/cart.js" defer></script>
+</head>
+<body>
+
+<div class="announcement-bar" id="announcement-bar"><span class="announcement-bar-inner">Complimentary shipping on orders over Rs. 500,000 &mdash; <a href="/collections.html">Explore the collection</a></span></div>
+
+<header class="header">
+  <div class="header-inner">
+    <button class="mobile-toggle" id="mobile-open">&#9776;</button>
+    <a href="/" class="logo"><img src="/assets/images/logo.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <div class="nav-item">
+        <a href="/collections.html">Collections</a>
+        <div class="dropdown">
+          <a href="/beds.html">Beds</a>
+          <a href="/sofa.html">Sofa</a>
+          <a href="/dining-tables.html">Dining Tables</a>
+          <a href="/stool.html">Stool</a>
+          <a href="/dining-chairs.html">Dining Chairs</a>
+          <a href="/side-tables.html">Side Tables</a>
+          <a href="/dressing-tables.html">Dressing Tables</a>
+          <a href="/showcase.html">Showcase</a>
+          <a href="/doors.html">Doors</a>
+          <a href="/simple-tables.html">Simple Tables</a>
+          <a href="/bench.html">Bench</a>
+          <a href="/collections.html">All Collections</a>
+        </div>
+      </div>
+      <a href="/product.html?id=1">Shop</a>
+      <a href="/blog.html">Journal</a>
+      <a href="/about.html">Our Story</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button onclick="window.location.href='/cart.html'" style="position:relative;"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"><span class="cart-count">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-nav-close" id="mobile-close">&times;</button>
+  <nav class="mobile-nav-links">
+    <a href="/">Home</a>
+    <a href="/collections.html">Collections</a>
+    <a href="/product.html?id=1">Shop</a>
+    <a href="/blog.html">Journal</a>
+    <a href="/about.html">Our Story</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div>
+
+<section class="page-header" style="padding:4rem 2rem;">
+  <h1>Shopping Cart</h1>
+  <p>Review and adjust your selections before checkout.</p>
+</section>
+
+<section class="cart-page">
+  <div class="container">
+    <div class="cart-layout">
+      <div id="cart-items-container">
+        <div class="spinner"></div>
+      </div>
+      <div id="cart-summary"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo"><img src="/assets/images/footerlogo_image.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+        <p class="footer-desc">Handcrafted luxury furniture, objects, and textiles for the discerning home.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">&#119816;</a>
+          <a href="#" aria-label="Pinterest">&#119822;</a>
+          <a href="#" aria-label="Facebook">&#119815;</a>
+          <a href="#" aria-label="Twitter">&#120143;</a>
+        </div>
+      </div>
+      <div><h4>Collections</h4><ul class="footer-links"><li><a href="/beds.html">Beds</a></li><li><a href="/sofa.html">Sofa</a></li><li><a href="/dining-tables.html">Dining Tables</a></li><li><a href="/stool.html">Stool</a></li><li><a href="/dining-chairs.html">Dining Chairs</a></li><li><a href="/side-tables.html">Side Tables</a></li><li><a href="/dressing-tables.html">Dressing Tables</a></li><li><a href="/showcase.html">Showcase</a></li><li><a href="/doors.html">Doors</a></li><li><a href="/simple-tables.html">Simple Tables</a></li><li><a href="/bench.html">Bench</a></li></ul></div>
+      <div><h4>Company</h4><ul class="footer-links"><li><a href="/about.html">Our Story</a></li><li><a href="/blog.html">Journal</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
+      <div><h4>Support</h4><ul class="footer-links"><li><a href="/shipping-returns.html">Shipping &amp; Returns</a></li><li><a href="/care-guide.html">Care Guide</a></li><li><a href="/warranty.html">Warranty</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/privacy-policy.html">Privacy Policy</a></li><li><a href="/admin-login.html">Admin</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Wood Style Furniture. All rights reserved.</p>
+      <div class="footer-payments"><span>Visa</span><span>MC</span><span>Amex</span><span>PayPal</span><span>JazzCash</span><span>EasyPaisa</span></div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="register-modal">
+  <div class="modal" style="background:#fff;padding:2rem;max-width:480px;width:95vw;margin:auto;border:1px solid #D4C9B8;">
+    <h2 style="font-family:'Playfair Display',serif;font-size:1.4rem;color:#2D1F14;margin-bottom:0.5rem;">Create Account</h2>
+    <p style="font-size:0.85rem;color:#6B6B6B;margin-bottom:1.5rem;">Register to continue with your purchase of 2+ items</p>
+    <form onsubmit="return registerUser(event)">
+      <div style="margin-bottom:0.75rem;">
+        <label style="display:block;font-size:0.78rem;font-weight:500;color:#4A3728;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.3rem;">Full Name</label>
+        <input type="text" id="reg-name" required style="width:100%;padding:0.7rem 0.85rem;border:1.5px solid #D4C9B8;font-family:'Inter',sans-serif;font-size:0.85rem;outline:none;">
+      </div>
+      <div style="margin-bottom:0.75rem;">
+        <label style="display:block;font-size:0.78rem;font-weight:500;color:#4A3728;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.3rem;">Email</label>
+        <input type="email" id="reg-email" required style="width:100%;padding:0.7rem 0.85rem;border:1.5px solid #D4C9B8;font-family:'Inter',sans-serif;font-size:0.85rem;outline:none;">
+      </div>
+      <div style="margin-bottom:0.75rem;">
+        <label style="display:block;font-size:0.78rem;font-weight:500;color:#4A3728;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.3rem;">Phone</label>
+        <input type="tel" id="reg-phone" style="width:100%;padding:0.7rem 0.85rem;border:1.5px solid #D4C9B8;font-family:'Inter',sans-serif;font-size:0.85rem;outline:none;">
+      </div>
+      <div style="margin-bottom:0.75rem;">
+        <label style="display:block;font-size:0.78rem;font-weight:500;color:#4A3728;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.3rem;">Address</label>
+        <input type="text" id="reg-address" style="width:100%;padding:0.7rem 0.85rem;border:1.5px solid #D4C9B8;font-family:'Inter',sans-serif;font-size:0.85rem;outline:none;">
+      </div>
+      <div style="margin-bottom:0.75rem;">
+        <label style="display:block;font-size:0.78rem;font-weight:500;color:#4A3728;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.3rem;">City</label>
+        <input type="text" id="reg-city" style="width:100%;padding:0.7rem 0.85rem;border:1.5px solid #D4C9B8;font-family:'Inter',sans-serif;font-size:0.85rem;outline:none;">
+      </div>
+      <div style="display:flex;gap:0.75rem;margin-top:1.25rem;">
+        <button type="submit" class="btn btn-primary" style="flex:1;">Register & Continue</button>
+        <button type="button" class="btn" style="background:#E8E0D4;color:#1A1A1A;" onclick="closeRegisterModal()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<style>
+.modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:10000; align-items:center; justify-content:center; }
+.modal-overlay.open { display:flex; }
+</style>
+
+<a href="https://wa.me/923215173146" target="_blank" rel="noopener" class="whatsapp-float"><img src="/assets/images/wattsapp_green%20icon.png" alt="WhatsApp" style="width:40px;height:40px;display:block"></a>
+<script>
+async function loadAnnouncement() {
+  try {
+    const res = await fetch('/api/admin/announcement');
+    const data = await res.json();
+    const bar = document.getElementById('announcement-bar');
+    if (bar && data.text) {
+      bar.innerHTML = '<span class="announcement-bar-inner">' + data.text + ' &mdash; <a href="/collections.html">Explore the collection</a></span>';
+    }
+  } catch {}
+}
+loadAnnouncement();
+</script>
+</body>
+</html>

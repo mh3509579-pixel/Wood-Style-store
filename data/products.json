@@ -1,0 +1,6220 @@
+[
+  {
+    "id": 1,
+    "name": "Heritage Walnut Desk",
+    "price": 10000,
+    "currency": "PKR",
+    "description": "Hand-carved from century-old walnut wood, this executive desk features dovetail joinery and a hand-rubbed oil finish that deepens with age. Each piece is unique.",
+    "category": "bench",
+    "images": [
+      "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?w=800",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=800"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Brass Hardware",
+      "Natural Oil Finish"
+    ],
+    "dimensions": "72\"L x 36\"W x 30\"H",
+    "weight": "85 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": true
+  },
+  {
+    "id": 2,
+    "name": "Artisan Marble Vase",
+    "price": 25000,
+    "currency": "PKR",
+    "description": "Sculpted from single-block Carrara marble by Italian artisans. The organic silhouette captures light differently from every angle.",
+    "category": "sofa",
+    "images": [
+      "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800",
+      "https://images.unsplash.com/photo-1567721913486-6585f069b332?w=800"
+    ],
+    "materials": [
+      "Carrara Marble",
+      "Hand-polished"
+    ],
+    "dimensions": "12\"H x 6\"W",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": true
+  },
+  {
+    "id": 3,
+    "name": "Cashmere Heritage Throw",
+    "price": 12500,
+    "currency": "PKR",
+    "description": "Two-ply Mongolian cashmere, woven on traditional hand-looms. Each throw requires the fleece of four goats and 80 hours of craftsmanship.",
+    "category": "sofa",
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800"
+    ],
+    "materials": [
+      "100% Mongolian Cashmere",
+      "Natural Dyes"
+    ],
+    "dimensions": "60\" x 80\"",
+    "weight": "1.5 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 4,
+    "name": "Premium Leather Stool",
+    "price": 5500,
+    "currency": "PKR",
+    "description": "Rich leather stool with barrel-stitched details and sturdy wooden legs, perfect as an accent piece.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_5.png",
+      "/assets/images/stool_table_6.png"
+    ],
+    "materials": [
+      "Top-Grain Leather",
+      "Walnut Legs",
+      "Brass Details"
+    ],
+    "dimensions": "16\"L x 16\"W x 18\"H",
+    "weight": "9 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": true
+  },
+  {
+    "id": 5,
+    "name": "Saffron Leather Armchair",
+    "price": 117500,
+    "currency": "PKR",
+    "description": "Full-grain Italian leather upholstery over a kiln-dried ash frame. Hand-tufted back with brass nailhead trim.",
+    "category": "sofa",
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+    ],
+    "materials": [
+      "Italian Full-Grain Leather",
+      "Ash Wood Frame",
+      "High-Resilience Foam"
+    ],
+    "dimensions": "32\"W x 34\"D x 38\"H",
+    "weight": "65 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": true
+  },
+  {
+    "id": 6,
+    "name": "Luxury Side Table",
+    "price": 40000,
+    "currency": "PKR",
+    "description": "Polished volcanic stone top on a bronzed stainless steel base. Each table reveals unique natural veining.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_33.png"
+    ],
+    "materials": [
+      "Volcanic Stone",
+      "Stainless Steel",
+      "Bronze Finish"
+    ],
+    "dimensions": "48\"L x 28\"W x 16\"H",
+    "weight": "120 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 7,
+    "name": "Luxury Upholstered Bed",
+    "price": 250000,
+    "currency": "PKR",
+    "description": "Premium upholstered bed frame with diamond-stitched headboard, crafted for ultimate comfort and elegance.",
+    "category": "beds",
+    "images": [
+      "/assets/images/Bedroom1.jpg"
+    ],
+    "materials": [
+      "Velvet Upholstery",
+      "Solid Wood Frame",
+      "Memory Foam"
+    ],
+    "dimensions": "78\"L x 62\"W x 50\"H",
+    "weight": "95 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 8,
+    "name": "Modern Platform Bed",
+    "price": 172000,
+    "currency": "PKR",
+    "description": "Sleek platform bed with a low-profile design, perfect for contemporary bedrooms.",
+    "category": "beds",
+    "images": [
+      "/assets/images/Bedroom2.jpg"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Walnut Veneer",
+      "Steel Frame"
+    ],
+    "dimensions": "80\"L x 60\"W x 12\"H",
+    "weight": "75 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 9,
+    "name": "Classic Wooden Bed Frame",
+    "price": 165000,
+    "currency": "PKR",
+    "description": "Solid Sheesham wood bed frame with traditional hand-carved detailing and a rich walnut finish.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom3.jpg"
+    ],
+    "materials": [
+      "Sheesham Wood",
+      "Natural Finish",
+      "Brass Accents"
+    ],
+    "dimensions": "78\"L x 60\"W x 48\"H",
+    "weight": "110 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 10,
+    "name": "Elegant Storage Bed",
+    "price": 95000,
+    "currency": "PKR",
+    "description": "Hydraulic storage bed with spacious under-bed compartments, combining style with practicality.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom4.jpg"
+    ],
+    "materials": [
+      "Plywood",
+      "Fabric Upholstery",
+      "Gas Lift Mechanism"
+    ],
+    "dimensions": "80\"L x 62\"W x 45\"H",
+    "weight": "130 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 11,
+    "name": "Minimalist Japanese Bed",
+    "price": 125000,
+    "currency": "PKR",
+    "description": "Low-profile Japanese-inspired platform bed with clean lines and natural wood grain.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom5.jpg"
+    ],
+    "materials": [
+      "Oak Wood",
+      "Natural Oil Finish",
+      "Slatted Base"
+    ],
+    "dimensions": "80\"L x 60\"W x 10\"H",
+    "weight": "55 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 12,
+    "name": "Royal Canopy Bed",
+    "price": 145000,
+    "currency": "PKR",
+    "description": "Majestic canopy bed with intricate wrought-iron work and a regal silhouette.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom6.jpg"
+    ],
+    "materials": [
+      "Wrought Iron",
+      "Brass Details",
+      "Wooden Slats"
+    ],
+    "dimensions": "84\"L x 66\"W x 80\"H",
+    "weight": "155 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 13,
+    "name": "Tufted Headboard Bed",
+    "price": 98000,
+    "currency": "PKR",
+    "description": "Button-tufted headboard bed with premium fabric finish and sturdy wooden frame.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom7.jpg"
+    ],
+    "materials": [
+      "Linen Fabric",
+      "High-Density Foam",
+      "Solid Wood"
+    ],
+    "dimensions": "78\"L x 62\"W x 52\"H",
+    "weight": "88 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 14,
+    "name": "White Lacquer Bed",
+    "price": 148000,
+    "currency": "PKR",
+    "description": "High-gloss white lacquer bed with sleek modern design and durable finish.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom8.jpg"
+    ],
+    "materials": [
+      "MDF",
+      "Lacquer Finish",
+      "Chrome Legs"
+    ],
+    "dimensions": "80\"L x 60\"W x 42\"H",
+    "weight": "70 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 15,
+    "name": "Rustic Log Bed",
+    "price": 82000,
+    "currency": "PKR",
+    "description": "Handcrafted rustic log bed made from reclaimed pine, bringing natural warmth to your bedroom.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom9.jpg"
+    ],
+    "materials": [
+      "Reclaimed Pine",
+      "Natural Varnish",
+      "Steel Hardware"
+    ],
+    "dimensions": "78\"L x 62\"W x 46\"H",
+    "weight": "120 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 16,
+    "name": "Art Deco Velvet Bed",
+    "price": 92000,
+    "currency": "PKR",
+    "description": "Art Deco-inspired bed with emerald velvet upholstery and gold-tipped legs.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom10.jpg"
+    ],
+    "materials": [
+      "Velvet",
+      "Gold Brass",
+      "Solid Wood Frame"
+    ],
+    "dimensions": "80\"L x 64\"W x 48\"H",
+    "weight": "98 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 17,
+    "name": "Contemporary Panel Bed",
+    "price": 73500,
+    "currency": "PKR",
+    "description": "Clean-lined panel bed with a warm grey finish, ideal for modern bedrooms.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom11.jpg"
+    ],
+    "materials": [
+      "Wood Veneer",
+      "Grey Laminate",
+      "Steel Brackets"
+    ],
+    "dimensions": "80\"L x 60\"W x 44\"H",
+    "weight": "82 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 18,
+    "name": "Leather King Bed",
+    "price": 125000,
+    "currency": "PKR",
+    "description": "Premium leather-upholstered king-size bed with padded headboard and chrome accents.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom12.jpg"
+    ],
+    "materials": [
+      "Italian Leather",
+      "Chrome Frame",
+      "Memory Foam"
+    ],
+    "dimensions": "84\"L x 72\"W x 50\"H",
+    "weight": "145 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 19,
+    "name": "Four-Poster Mahogany Bed",
+    "price": 138000,
+    "currency": "PKR",
+    "description": "Grand four-poster bed crafted from solid mahogany with ornate turned posts.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom13.jpg"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Shellac Finish",
+      "Brass Hardware"
+    ],
+    "dimensions": "84\"L x 66\"W x 84\"H",
+    "weight": "175 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 20,
+    "name": "Floating Platform Bed",
+    "price": 92000,
+    "currency": "PKR",
+    "description": "Modern floating platform bed with LED underglow and a cantilevered design.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom14.jpg"
+    ],
+    "materials": [
+      "MDF",
+      "Walnut Veneer",
+      "LED Strip"
+    ],
+    "dimensions": "80\"L x 60\"W x 14\"H",
+    "weight": "65 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 21,
+    "name": "Scroll Iron Bed",
+    "price": 98000,
+    "currency": "PKR",
+    "description": "Elegant iron bed with decorative scrollwork and a classic white finish.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom15.jpg"
+    ],
+    "materials": [
+      "Wrought Iron",
+      "Powder Coat Finish",
+      "Wood Slats"
+    ],
+    "dimensions": "78\"L x 60\"W x 44\"H",
+    "weight": "60 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 22,
+    "name": "Navy Tufted Bed",
+    "price": 88000,
+    "currency": "PKR",
+    "description": "Deep navy blue tufted bed with crystal button details and sleek tapered legs.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom16.jpg"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Crystal Buttons",
+      "Rubberwood"
+    ],
+    "dimensions": "80\"L x 64\"W x 48\"H",
+    "weight": "92 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 23,
+    "name": "Bamboo Eco Bed",
+    "price": 149000,
+    "currency": "PKR",
+    "description": "Eco-friendly bamboo bed with a minimalist design and sustainable construction.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroom17.jpg"
+    ],
+    "materials": [
+      "Bamboo",
+      "Natural Sealant",
+      "Aluminum Frame"
+    ],
+    "dimensions": "78\"L x 60\"W x 16\"H",
+    "weight": "48 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 24,
+    "name": "Victorian Style Bed",
+    "price": 115000,
+    "currency": "PKR",
+    "description": "Ornate Victorian-style bed with carved floral motifs and antique brass finials.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm18.jpg"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Antique Brass",
+      "Hand-Carved Details"
+    ],
+    "dimensions": "84\"L x 66\"W x 72\"H",
+    "weight": "165 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 25,
+    "name": "Grey Upholstered Storage Bed",
+    "price": 99000,
+    "currency": "PKR",
+    "description": "Grey fabric storage bed with four large drawers and a padded headboard.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm19.jpg"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Plywood",
+      "Metal Drawer Runners"
+    ],
+    "dimensions": "80\"L x 62\"W x 46\"H",
+    "weight": "140 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 26,
+    "name": "Golden Teak Bed",
+    "price": 108000,
+    "currency": "PKR",
+    "description": "Sumptuous teak wood bed with a golden honey finish and slatted headboard.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm20.jpg"
+    ],
+    "materials": [
+      "Teak Wood",
+      "Polyurethane Finish",
+      "Steel Frame"
+    ],
+    "dimensions": "80\"L x 62\"W x 42\"H",
+    "weight": "105 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 27,
+    "name": "Sleigh Bed with Storage",
+    "price": 112000,
+    "currency": "PKR",
+    "description": "Classic sleigh bed with hidden storage drawers and a rich cherry wood finish.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm21.jpg"
+    ],
+    "materials": [
+      "Cherry Wood",
+      "Leather Accents",
+      "Ball-Bearing Drawers"
+    ],
+    "dimensions": "82\"L x 64\"W x 50\"H",
+    "weight": "155 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 28,
+    "name": "Minimalist White Bed",
+    "price": 152000,
+    "currency": "PKR",
+    "description": "Clean white minimalist bed with a slim profile, perfect for small spaces.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm22.jpg"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "White Laminate",
+      "Metal Legs"
+    ],
+    "dimensions": "76\"L x 56\"W x 38\"H",
+    "weight": "55 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 29,
+    "name": "Walnut Slat Bed",
+    "price": 177000,
+    "currency": "PKR",
+    "description": "Contemporary slatted bed with a natural walnut finish and an integrated headboard.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm23.jpg"
+    ],
+    "materials": [
+      "Walnut Wood",
+      "Natural Oil Finish",
+      "Rubberwood Slats"
+    ],
+    "dimensions": "80\"L x 60\"W x 40\"H",
+    "weight": "85 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 30,
+    "name": "Rose Gold Accent Bed",
+    "price": 102000,
+    "currency": "PKR",
+    "description": "Luxurious bed with rose gold metal frame and plush velvet upholstery.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm24.jpg"
+    ],
+    "materials": [
+      "Velvet",
+      "Rose Gold Metal",
+      "High-Resilience Foam"
+    ],
+    "dimensions": "80\"L x 62\"W x 48\"H",
+    "weight": "108 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 31,
+    "name": "Cottage Style Bed",
+    "price": 93500,
+    "currency": "PKR",
+    "description": "Charming cottage-style bed with paneled headboard and footboard in antique white.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm25.jpg"
+    ],
+    "materials": [
+      "Pine Wood",
+      "Chalk Paint Finish",
+      "Brass Handles"
+    ],
+    "dimensions": "78\"L x 60\"W x 44\"H",
+    "weight": "72 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 32,
+    "name": "Black Metal Platform Bed",
+    "price": 107500,
+    "currency": "PKR",
+    "description": "Sturdy black metal platform bed with a minimalist industrial aesthetic.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm26.jpg"
+    ],
+    "materials": [
+      "Steel",
+      "Powder Coat",
+      "Wood Slats"
+    ],
+    "dimensions": "78\"L x 60\"W x 16\"H",
+    "weight": "52 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 33,
+    "name": "Luxury Adjustable Bed",
+    "price": 195000,
+    "currency": "PKR",
+    "description": "Premium adjustable bed with massage function, USB ports, and memory foam mattress.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm27.jpg"
+    ],
+    "materials": [
+      "Memory Foam",
+      "Steel Frame",
+      "Electronic Motor"
+    ],
+    "dimensions": "80\"L x 60\"W x 18\"H",
+    "weight": "185 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 34,
+    "name": "Wicker Bohemian Bed",
+    "price": 109000,
+    "currency": "PKR",
+    "description": "Bohemian-style bed with natural wicker headboard and a light airy frame.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm28.jpeg"
+    ],
+    "materials": [
+      "Natural Wicker",
+      "Mango Wood",
+      "Cotton Rope"
+    ],
+    "dimensions": "78\"L x 60\"W x 48\"H",
+    "weight": "58 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 35,
+    "name": "Modern LED Bed",
+    "price": 87000,
+    "currency": "PKR",
+    "description": "Contemporary bed with integrated RGB LED lighting and a floating effect.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm29.jpg"
+    ],
+    "materials": [
+      "MDF",
+      "Acrylic",
+      "RGB LED Strips"
+    ],
+    "dimensions": "80\"L x 62\"W x 16\"H",
+    "weight": "78 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 36,
+    "name": "Grand King Size Bed",
+    "price": 158000,
+    "currency": "PKR",
+    "description": "Spacious king-size bed with oversized padded headboard and premium build.",
+    "category": "beds",
+    "images": [
+      "/assets/images/bedroomm30.jpg"
+    ],
+    "materials": [
+      "Premium Fabric",
+      "Solid Wood Frame",
+      "Chrome Accents"
+    ],
+    "dimensions": "86\"L x 76\"W x 52\"H",
+    "weight": "165 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 163,
+    "name": "Grand Palladian Sofa",
+    "price": 125000,
+    "currency": "PKR",
+    "description": "A grand statement piece upholstered in rich velvet with scrolled arms and deep button tufting.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_1.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Solid Wood Frame",
+      "Brass Legs"
+    ],
+    "dimensions": "90\"L x 38\"D x 36\"H",
+    "weight": "95 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 164,
+    "name": "Verona Velvet Sofa",
+    "price": 98500,
+    "currency": "PKR",
+    "description": "Sumptuous Italian velvet with a sleek silhouette and plush cushioning for modern elegance.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_2.png"
+    ],
+    "materials": [
+      "Italian Velvet",
+      "Kiln-Dried Wood",
+      "Chrome Accents"
+    ],
+    "dimensions": "84\"L x 36\"D x 34\"H",
+    "weight": "78 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 165,
+    "name": "Chelsea Chesterfield",
+    "price": 145000,
+    "currency": "PKR",
+    "description": "Classic leather chesterfield with deep button tufting, rolled arms, and antique brass nails.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_3.png"
+    ],
+    "materials": [
+      "Leather",
+      "Hardwood Frame",
+      "Brass Nailheads"
+    ],
+    "dimensions": "88\"L x 40\"D x 38\"H",
+    "weight": "110 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 166,
+    "name": "Monte Carlo Sectional",
+    "price": 189000,
+    "currency": "PKR",
+    "description": "Spacious modular sectional covered in premium fabric, perfect for family gatherings.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_4.png"
+    ],
+    "materials": [
+      "Linen Blend",
+      "Plywood Frame",
+      "Plastic Glides"
+    ],
+    "dimensions": "110\"L x 60\"D x 34\"H",
+    "weight": "145 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 167,
+    "name": "Amalfi Linen Sofa",
+    "price": 89000,
+    "currency": "PKR",
+    "description": "Relaxed linen sofa with wide track arms and down-blend cushions for casual comfort.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_5.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Engineered Wood",
+      "Gold Legs"
+    ],
+    "dimensions": "80\"L x 36\"D x 34\"H",
+    "weight": "72 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 168,
+    "name": "Siena Leather Sofa",
+    "price": 178000,
+    "currency": "PKR",
+    "description": "Hand-stitched Italian leather on a kiln-dried ash frame with steel suspension.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_6.png"
+    ],
+    "materials": [
+      "Full-Grain Leather",
+      "Ash Wood",
+      "Steel Springs"
+    ],
+    "dimensions": "86\"L x 38\"D x 36\"H",
+    "weight": "105 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 169,
+    "name": "Tuscany Arm Sofa",
+    "price": 112000,
+    "currency": "PKR",
+    "description": "Generously scaled sofa with oversized rolled arms and a loose pillow back.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_7.png"
+    ],
+    "materials": [
+      "Cotton-Linen",
+      "Solid Oak",
+      "Wood Legs"
+    ],
+    "dimensions": "78\"L x 36\"D x 38\"H",
+    "weight": "88 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 170,
+    "name": "Capri Modern Sofa",
+    "price": 156000,
+    "currency": "PKR",
+    "description": "Clean-lined modern sofa with a low profile and track arms for a contemporary look.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_8.png"
+    ],
+    "materials": [
+      "Microfiber",
+      "Stainless Steel",
+      "Plastic Feet"
+    ],
+    "dimensions": "72\"L x 34\"D x 32\"H",
+    "weight": "65 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 171,
+    "name": "Florence Tufted Sofa",
+    "price": 135000,
+    "currency": "PKR",
+    "description": "Elegant tufted back sofa with sumptuous chenille upholstery and antique brass trim.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_9.png"
+    ],
+    "materials": [
+      "Chenille Fabric",
+      "Kiln-Dried Wood",
+      "Silver Nailheads"
+    ],
+    "dimensions": "84\"L x 38\"D x 36\"H",
+    "weight": "92 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 172,
+    "name": "Venice Loveseat",
+    "price": 72000,
+    "currency": "PKR",
+    "description": "Compact loveseat with a gracefully curved back and plush velvet upholstery.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_10.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Solid Wood",
+      "Chrome Legs"
+    ],
+    "dimensions": "60\"L x 32\"D x 34\"H",
+    "weight": "55 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 173,
+    "name": "Milan Sleeper Sofa",
+    "price": 115000,
+    "currency": "PKR",
+    "description": "Multi-functional sleeper sofa with a premium memory foam mattress and hidden storage.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_11.png"
+    ],
+    "materials": [
+      "Polyester Blend",
+      "Metal Frame",
+      "Memory Foam Mattress"
+    ],
+    "dimensions": "80\"L x 36\"D x 34\"H",
+    "weight": "120 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 174,
+    "name": "Como Fabric Sofa",
+    "price": 92000,
+    "currency": "PKR",
+    "description": "Tailored fabric sofa with birch wood legs and a timeless silhouette.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_12.png"
+    ],
+    "materials": [
+      "Linen Fabric",
+      "Rubberwood",
+      "Tapered Legs"
+    ],
+    "dimensions": "76\"L x 34\"D x 34\"H",
+    "weight": "68 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 175,
+    "name": "Pisa Curved Sofa",
+    "price": 168000,
+    "currency": "PKR",
+    "description": "Elegantly curved sofa in soft velvet, designed to anchor spacious living rooms.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_13.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Plywood Frame",
+      "Castors"
+    ],
+    "dimensions": "92\"L x 40\"D x 36\"H",
+    "weight": "98 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 176,
+    "name": "Roma Leather Couch",
+    "price": 195000,
+    "currency": "PKR",
+    "description": "Sink-in leather sofa with deep seats, pillow arms, and a relaxed attitude.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_14.png"
+    ],
+    "materials": [
+      "Leather",
+      "Steel Frame",
+      "Adjustable Headrest"
+    ],
+    "dimensions": "86\"L x 42\"D x 34\"H",
+    "weight": "115 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 177,
+    "name": "Turin Velvet Loveseat",
+    "price": 85000,
+    "currency": "PKR",
+    "description": "Vintage-inspired loveseat with velvet upholstery and elegant exposed wood legs.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_15.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Solid Wood Legs",
+      "High-Resilience Foam"
+    ],
+    "dimensions": "64\"L x 32\"D x 34\"H",
+    "weight": "62 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 178,
+    "name": "Naples Outdoor Sofa",
+    "price": 105000,
+    "currency": "PKR",
+    "description": "Weather-resistant outdoor sofa with quick-dry foam and fade-proof acrylic fabric.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_16.png"
+    ],
+    "materials": [
+      "Solution-Dyed Acrylic",
+      "Aluminum Frame",
+      "Quick-Dry Foam"
+    ],
+    "dimensions": "80\"L x 36\"D x 32\"H",
+    "weight": "52 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 179,
+    "name": "Bologna Sectional",
+    "price": 175000,
+    "currency": "PKR",
+    "description": "Large L-shaped sectional with reversible chaise, customizable to your space.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_17.png"
+    ],
+    "materials": [
+      "Polyester",
+      "Fabric",
+      "Solid Wood"
+    ],
+    "dimensions": "100\"L x 60\"D x 34\"H",
+    "weight": "135 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 180,
+    "name": "Genoa Armless Sofa",
+    "price": 78000,
+    "currency": "PKR",
+    "description": "Sleek armless sofa in breathable linen, ideal for small apartments and lofts.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_18.png"
+    ],
+    "materials": [
+      "Linen Blend",
+      "Plywood Frame",
+      "Plastic Glides"
+    ],
+    "dimensions": "70\"L x 34\"D x 33\"H",
+    "weight": "58 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 181,
+    "name": "Lucca Mid-Century Sofa",
+    "price": 95000,
+    "currency": "PKR",
+    "description": "Mid-century inspired sofa with tapered metal legs and retro velvet upholstery.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_19.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Rubberwood",
+      "Tapered Metal Legs"
+    ],
+    "dimensions": "76\"L x 34\"D x 34\"H",
+    "weight": "70 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 182,
+    "name": "Perugia Recliner Sofa",
+    "price": 138000,
+    "currency": "PKR",
+    "description": "Power recliner sofa with USB ports, cup holders, and padded headrests.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa-20.png"
+    ],
+    "materials": [
+      "Leather",
+      "Power Recliner Mechanism",
+      "Steel Frame"
+    ],
+    "dimensions": "82\"L x 40\"D x 40\"H",
+    "weight": "128 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 183,
+    "name": "Ravenna Modular Sofa",
+    "price": 165000,
+    "currency": "PKR",
+    "description": "Versatile modular sofa system with connecting brackets, seatbacks, and ottomans.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_21.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Modular Connectors",
+      "Solid Wood"
+    ],
+    "dimensions": "96\"L x 54\"D x 34\"H",
+    "weight": "140 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 184,
+    "name": "Trieste Tufted Couch",
+    "price": 128000,
+    "currency": "PKR",
+    "description": "Diamond-tufted chenille sofa with graceful rolled arms and brass nailhead trim.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_22.png"
+    ],
+    "materials": [
+      "Chenille",
+      "Kiln-Dried Wood",
+      "Brass Accents"
+    ],
+    "dimensions": "88\"L x 38\"D x 36\"H",
+    "weight": "100 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 185,
+    "name": "Padova Fabric Sofa",
+    "price": 88000,
+    "currency": "PKR",
+    "description": "Clean-lined fabric sofa with square arms and a tight back for a crisp look.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_23.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Engineered Wood",
+      "Wood Legs"
+    ],
+    "dimensions": "74\"L x 34\"D x 34\"H",
+    "weight": "65 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 186,
+    "name": "Vicenza Leather Sofa",
+    "price": 182000,
+    "currency": "PKR",
+    "description": "Rich leather sofa with wide track arms and chrome feet for an executive feel.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_24.png"
+    ],
+    "materials": [
+      "Leather",
+      "Solid Wood Frame",
+      "Chrome Feet"
+    ],
+    "dimensions": "84\"L x 38\"D x 34\"H",
+    "weight": "108 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 187,
+    "name": "Arezzo Loveseat",
+    "price": 68000,
+    "currency": "PKR",
+    "description": "Petite loveseat with velvet upholstery and slim metal legs, perfect for nooks.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_25.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Rubberwood",
+      "Thin Metal Legs"
+    ],
+    "dimensions": "54\"L x 30\"D x 32\"H",
+    "weight": "48 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 188,
+    "name": "Brescia Sleeper Sofa",
+    "price": 108000,
+    "currency": "PKR",
+    "description": "Pull-out sleeper loveseat with a gel-infused memory foam mattress.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_26.png"
+    ],
+    "materials": [
+      "Chenille Fabric",
+      "Plywood Frame",
+      "Pull-Out Mechanism"
+    ],
+    "dimensions": "66\"L x 34\"D x 34\"H",
+    "weight": "85 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 189,
+    "name": "Modena Velvet Couch",
+    "price": 132000,
+    "currency": "PKR",
+    "description": "Deep-seated velvet couch with square block feet and plush feather-blend cushions.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_27.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Solid Wood",
+      "Square Block Feet"
+    ],
+    "dimensions": "82\"L x 38\"D x 36\"H",
+    "weight": "95 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 190,
+    "name": "Parma Arm Sofa",
+    "price": 98000,
+    "currency": "PKR",
+    "description": "Comfortable arm sofa with built-in recliner and padded chaise extension.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_28.png"
+    ],
+    "materials": [
+      "Linen",
+      "Hardwood Frame",
+      "Recliner Mechanism"
+    ],
+    "dimensions": "78\"L x 38\"D x 38\"H",
+    "weight": "90 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 191,
+    "name": "Ferrara Sectional",
+    "price": 158000,
+    "currency": "PKR",
+    "description": "Spacious sectional with a wedge corner and plush polyester upholstery.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_29.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Solid Wood",
+      "Connecting Brackets"
+    ],
+    "dimensions": "96\"L x 52\"D x 34\"H",
+    "weight": "130 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 192,
+    "name": "Livorno Outdoor Couch",
+    "price": 95000,
+    "currency": "PKR",
+    "description": "Rustic outdoor couch with all-weather cushions and a powder-coated frame.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_30.png"
+    ],
+    "materials": [
+      "Acrylic Fabric",
+      "Aluminum",
+      "Quick-Dry Foam"
+    ],
+    "dimensions": "78\"L x 36\"D x 32\"H",
+    "weight": "55 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 193,
+    "name": "Ancona Fabric Loveseat",
+    "price": 75000,
+    "currency": "PKR",
+    "description": "Back-to-basics loveseat in breathable linen with a slim metal frame.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_31.png"
+    ],
+    "materials": [
+      "Linen Fabric",
+      "Plywood Frame",
+      "Slim Metal Legs"
+    ],
+    "dimensions": "56\"L x 30\"D x 32\"H",
+    "weight": "45 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 194,
+    "name": "Cremona Leather Couch",
+    "price": 142000,
+    "currency": "PKR",
+    "description": "Streamlined leather couch with a low profile and sculptural tapered legs.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_32.png"
+    ],
+    "materials": [
+      "Leather",
+      "Steel Frame",
+      "Tapered Legs"
+    ],
+    "dimensions": "72\"L x 34\"D x 32\"H",
+    "weight": "75 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 195,
+    "name": "Mantua Velvet Sectional",
+    "price": 172000,
+    "currency": "PKR",
+    "description": "Angular velvet sectional in a bold hue with a polished stainless steel base.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_33.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Engineered Wood",
+      "Stainless Steel Base"
+    ],
+    "dimensions": "94\"L x 56\"D x 34\"H",
+    "weight": "125 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 196,
+    "name": "Lecce Modern Loveseat",
+    "price": 82000,
+    "currency": "PKR",
+    "description": "Curved loveseat in soft micro-fabric with gold metal legs for a hint of glam.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_34.png"
+    ],
+    "materials": [
+      "Microfiber",
+      "Rubberwood",
+      "Gold Metal Legs"
+    ],
+    "dimensions": "62\"L x 32\"D x 34\"H",
+    "weight": "60 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 197,
+    "name": "Udine Curved Couch",
+    "price": 118000,
+    "currency": "PKR",
+    "description": "Sweeping curved sofa in plush velvet with chrome castors for easy mobility.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_35.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Plywood",
+      "Chrome Castors"
+    ],
+    "dimensions": "90\"L x 40\"D x 36\"H",
+    "weight": "102 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 198,
+    "name": "Sorrento Fabric Sofa",
+    "price": 108000,
+    "currency": "PKR",
+    "description": "Tailored fabric sofa with brestfed linen, button tufting, and turned wood legs.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_36.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Solid Wood",
+      "Brass Legs"
+    ],
+    "dimensions": "86\"L x 36\"D x 34\"H",
+    "weight": "82 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 199,
+    "name": "Bari Velvet Loveseat",
+    "price": 96000,
+    "currency": "PKR",
+    "description": "Compact velvet loveseat with curved backrest and sleek chrome legs.",
+    "category": "sofa",
+    "images": [
+      "/assets/images/sofa_37.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Rubberwood",
+      "Chrome Accents"
+    ],
+    "dimensions": "62\"L x 32\"D x 34\"H",
+    "weight": "58 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 200,
+    "name": "Grand Oak Dining Table",
+    "price": 145000,
+    "currency": "PKR",
+    "description": "Sturdy oak dining table with a hand-rubbed natural finish, seating eight comfortably.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_1.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Natural Varnish"
+    ],
+    "dimensions": "72\"L x 40\"W x 30\"H",
+    "weight": "95 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 201,
+    "name": "Marble Palazzo Table",
+    "price": 189000,
+    "currency": "PKR",
+    "description": "Luxurious white marble table on a sleek stainless steel base with seating for six.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_2.png"
+    ],
+    "materials": [
+      "Italian Marble",
+      "Stainless Steel Base"
+    ],
+    "dimensions": "60\"L x 40\"W x 30\"H",
+    "weight": "120 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 202,
+    "name": "Rustic Farmhouse Table",
+    "price": 112000,
+    "currency": "PKR",
+    "description": "Rustic farmhouse table crafted from reclaimed pine with sturdy wrought iron legs.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_3.png"
+    ],
+    "materials": [
+      "Reclaimed Pine",
+      "Wrought Iron Legs"
+    ],
+    "dimensions": "84\"L x 42\"W x 30\"H",
+    "weight": "85 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 203,
+    "name": "Modern Glass Dining Table",
+    "price": 135000,
+    "currency": "PKR",
+    "description": "Modern glass dining table with a transparent top and polished chrome frame.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_4.png"
+    ],
+    "materials": [
+      "Tempered Glass",
+      "Chrome Frame"
+    ],
+    "dimensions": "72\"L x 36\"W x 30\"H",
+    "weight": "55 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 204,
+    "name": "Walnut Trestle Table",
+    "price": 98000,
+    "currency": "PKR",
+    "description": "Classic walnut trestle table with a hand-carved base and warm natural grain.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_5.png"
+    ],
+    "materials": [
+      "Black Walnut",
+      "Steel Hardware"
+    ],
+    "dimensions": "78\"L x 38\"W x 30\"H",
+    "weight": "78 lbs",
+    "inStock": false,
+    "featured": true,
+    "threeDModel": true
+  },
+  {
+    "id": 205,
+    "name": "Round Pedestal Table",
+    "price": 125000,
+    "currency": "PKR",
+    "description": "Elegant round pedestal table in solid mahogany, perfect for intimate dinners.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_6.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Brass Hardware"
+    ],
+    "dimensions": "48\"Dia x 30\"H",
+    "weight": "70 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 206,
+    "name": "Extendable Dining Table",
+    "price": 168000,
+    "currency": "PKR",
+    "description": "Versatile extendable table with hidden leaves, expanding to seat ten guests.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_7.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Leaves Mechanism"
+    ],
+    "dimensions": "66\"L x 40\"W x 30\"H",
+    "weight": "105 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 207,
+    "name": "Counter-Height Dining Table",
+    "price": 85000,
+    "currency": "PKR",
+    "description": "Counter-height dining table ideal for casual meals with bar stools.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_8.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Powder-Coated Base"
+    ],
+    "dimensions": "42\"L x 24\"W x 36\"H",
+    "weight": "52 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 208,
+    "name": "French Provincial Table",
+    "price": 178000,
+    "currency": "PKR",
+    "description": "French provincial style table with carved cherry wood details and gold accents.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_9.png"
+    ],
+    "materials": [
+      "Cherry Wood",
+      "Gold Accents"
+    ],
+    "dimensions": "72\"L x 44\"W x 30\"H",
+    "weight": "90 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 209,
+    "name": "Industrial Steel Table",
+    "price": 95000,
+    "currency": "PKR",
+    "description": "Industrial chic table combining a live-edge wood top with a steel frame.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_10.png"
+    ],
+    "materials": [
+      "Steel",
+      "Reclaimed Wood Top"
+    ],
+    "dimensions": "80\"L x 40\"W x 30\"H",
+    "weight": "68 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 210,
+    "name": "Scandinavian Dining Table",
+    "price": 108000,
+    "currency": "PKR",
+    "description": "Minimalist Scandinavian table with clean lines and a light birch wood finish.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_11.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "White Laminate"
+    ],
+    "dimensions": "60\"L x 36\"W x 30\"H",
+    "weight": "48 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 211,
+    "name": "Expandable Butterfly Table",
+    "price": 142000,
+    "currency": "PKR",
+    "description": "Space-saving butterfly leaf table that expands smoothly for extra guests.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_12.png"
+    ],
+    "materials": [
+      "MDF",
+      "Veneer Finish",
+      "Butterfly Leaf"
+    ],
+    "dimensions": "72\"L x 40\"W x 30\"H",
+    "weight": "62 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 212,
+    "name": "Live Edge Slab Table",
+    "price": 195000,
+    "currency": "PKR",
+    "description": "Live edge slab table with epoxy resin fill, showcasing natural wood beauty.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_13.png"
+    ],
+    "materials": [
+      "Reclaimed Elm",
+      "Epoxy Resin"
+    ],
+    "dimensions": "96\"L x 42\"W x 30\"H",
+    "weight": "115 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 213,
+    "name": "Contemporary Marble Table",
+    "price": 175000,
+    "currency": "PKR",
+    "description": "Contemporary marble dining table with a sculptural brass base.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_14.png"
+    ],
+    "materials": [
+      "Carrara Marble",
+      "Brass Base"
+    ],
+    "dimensions": "72\"L x 40\"W x 30\"H",
+    "weight": "108 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 214,
+    "name": "Traditional Mahogany Table",
+    "price": 158000,
+    "currency": "PKR",
+    "description": "Ornate mahogany table with hand-carved floral details, seating eight.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_15.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Hand-Carved Details"
+    ],
+    "dimensions": "84\"L x 44\"W x 30\"H",
+    "weight": "110 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 215,
+    "name": "Outdoor Dining Table",
+    "price": 72000,
+    "currency": "PKR",
+    "description": "Weather-resistant teak outdoor dining table with an aluminum frame.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_16.png"
+    ],
+    "materials": [
+      "Teak Wood",
+      "Aluminum Frame"
+    ],
+    "dimensions": "72\"L x 38\"W x 30\"H",
+    "weight": "45 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 216,
+    "name": "Small Space Drop-Leaf Table",
+    "price": 55000,
+    "currency": "PKR",
+    "description": "Compact drop-leaf table that folds down to save space in small apartments.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_17.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Drop-Leaf Hinges"
+    ],
+    "dimensions": "42\"L x 30\"W x 30\"H",
+    "weight": "35 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 217,
+    "name": "Lazy Susan Round Table",
+    "price": 115000,
+    "currency": "PKR",
+    "description": "Round table with a built-in lazy susan, ideal for family-style dining.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_18.png"
+    ],
+    "materials": [
+      "Mango Wood",
+      "Lazy Susan Turntable"
+    ],
+    "dimensions": "48\"Dia x 30\"H",
+    "weight": "65 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 218,
+    "name": "Rectangular Dining Table",
+    "price": 128000,
+    "currency": "PKR",
+    "description": "Rectangular acacia table with a cross-shaped base and smooth finish.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_19.png"
+    ],
+    "materials": [
+      "Acacia Wood",
+      "Cross-Base Design"
+    ],
+    "dimensions": "72\"L x 36\"W x 30\"H",
+    "weight": "72 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 219,
+    "name": "Bistro Dining Table",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Small bistro table perfect for kitchen nooks and breakfast corners.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_20.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "Compact Size"
+    ],
+    "dimensions": "30\"L x 24\"W x 30\"H",
+    "weight": "25 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 220,
+    "name": "Concrete Top Dining Table",
+    "price": 88000,
+    "currency": "PKR",
+    "description": "Urban concrete table with a matte finish and black steel legs.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_21.png"
+    ],
+    "materials": [
+      "Concrete",
+      "Steel Legs"
+    ],
+    "dimensions": "72\"L x 36\"W x 30\"H",
+    "weight": "82 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 221,
+    "name": "Oval Dining Table",
+    "price": 138000,
+    "currency": "PKR",
+    "description": "Elegant oval table with walnut veneer and a rich espresso finish.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_22.png"
+    ],
+    "materials": [
+      "Walnut Veneer",
+      "Oval Shape"
+    ],
+    "dimensions": "60\"L x 42\"W x 30\"H",
+    "weight": "75 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 222,
+    "name": "Japanese Low Dining Table",
+    "price": 82000,
+    "currency": "PKR",
+    "description": "Traditional Japanese low dining table for floor seating arrangements.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_23.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Low Profile Legs"
+    ],
+    "dimensions": "48\"L x 30\"W x 14\"H",
+    "weight": "40 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 223,
+    "name": "Brass Inlay Dining Table",
+    "price": 165000,
+    "currency": "PKR",
+    "description": "Sheesham wood table with intricate brass inlay work and carved edges.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_24.png"
+    ],
+    "materials": [
+      "Sheesham Wood",
+      "Brass Inlay"
+    ],
+    "dimensions": "72\"L x 40\"W x 30\"H",
+    "weight": "98 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 224,
+    "name": "Glass Top Chromium Table",
+    "price": 15000,
+    "currency": "PKR",
+    "description": "Sleek glass table on slim chromium legs with a contemporary silhouette.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_25.png"
+    ],
+    "materials": [
+      "Tempered Glass",
+      "Chromium Legs"
+    ],
+    "dimensions": "60\"L x 36\"W x 30\"H",
+    "weight": "50 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 225,
+    "name": "Acacia Wood Dining Table",
+    "price": 92000,
+    "currency": "PKR",
+    "description": "Solid acacia dining table with live edges and a natural oil finish.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_26.png"
+    ],
+    "materials": [
+      "Solid Acacia",
+      "Natural Grain",
+      "Steel Brackets"
+    ],
+    "dimensions": "78\"L x 40\"W x 30\"H",
+    "weight": "88 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 226,
+    "name": "Folding Dining Table",
+    "price": 48000,
+    "currency": "PKR",
+    "description": "Lightweight folding table that stores easily when not in use.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_28.png"
+    ],
+    "materials": [
+      "Pine Wood",
+      "Hinged Fold",
+      "Metal Lock"
+    ],
+    "dimensions": "36\"L x 30\"W x 29\"H",
+    "weight": "30 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 227,
+    "name": "Bamboo Dining Table",
+    "price": 58000,
+    "currency": "PKR",
+    "description": "Eco-friendly bamboo dining table with a sleek modern silhouette.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_29.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Lacquer Finish"
+    ],
+    "dimensions": "60\"L x 36\"W x 30\"H",
+    "weight": "38 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 228,
+    "name": "Heritage Carved Dining Table",
+    "price": 155000,
+    "currency": "PKR",
+    "description": "Heritage carved dining table with antique finish, seating eight in grandeur.",
+    "category": "dining-tables",
+    "images": [
+      "/assets/images/dinning_table_30.png"
+    ],
+    "materials": [
+      "Sheesham Wood",
+      "Hand-Carved Base",
+      "Antique Finish"
+    ],
+    "dimensions": "84\"L x 44\"W x 30\"H",
+    "weight": "105 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 229,
+    "name": "Classic Wooden Stool",
+    "price": 12000,
+    "currency": "PKR",
+    "description": "Classic wooden stool with a smooth finish, perfect for extra seating anywhere.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_1.png"
+    ],
+    "materials": [
+      "Sheesham Wood",
+      "Natural Finish"
+    ],
+    "dimensions": "14\"L x 14\"W x 18\"H",
+    "weight": "8 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 230,
+    "name": "Velvet Bar Stool",
+    "price": 18500,
+    "currency": "PKR",
+    "description": "Luxurious velvet bar stool with a gold metal frame and plush cushioning.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_2.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Gold Metal Frame"
+    ],
+    "dimensions": "16\"L x 16\"W x 30\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 231,
+    "name": "Rustic Oak Stool",
+    "price": 9500,
+    "currency": "PKR",
+    "description": "Rustic oak stool with a hand-rubbed oil finish and traditional joinery.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_3.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Hand-Rubbed Oil"
+    ],
+    "dimensions": "14\"L x 14\"W x 18\"H",
+    "weight": "7 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 232,
+    "name": "Modern Counter Stool",
+    "price": 22000,
+    "currency": "PKR",
+    "description": "Clean-lined modern counter stool with a comfy footrest ring.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_4.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "Chrome Ring"
+    ],
+    "dimensions": "16\"L x 16\"W x 26\"H",
+    "weight": "10 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 233,
+    "name": "Leather Sitting Stool",
+    "price": 15000,
+    "currency": "PKR",
+    "description": "Rich leather stool with barrel-stitched details and sturdy walnut legs.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_5.png"
+    ],
+    "materials": [
+      "Top-Grain Leather",
+      "Walnut Legs"
+    ],
+    "dimensions": "16\"L x 16\"W x 18\"H",
+    "weight": "9 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 234,
+    "name": "Industrial Metal Stool",
+    "price": 8000,
+    "currency": "PKR",
+    "description": "Industrial metal stool with a matte powder coat finish, stackable design.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_6.png"
+    ],
+    "materials": [
+      "Steel",
+      "Powder Coat Finish"
+    ],
+    "dimensions": "15\"L x 15\"W x 30\"H",
+    "weight": "6 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 235,
+    "name": "Upholstered Kitchen Stool",
+    "price": 16500,
+    "currency": "PKR",
+    "description": "Padded kitchen stool with upholstered seat and durable wooden legs.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_7.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Rubberwood",
+      "Memory Foam"
+    ],
+    "dimensions": "16\"L x 16\"W x 24\"H",
+    "weight": "11 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 236,
+    "name": "Folding Wooden Stool",
+    "price": 5500,
+    "currency": "PKR",
+    "description": "Compact folding stool that tucks away easily when not in use.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_8.png"
+    ],
+    "materials": [
+      "Pine Wood",
+      "Steel Hinges"
+    ],
+    "dimensions": "12\"L x 12\"W x 17\"H",
+    "weight": "4 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 237,
+    "name": "Round Ottoman Stool",
+    "price": 7500,
+    "currency": "PKR",
+    "description": "Round ottoman stool with a soft linen top and fluted wooden base.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_9.png"
+    ],
+    "materials": [
+      "Cotton Linen",
+      "Plywood Base"
+    ],
+    "dimensions": "18\"Dia x 18\"H",
+    "weight": "5 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 238,
+    "name": "Scandinavian Bar Stool",
+    "price": 19500,
+    "currency": "PKR",
+    "description": "Scandinavian bar stool with a sleek white lacquer finish and tapered legs.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_10.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "White Lacquer"
+    ],
+    "dimensions": "16\"L x 16\"W x 30\"H",
+    "weight": "8 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 239,
+    "name": "Bamboo Foot Stool",
+    "price": 4500,
+    "currency": "PKR",
+    "description": "Natural bamboo foot stool, lightweight and eco-friendly.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_11.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Natural Varnish"
+    ],
+    "dimensions": "14\"L x 10\"W x 10\"H",
+    "weight": "3 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 240,
+    "name": "Tufted Vanity Stool",
+    "price": 13500,
+    "currency": "PKR",
+    "description": "Elegant vanity stool with deep button tufting and brass nailhead trim.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_12.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Brass Nailheads"
+    ],
+    "dimensions": "14\"L x 14\"W x 20\"H",
+    "weight": "10 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 241,
+    "name": "Minimalist Wood Stool",
+    "price": 6500,
+    "currency": "PKR",
+    "description": "Minimalist acacia stool with a simple silhouette and smooth finish.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_13.png"
+    ],
+    "materials": [
+      "Acacia Wood",
+      "Clear Coat"
+    ],
+    "dimensions": "13\"L x 13\"W x 18\"H",
+    "weight": "5 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 242,
+    "name": "Metal Bar Stool Set",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Set of two modern steel bar stools with a brilliant chrome finish.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_14.png"
+    ],
+    "materials": [
+      "Steel",
+      "Chrome Finish",
+      "Pair"
+    ],
+    "dimensions": "16\"L x 16\"W x 30\"H",
+    "weight": "14 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 243,
+    "name": "Antique Carved Stool",
+    "price": 25000,
+    "currency": "PKR",
+    "description": "Antique carved mango wood stool with a distressed antique finish.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_15.png"
+    ],
+    "materials": [
+      "Mango Wood",
+      "Hand-Carved",
+      "Antique Finish"
+    ],
+    "dimensions": "15\"L x 15\"W x 18\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 244,
+    "name": "Swivel Piano Stool",
+    "price": 21000,
+    "currency": "PKR",
+    "description": "Height-adjustable swivel piano stool with a padded leatherette seat.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_16.png"
+    ],
+    "materials": [
+      "Beech Wood",
+      "Padded Seat",
+      "Height Adjustable"
+    ],
+    "dimensions": "18\"L x 14\"W x 20\"H",
+    "weight": "11 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 245,
+    "name": "Natural Rattan Stool",
+    "price": 7000,
+    "currency": "PKR",
+    "description": "Handwoven rattan stool with a natural earthy texture and warm tone.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_17.png"
+    ],
+    "materials": [
+      "Rattan",
+      "Natural Weave"
+    ],
+    "dimensions": "14\"L x 14\"W x 18\"H",
+    "weight": "4 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 246,
+    "name": "Cushioned Breakfast Stool",
+    "price": 14500,
+    "currency": "PKR",
+    "description": "Cushioned breakfast bar stool with a supportive foam seat.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_18.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Metal Frame",
+      "Foam Cushion"
+    ],
+    "dimensions": "17\"L x 17\"W x 25\"H",
+    "weight": "9 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 247,
+    "name": "Heritage Wooden Stool",
+    "price": 11000,
+    "currency": "PKR",
+    "description": "Heritage rubberwood stool with a dark walnut stain and cross braces.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_19.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Dark Walnut Stain"
+    ],
+    "dimensions": "14\"L x 14\"W x 18\"H",
+    "weight": "7 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 248,
+    "name": "Gliding Vanity Stool",
+    "price": 17500,
+    "currency": "PKR",
+    "description": "Velvet vanity stool with a 360-degree swivel chrome base.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_20.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Chrome Swivel Base"
+    ],
+    "dimensions": "15\"L x 15\"W x 20\"H",
+    "weight": "10 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 249,
+    "name": "Hexagonal Stool",
+    "price": 8500,
+    "currency": "PKR",
+    "description": "Unique hexagonal mango wood stool with geometric appeal.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_21.png"
+    ],
+    "materials": [
+      "Mango Wood",
+      "Hexagonal Design"
+    ],
+    "dimensions": "14\"L x 14\"W x 18\"H",
+    "weight": "6 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 250,
+    "name": "Farmhouse Step Stool",
+    "price": 5000,
+    "currency": "PKR",
+    "description": "Practical farmhouse step stool with two wide anti-slip steps.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_22.png"
+    ],
+    "materials": [
+      "Pine Wood",
+      "Non-Slip Steps"
+    ],
+    "dimensions": "20\"L x 12\"W x 12\"H",
+    "weight": "4 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 251,
+    "name": "Velvet Compact Stool",
+    "price": 12500,
+    "currency": "PKR",
+    "description": "Compact velvet stool with square block legs for bedroom seating.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_23.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Square Block Legs"
+    ],
+    "dimensions": "14\"L x 14\"W x 18\"H",
+    "weight": "8 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 252,
+    "name": "Tripod Leather Stool",
+    "price": 16000,
+    "currency": "PKR",
+    "description": "Tripod stool in rich leather with a modern sculptural silhouette.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_24.png"
+    ],
+    "materials": [
+      "Leather",
+      "Metal Tripod Base"
+    ],
+    "dimensions": "14\"L x 14\"W x 18\"H",
+    "weight": "7 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 253,
+    "name": "Cross-Back Bar Stool",
+    "price": 14000,
+    "currency": "PKR",
+    "description": "Cross-back bar stool with a curved wooden backrest and footrest.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_25.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Cross-Back Design",
+      "Chrome Footrest"
+    ],
+    "dimensions": "18\"L x 16\"W x 30\"H",
+    "weight": "10 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 254,
+    "name": "Saddle Leather Stool",
+    "price": 19000,
+    "currency": "PKR",
+    "description": "Saddle-shaped leather stool on polished wood legs.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_26.png"
+    ],
+    "materials": [
+      "Leather",
+      "Polished Wood",
+      "Saddle Shape"
+    ],
+    "dimensions": "16\"L x 16\"W x 18\"H",
+    "weight": "9 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 255,
+    "name": "Bamboo Step Stool",
+    "price": 4000,
+    "currency": "PKR",
+    "description": "Lightweight bamboo step stool with twill rope ties.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_27.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Twill Rope"
+    ],
+    "dimensions": "18\"L x 12\"W x 10\"H",
+    "weight": "3 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 256,
+    "name": "Acrylic Ghost Stool",
+    "price": 22000,
+    "currency": "PKR",
+    "description": "Clear acrylic ghost stool with an invisible floating effect.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_28.png"
+    ],
+    "materials": [
+      "Acrylic",
+      "Clear Finish"
+    ],
+    "dimensions": "15\"Dia x 18\"H",
+    "weight": "6 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 257,
+    "name": "Brass Foot Rest Stool",
+    "price": 6000,
+    "currency": "PKR",
+    "description": "Solid brass foot rest stool with a cushioned leather top.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_29.png"
+    ],
+    "materials": [
+      "Solid Brass",
+      "Leather Top"
+    ],
+    "dimensions": "10\"Dia x 8\"H",
+    "weight": "4 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 258,
+    "name": "Handcrafted Oak Stool",
+    "price": 15500,
+    "currency": "PKR",
+    "description": "Handcrafted white oak stool with a Danish oil finish and wedged tenons.",
+    "category": "stool",
+    "images": [
+      "/assets/images/stool_table_30.png"
+    ],
+    "materials": [
+      "White Oak",
+      "Danish Oil Finish"
+    ],
+    "dimensions": "14\"L x 14\"W x 18\"H",
+    "weight": "8 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 259,
+    "name": "Upholstered Dining Chair",
+    "price": 22000,
+    "currency": "PKR",
+    "description": "Comfortable upholstered dining chair with a padded seat and sturdy rubberwood legs.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_1.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Rubberwood",
+      "Foam Padding"
+    ],
+    "dimensions": "18\"W x 20\"D x 34\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 260,
+    "name": "Cross-Back Dining Chair",
+    "price": 15000,
+    "currency": "PKR",
+    "description": "Classic cross-back chair in solid beech wood with a timeless walnut stain.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_2.png"
+    ],
+    "materials": [
+      "Solid Beech",
+      "Walnut Finish"
+    ],
+    "dimensions": "18\"W x 17\"D x 36\"H",
+    "weight": "10 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 261,
+    "name": "Velvet Parsons Chair",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Luxurious velvet parsons chair with gold metal legs and plush foam cushioning.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_3.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Gold Metal Legs"
+    ],
+    "dimensions": "20\"W x 22\"D x 36\"H",
+    "weight": "14 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 262,
+    "name": "Scandinavian Dining Chair",
+    "price": 18000,
+    "currency": "PKR",
+    "description": "Clean-lined Scandinavian chair in white lacquered birch with tapered legs.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_4.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "White Lacquer"
+    ],
+    "dimensions": "18\"W x 18\"D x 34\"H",
+    "weight": "11 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 263,
+    "name": "Leather Arm Dining Chair",
+    "price": 35000,
+    "currency": "PKR",
+    "description": "Premium leather armchair with a high back and sculpted ash wood frame.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_5.png"
+    ],
+    "materials": [
+      "Top-Grain Leather",
+      "Ash Wood Frame"
+    ],
+    "dimensions": "22\"W x 20\"D x 38\"H",
+    "weight": "18 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 264,
+    "name": "Rattan Dining Chair",
+    "price": 12000,
+    "currency": "PKR",
+    "description": "Natural rattan chair with a mango wood frame, bringing coastal charm.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_6.png"
+    ],
+    "materials": [
+      "Natural Rattan",
+      "Mango Wood Frame"
+    ],
+    "dimensions": "18\"W x 18\"D x 34\"H",
+    "weight": "8 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 265,
+    "name": "Mid-Century Dining Chair",
+    "price": 19500,
+    "currency": "PKR",
+    "description": "Mid-century inspired chair with walnut veneer and a velvet-upholstered seat.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_7.png"
+    ],
+    "materials": [
+      "Walnut Veneer",
+      "Velvet Seat"
+    ],
+    "dimensions": "19\"W x 20\"D x 35\"H",
+    "weight": "13 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 266,
+    "name": "Slat-Back Dining Chair",
+    "price": 14000,
+    "currency": "PKR",
+    "description": "Traditional slat-back chair in solid oak with a hand-rubbed natural finish.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_8.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Natural Finish"
+    ],
+    "dimensions": "18\"W x 17\"D x 37\"H",
+    "weight": "9 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 267,
+    "name": "Tufted Dining Chair",
+    "price": 32000,
+    "currency": "PKR",
+    "description": "Deep-button tufted chair in soft chenille fabric with mahogany legs.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_9.png"
+    ],
+    "materials": [
+      "Chenille Fabric",
+      "Kiln-Dried Wood"
+    ],
+    "dimensions": "20\"W x 22\"D x 38\"H",
+    "weight": "16 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 268,
+    "name": "Farmhouse Dining Chair",
+    "price": 16000,
+    "currency": "PKR",
+    "description": "Rustic farmhouse chair with a distressed chalk-painted pine finish.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_10.png"
+    ],
+    "materials": [
+      "Pine Wood",
+      "Chalk Paint Finish"
+    ],
+    "dimensions": "18\"W x 18\"D x 34\"H",
+    "weight": "11 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 269,
+    "name": "Modern Acrylic Chair",
+    "price": 25000,
+    "currency": "PKR",
+    "description": "Sleek ghost chair in transparent acrylic with a chrome frame.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_11.png"
+    ],
+    "materials": [
+      "Clear Acrylic",
+      "Chrome Frame"
+    ],
+    "dimensions": "17\"W x 19\"D x 32\"H",
+    "weight": "7 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 270,
+    "name": "Wingback Dining Chair",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Elegant wingback dining chair with button tufting and brass nailhead trim.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_12.png"
+    ],
+    "materials": [
+      "Polyester Blend",
+      "Hardwood Frame",
+      "Button Tufting"
+    ],
+    "dimensions": "22\"W x 20\"D x 40\"H",
+    "weight": "20 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 271,
+    "name": "Bamboo Dining Chair",
+    "price": 10000,
+    "currency": "PKR",
+    "description": "Eco-friendly bamboo chair with a smooth natural varnish finish.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_13.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Natural Varnish"
+    ],
+    "dimensions": "18\"W x 18\"D x 34\"H",
+    "weight": "6 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 272,
+    "name": "Metal Dining Chair",
+    "price": 13000,
+    "currency": "PKR",
+    "description": "Industrial metal dining chair with a breathable mesh back and steel frame.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_14.png"
+    ],
+    "materials": [
+      "Steel",
+      "Mesh Back",
+      "Powder Coat"
+    ],
+    "dimensions": "18\"W x 19\"D x 34\"H",
+    "weight": "10 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 273,
+    "name": "Curved Dining Chair",
+    "price": 21000,
+    "currency": "PKR",
+    "description": "Molded plywood chair with a curved walnut veneer back for ergonomic support.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_15.png"
+    ],
+    "materials": [
+      "Molded Plywood",
+      "Walnut Veneer",
+      "Plastic Glides"
+    ],
+    "dimensions": "19\"W x 20\"D x 33\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 274,
+    "name": "Ladder-Back Dining Chair",
+    "price": 11500,
+    "currency": "PKR",
+    "description": "Classic ladder-back dining chair in rubberwood with a warm walnut stain.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_16.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Ladder-Back Design"
+    ],
+    "dimensions": "17\"W x 18\"D x 36\"H",
+    "weight": "8 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 275,
+    "name": "Button-Tufted Chair",
+    "price": 30000,
+    "currency": "PKR",
+    "description": "Luxurious velvet chair with deep button tufting and polished brass legs.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_17.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Button Tufting",
+      "Brass Legs"
+    ],
+    "dimensions": "20\"W x 22\"D x 36\"H",
+    "weight": "15 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 276,
+    "name": "Boho Dining Chair",
+    "price": 17000,
+    "currency": "PKR",
+    "description": "Bohemian rattan chair with a handwoven back and soft cotton seat cushion.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_18.png"
+    ],
+    "materials": [
+      "Rattan",
+      "Boho Weave",
+      "Cotton Cushion"
+    ],
+    "dimensions": "19\"W x 19\"D x 34\"H",
+    "weight": "9 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 277,
+    "name": "Minimalist Dining Chair",
+    "price": 14500,
+    "currency": "PKR",
+    "description": "Stackable polypropylene chair with a sleek sled base and minimalist profile.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_19.png"
+    ],
+    "materials": [
+      "Polypropylene",
+      "Sled Base",
+      "Black Finish"
+    ],
+    "dimensions": "17\"W x 18\"D x 32\"H",
+    "weight": "5 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 278,
+    "name": "Captain Dining Chair",
+    "price": 24000,
+    "currency": "PKR",
+    "description": "Captain-style dining chair with a solid mahogany frame and upholstered seat.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_20.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Upholstered Seat"
+    ],
+    "dimensions": "20\"W x 18\"D x 36\"H",
+    "weight": "14 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 279,
+    "name": "Ghost Dining Chair",
+    "price": 19500,
+    "currency": "PKR",
+    "description": "Transparent polycarbonate ghost chair with a sleek minimalist silhouette.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_21.png"
+    ],
+    "materials": [
+      "Polycarbonate",
+      "Transparent Finish"
+    ],
+    "dimensions": "18\"W x 20\"D x 33\"H",
+    "weight": "6 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 280,
+    "name": "Brass Accent Chair",
+    "price": 27000,
+    "currency": "PKR",
+    "description": "Glamorous dining chair with velvet upholstery and a brass-framed backrest.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_22.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Brass Frame",
+      "High-Resilience Foam"
+    ],
+    "dimensions": "20\"W x 22\"D x 36\"H",
+    "weight": "13 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 281,
+    "name": "Cane Dining Chair",
+    "price": 15500,
+    "currency": "PKR",
+    "description": "Cane-back dining chair with a natural oak frame and woven rattan seat.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_23.png"
+    ],
+    "materials": [
+      "Natural Cane",
+      "Oak Wood Frame"
+    ],
+    "dimensions": "18\"W x 19\"D x 35\"H",
+    "weight": "10 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 282,
+    "name": "Slipper Dining Chair",
+    "price": 20000,
+    "currency": "PKR",
+    "description": "Slim-profile slipper chair with a polyester fabric seat and tapered legs.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_24.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Slim Frame",
+      "Tapered Legs"
+    ],
+    "dimensions": "18\"W x 20\"D x 34\"H",
+    "weight": "11 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 283,
+    "name": "Industrial Dining Chair",
+    "price": 12500,
+    "currency": "PKR",
+    "description": "Rugged industrial chair with a steel frame and reclaimed wood seat.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_25.png"
+    ],
+    "materials": [
+      "Steel",
+      "Wood Seat",
+      "Industrial Style"
+    ],
+    "dimensions": "18\"W x 18\"D x 34\"H",
+    "weight": "9 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 284,
+    "name": "Tulip Dining Chair",
+    "price": 23000,
+    "currency": "PKR",
+    "description": "Iconic tulip chair with a fiberglass shell on a swivel chrome base.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_26.png"
+    ],
+    "materials": [
+      "Fiberglass Shell",
+      "Chrome Base",
+      "Swivel"
+    ],
+    "dimensions": "20\"W x 20\"D x 32\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 285,
+    "name": "Navy Velvet Chair",
+    "price": 34000,
+    "currency": "PKR",
+    "description": "Diamond-tufted navy velvet chair with polished chrome legs.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_27.png"
+    ],
+    "materials": [
+      "Navy Velvet",
+      "Chrome Legs",
+      "Diamond Tufting"
+    ],
+    "dimensions": "20\"W x 22\"D x 36\"H",
+    "weight": "16 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 286,
+    "name": "Bentwood Dining Chair",
+    "price": 11000,
+    "currency": "PKR",
+    "description": "Classic bentwood chair with a smooth lacquered finish, stackable design.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_28.png"
+    ],
+    "materials": [
+      "Bent Beechwood",
+      "Natural Lacquer"
+    ],
+    "dimensions": "18\"W x 18\"D x 34\"H",
+    "weight": "7 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 287,
+    "name": "Henredon Style Chair",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Traditional chair with an upholstered back, carved wood frame, and antique brass details.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_29.png"
+    ],
+    "materials": [
+      "Wood Frame",
+      "Upholstered Back",
+      "Antique Brass"
+    ],
+    "dimensions": "19\"W x 18\"D x 36\"H",
+    "weight": "15 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 288,
+    "name": "Linen Slipper Chair",
+    "price": 18500,
+    "currency": "PKR",
+    "description": "Lightweight linen slipper chair with solid wood legs and dense foam padding.",
+    "category": "dining-chairs",
+    "images": [
+      "/assets/images/dinning_chair_30.png"
+    ],
+    "materials": [
+      "Linen Blend",
+      "Solid Wood Legs",
+      "High-Density Foam"
+    ],
+    "dimensions": "18\"W x 20\"D x 34\"H",
+    "weight": "10 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 289,
+    "name": "Obsidian Accent Table",
+    "price": 35000,
+    "currency": "PKR",
+    "description": "Sleek obsidian stone top on a polished brass base, adding dark elegance to any space.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_31.png"
+    ],
+    "materials": [
+      "Obsidian Stone",
+      "Brass Base",
+      "Felt Pads"
+    ],
+    "dimensions": "18\"L x 18\"W x 24\"H",
+    "weight": "18 lbs",
+    "inStock": false,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 290,
+    "name": "Marble Top Side Table",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Pure Carrara marble top with a slim stainless steel frame and subtle gold accents.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_2.png"
+    ],
+    "materials": [
+      "Carrara Marble",
+      "Stainless Steel",
+      "Gold Accents"
+    ],
+    "dimensions": "20\"L x 20\"W x 26\"H",
+    "weight": "22 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 291,
+    "name": "Walnut Nightstand",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Classic walnut nightstand with dovetail drawers and brushed brass hardware.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_3.png"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Brass Hardware",
+      "Natural Oil Finish"
+    ],
+    "dimensions": "16\"L x 16\"W x 28\"H",
+    "weight": "15 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 292,
+    "name": "Gold Leaf Pedestal",
+    "price": 55000,
+    "currency": "PKR",
+    "description": "Stunning gold leaf pedestal table with a sculptural silhouette and luminous finish.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_4.png"
+    ],
+    "materials": [
+      "Gold Leaf",
+      "Resin",
+      "MDF Core"
+    ],
+    "dimensions": "14\"Dia x 24\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 293,
+    "name": "Crystal Accent Table",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "Crystal-clear glass accent table with a gleaming chrome frame and sleek profile.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_5.png"
+    ],
+    "materials": [
+      "Crystal Glass",
+      "Chrome Frame",
+      "Anti-Slip Rings"
+    ],
+    "dimensions": "18\"L x 18\"W x 22\"H",
+    "weight": "14 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 294,
+    "name": "Brass Tripod Table",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Tripod side table in solid brass with a honed marble top and antique patina.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_6.png"
+    ],
+    "materials": [
+      "Solid Brass",
+      "Marble Top",
+      "Hand-Polished"
+    ],
+    "dimensions": "16\"Dia x 26\"H",
+    "weight": "16 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 295,
+    "name": "Glass Top Side Table",
+    "price": 32000,
+    "currency": "PKR",
+    "description": "Minimalist glass top table with a brushed nickel frame and open storage shelf.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_7.png"
+    ],
+    "materials": [
+      "Tempered Glass",
+      "Nickel Frame",
+      "Glass Shelves"
+    ],
+    "dimensions": "20\"L x 14\"W x 24\"H",
+    "weight": "13 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 296,
+    "name": "Carved Wood Side Table",
+    "price": 48000,
+    "currency": "PKR",
+    "description": "Hand-carved mango wood side table with intricate floral motifs and antique finish.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_8.png"
+    ],
+    "materials": [
+      "Mango Wood",
+      "Hand-Carved",
+      "Antique Finish"
+    ],
+    "dimensions": "18\"L x 18\"W x 26\"H",
+    "weight": "20 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 297,
+    "name": "Velvet Accent Table",
+    "price": 36000,
+    "currency": "PKR",
+    "description": "Sumptuous velvet-upholstered table with brass nailhead trim and turned wood legs.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_9.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Birch Wood",
+      "Brass Nailheads"
+    ],
+    "dimensions": "16\"L x 16\"W x 22\"H",
+    "weight": "15 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 298,
+    "name": "Mirrored Side Table",
+    "price": 52000,
+    "currency": "PKR",
+    "description": "Mirrored side table that reflects light beautifully, with chrome-finished edges.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_10.png"
+    ],
+    "materials": [
+      "Mirrored Glass",
+      "Steel Frame",
+      "Chrome Accents"
+    ],
+    "dimensions": "18\"L x 18\"W x 26\"H",
+    "weight": "18 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 299,
+    "name": "Rattan Accent Table",
+    "price": 25000,
+    "currency": "PKR",
+    "description": "Handwoven rattan accent table with a natural bamboo frame and organic texture.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_11.png"
+    ],
+    "materials": [
+      "Natural Rattan",
+      "Bamboo Frame",
+      "Handwoven"
+    ],
+    "dimensions": "16\"L x 16\"W x 24\"H",
+    "weight": "8 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 300,
+    "name": "Ceramic Drum Table",
+    "price": 40000,
+    "currency": "PKR",
+    "description": "Hand-painted ceramic drum table with a glossy finish and carved wood base.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_12.png"
+    ],
+    "materials": [
+      "Glazed Ceramic",
+      "Wood Base",
+      "Hand-Painted"
+    ],
+    "dimensions": "14\"Dia x 22\"H",
+    "weight": "24 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 301,
+    "name": "Metal Accent Table",
+    "price": 30000,
+    "currency": "PKR",
+    "description": "Industrial metal accent table with a powder-coated steel frame and brass feet.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_13.png"
+    ],
+    "materials": [
+      "Steel",
+      "Powder Coat",
+      "Brass Tips"
+    ],
+    "dimensions": "14\"L x 14\"W x 26\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 302,
+    "name": "Petite Marble Table",
+    "price": 58000,
+    "currency": "PKR",
+    "description": "Italian marble pedestal table with elegant brass legs and a veined stone top.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_14.png"
+    ],
+    "materials": [
+      "Italian Marble",
+      "Brass Legs",
+      "Marble Top"
+    ],
+    "dimensions": "16\"Dia x 24\"H",
+    "weight": "28 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 303,
+    "name": "Acrylic Side Table",
+    "price": 22000,
+    "currency": "PKR",
+    "description": "Nearly invisible acrylic side table with a floating effect, perfect for modern rooms.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_15.png"
+    ],
+    "materials": [
+      "Clear Acrylic",
+      "Chrome Connections",
+      "Anti-Scratch"
+    ],
+    "dimensions": "16\"L x 16\"W x 22\"H",
+    "weight": "10 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 304,
+    "name": "Mahogany C-Table",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Rich mahogany C-table with brass gallery rails, ideal for beside the sofa.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_16.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Brass Details",
+      "Lacquer Finish"
+    ],
+    "dimensions": "20\"L x 12\"W x 26\"H",
+    "weight": "22 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 305,
+    "name": "Bamboo Nesting Set",
+    "price": 35000,
+    "currency": "PKR",
+    "description": "Set of two nesting bamboo tables with natural rope detailing and eco-friendly build.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_17.png"
+    ],
+    "materials": [
+      "Natural Bamboo",
+      "Rope Details",
+      "Nesting Design"
+    ],
+    "dimensions": "18\"L x 14\"W x 22\"H",
+    "weight": "9 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 306,
+    "name": "Lacquered Side Table",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "High-gloss lacquered side table with an inverted dome silhouette and gold legs.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_18.png"
+    ],
+    "materials": [
+      "MDF",
+      "High-Gloss Lacquer",
+      "Gold Legs"
+    ],
+    "dimensions": "16\"Dia x 24\"H",
+    "weight": "14 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 307,
+    "name": "Stone Top Accent Table",
+    "price": 50000,
+    "currency": "PKR",
+    "description": "Natural stone top on a wrought iron base, bringing organic elegance indoors.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_19.png"
+    ],
+    "materials": [
+      "Natural Stone",
+      "Iron Base",
+      "Stone Top"
+    ],
+    "dimensions": "18\"Dia x 26\"H",
+    "weight": "26 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 308,
+    "name": "Leather Wrapped Table",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Leather-wrapped side table with hand-stitched seams and a polished steel frame.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_20.png"
+    ],
+    "materials": [
+      "Top-Grain Leather",
+      "Stainless Steel",
+      "Hand-Stitched"
+    ],
+    "dimensions": "18\"L x 18\"W x 24\"H",
+    "weight": "16 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 309,
+    "name": "Hexagonal Side Table",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Hexagonal mango wood table with a stunning natural grain pattern and clear coat.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_21.png"
+    ],
+    "materials": [
+      "Mango Wood",
+      "Hexagonal Design",
+      "Natural Grain"
+    ],
+    "dimensions": "14\"L x 14\"W x 26\"H",
+    "weight": "11 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 310,
+    "name": "Industrial Pipe Table",
+    "price": 34000,
+    "currency": "PKR",
+    "description": "Rustic industrial pipe table with a reclaimed wood top and black iron fittings.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_22.png"
+    ],
+    "materials": [
+      "Iron",
+      "Wood Top",
+      "Industrial Style"
+    ],
+    "dimensions": "16\"L x 16\"W x 24\"H",
+    "weight": "15 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 311,
+    "name": "Mother of Pearl Table",
+    "price": 65000,
+    "currency": "PKR",
+    "description": "Exquisite mother of pearl inlay table with intricate geometric patterns.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_23.png"
+    ],
+    "materials": [
+      "Mother of Pearl",
+      "Wood Core",
+      "Inlay Work"
+    ],
+    "dimensions": "16\"L x 16\"W x 24\"H",
+    "weight": "10 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 312,
+    "name": "Burl Wood Accent Table",
+    "price": 55000,
+    "currency": "PKR",
+    "description": "Burl wood accent table with brass inlay and a lustrous hand-rubbed finish.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_24.png"
+    ],
+    "materials": [
+      "Burl Wood",
+      "Brass Inlay",
+      "Hand-Rubbed Finish"
+    ],
+    "dimensions": "18\"L x 18\"W x 26\"H",
+    "weight": "18 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 313,
+    "name": "Brass Inlay Side Table",
+    "price": 48000,
+    "currency": "PKR",
+    "description": "Sheesham wood table with detailed brass inlay work and hand-carved edges.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_25.png"
+    ],
+    "materials": [
+      "Sheesham Wood",
+      "Brass Inlay",
+      "Hand-Carved"
+    ],
+    "dimensions": "18\"L x 18\"W x 24\"H",
+    "weight": "20 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 314,
+    "name": "Mosaic Tile Table",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Colorful mosaic tile table with hand-set ceramic pieces and a sturdy wood frame.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_26.png"
+    ],
+    "materials": [
+      "Ceramic Tiles",
+      "Wood Frame",
+      "Grout Finish"
+    ],
+    "dimensions": "16\"Dia x 22\"H",
+    "weight": "16 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 315,
+    "name": "Bamboo Side Table",
+    "price": 22000,
+    "currency": "PKR",
+    "description": "Lightweight bamboo side table with a smooth natural varnish and eco appeal.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_27.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Natural Varnish",
+      "Eco-Friendly"
+    ],
+    "dimensions": "14\"L x 14\"W x 24\"H",
+    "weight": "7 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 316,
+    "name": "Ceramic Inlay Table",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Hand-painted ceramic table with brass accents and a vibrant artistic design.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_28.png"
+    ],
+    "materials": [
+      "Ceramic",
+      "Brass Details",
+      "Hand-Painted"
+    ],
+    "dimensions": "16\"Dia x 24\"H",
+    "weight": "14 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 317,
+    "name": "Resin Art Side Table",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "Resin art side table with a geode-inspired design, gold leaf, and high-gloss finish.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_29.png"
+    ],
+    "materials": [
+      "Resin",
+      "Gold Leaf",
+      "Geode Design"
+    ],
+    "dimensions": "15\"Dia x 24\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 318,
+    "name": "Heritage Carved Table",
+    "price": 60000,
+    "currency": "PKR",
+    "description": "Heritage carved sheesham table with traditional motifs and a rich walnut stain.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_30.png"
+    ],
+    "materials": [
+      "Sheesham Wood",
+      "Hand-Carved Base",
+      "Heritage Finish"
+    ],
+    "dimensions": "18\"L x 18\"W x 26\"H",
+    "weight": "22 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 319,
+    "name": "Art Deco Side Table",
+    "price": 52000,
+    "currency": "PKR",
+    "description": "Stunning art deco inspired side table with geometric brass inlay and a rich walnut finish, perfect for modern interiors.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_32.png"
+    ],
+    "materials": [
+      "Brass",
+      "Walnut Wood",
+      "Lacquer Finish"
+    ],
+    "dimensions": "20\"L x 20\"W x 26\"H",
+    "weight": "16 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 320,
+    "name": "Contemporary C-Table",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Sleek contemporary C-table with a tempered glass top and brushed stainless steel frame, designed to slide over sofas.",
+    "category": "side-tables",
+    "images": [
+      "/assets/images/side_table_1.png"
+    ],
+    "materials": [
+      "Tempered Glass",
+      "Stainless Steel",
+      "Rubber Pads"
+    ],
+    "dimensions": "22\"L x 14\"W x 24\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 321,
+    "name": "Classic Vanity Dressing Table",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Classic wooden dressing table with a large beveled mirror and three spacious drawers, crafted from solid sheesham wood.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_1.png"
+    ],
+    "materials": [
+      "Solid Sheesham Wood",
+      "Beveled Mirror",
+      "Brass Handles"
+    ],
+    "dimensions": "36\"L x 18\"W x 54\"H",
+    "weight": "42 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 322,
+    "name": "Modern Mirror Dressing Table",
+    "price": 52000,
+    "currency": "PKR",
+    "description": "Modern dressing table featuring an illuminated mirror with adjustable lighting and a sleek floating shelf.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_2.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "LED Mirror",
+      "Chrome Accents"
+    ],
+    "dimensions": "40\"L x 20\"W x 56\"H",
+    "weight": "38 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 323,
+    "name": "LED Illuminated Dressing Table",
+    "price": 68000,
+    "currency": "PKR",
+    "description": "Premium LED dressing table with color-changing lights, touch controls, and a tempered glass top.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_3.png"
+    ],
+    "materials": [
+      "MDF",
+      "LED Strip Lights",
+      "Tempered Glass Top"
+    ],
+    "dimensions": "42\"L x 20\"W x 58\"H",
+    "weight": "45 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 324,
+    "name": "Rustic Wooden Dressing Table",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Rustic charm meets functionality with this reclaimed pine dressing table featuring an antique-style mirror.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_4.png"
+    ],
+    "materials": [
+      "Reclaimed Pine",
+      "Antique Mirror",
+      "Wrought Iron Legs"
+    ],
+    "dimensions": "38\"L x 18\"W x 52\"H",
+    "weight": "35 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 325,
+    "name": "Hollywood Glam Dressing Table",
+    "price": 75000,
+    "currency": "PKR",
+    "description": "Hollywood glam dressing table with bulb-lit mirror, plush velvet stool, and gleaming gold hardware.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_5.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "Hollywood Bulbs",
+      "Velvet Stool"
+    ],
+    "dimensions": "44\"L x 22\"W x 60\"H",
+    "weight": "48 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 326,
+    "name": "Minimalist White Dressing Table",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "Clean minimalist dressing table in bright white with a frameless mirror and elegant gold tapered legs.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_6.png"
+    ],
+    "materials": [
+      "White Laminate",
+      "Frameless Mirror",
+      "Gold Legs"
+    ],
+    "dimensions": "36\"L x 18\"W x 50\"H",
+    "weight": "32 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 327,
+    "name": "Antique Carved Dressing Table",
+    "price": 58000,
+    "currency": "PKR",
+    "description": "Hand-carved antique dressing table with intricate floral motifs, brass handles, and a warm mango wood finish.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_7.png"
+    ],
+    "materials": [
+      "Mango Wood",
+      "Hand-Carved Details",
+      "Antique Brass"
+    ],
+    "dimensions": "40\"L x 20\"W x 56\"H",
+    "weight": "44 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 328,
+    "name": "Marble Top Dressing Table",
+    "price": 65000,
+    "currency": "PKR",
+    "description": "Luxurious marble top dressing table with a brushed stainless steel frame and elegant tapered legs.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_8.png"
+    ],
+    "materials": [
+      "Italian Marble",
+      "Stainless Steel Frame",
+      "Marble Top"
+    ],
+    "dimensions": "42\"L x 20\"W x 54\"H",
+    "weight": "52 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 329,
+    "name": "Velvet Stool Dressing Table",
+    "price": 48000,
+    "currency": "PKR",
+    "description": "Sumptuous velvet-upholstered dressing table with tufted stool, brass nailhead trim, and turned legs.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_9.png"
+    ],
+    "materials": [
+      "Velvet Upholstery",
+      "Rubberwood",
+      "Brass Nailheads"
+    ],
+    "dimensions": "36\"L x 18\"W x 52\"H",
+    "weight": "40 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 330,
+    "name": "Wall-Mounted Dressing Table",
+    "price": 35000,
+    "currency": "PKR",
+    "description": "Space-saving wall-mounted dressing table with a fold-down mirror panel and hidden storage compartments.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_10.png"
+    ],
+    "materials": [
+      "MDF",
+      "Mirror Panel",
+      "Floating Brackets"
+    ],
+    "dimensions": "30\"L x 16\"W x 48\"H",
+    "weight": "28 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 331,
+    "name": "Corner Dressing Table",
+    "price": 40000,
+    "currency": "PKR",
+    "description": "Clever corner dressing table with a tri-fold mirror, maximizing space in smaller bedrooms.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_11.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Tri-fold Mirror",
+      "Compact Design"
+    ],
+    "dimensions": "32\"L x 32\"W x 50\"H",
+    "weight": "30 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 332,
+    "name": "Farmhouse Dressing Table",
+    "price": 37000,
+    "currency": "PKR",
+    "description": "Charming farmhouse dressing table with a distressed chalk-painted finish and wooden knob hardware.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_12.png"
+    ],
+    "materials": [
+      "Pine Wood",
+      "Chalk Paint Finish",
+      "Wooden Knobs"
+    ],
+    "dimensions": "40\"L x 18\"W x 54\"H",
+    "weight": "36 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 333,
+    "name": "Art Deco Dressing Table",
+    "price": 62000,
+    "currency": "PKR",
+    "description": "Art deco inspired dressing table with walnut veneer, geometric mirror, and intricate brass inlay details.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_13.png"
+    ],
+    "materials": [
+      "Walnut Veneer",
+      "Geometric Mirror",
+      "Brass Inlay"
+    ],
+    "dimensions": "42\"L x 20\"W x 56\"H",
+    "weight": "46 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 334,
+    "name": "Glass Top Dressing Table",
+    "price": 55000,
+    "currency": "PKR",
+    "description": "Sleek glass top dressing table with a chrome frame, open shelving, and a contemporary silhouette.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_14.png"
+    ],
+    "materials": [
+      "Tempered Glass",
+      "Chrome Frame",
+      "Glass Shelves"
+    ],
+    "dimensions": "38\"L x 18\"W x 52\"H",
+    "weight": "34 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 335,
+    "name": "Compact Dressing Table",
+    "price": 32000,
+    "currency": "PKR",
+    "description": "Compact dressing table with a flip-top mirror and slim profile, ideal for tight spaces and apartments.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_15.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Flip-Top Mirror",
+      "Slim Profile"
+    ],
+    "dimensions": "28\"L x 16\"W x 48\"H",
+    "weight": "25 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 336,
+    "name": "Luxury Vanity Dressing Table",
+    "price": 85000,
+    "currency": "PKR",
+    "description": "Luxury vanity dressing table crafted from solid mahogany with gold leaf accents and crystal drawer knobs.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_16.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Gold Leaf Accents",
+      "Crystal Knobs"
+    ],
+    "dimensions": "48\"L x 22\"W x 60\"H",
+    "weight": "58 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 337,
+    "name": "Rattan Dressing Table",
+    "price": 36000,
+    "currency": "PKR",
+    "description": "Natural rattan dressing table with a round mirror and bamboo frame, bringing bohemian elegance.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_17.png"
+    ],
+    "materials": [
+      "Natural Rattan",
+      "Bamboo Frame",
+      "Round Mirror"
+    ],
+    "dimensions": "36\"L x 18\"W x 54\"H",
+    "weight": "28 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 338,
+    "name": "Gold Accent Dressing Table",
+    "price": 72000,
+    "currency": "PKR",
+    "description": "Glamorous dressing table in high-gloss white with a gold metal frame and velvet-lined drawers.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_18.png"
+    ],
+    "materials": [
+      "Glossy White",
+      "Gold Metal Frame",
+      "Velvet Drawers"
+    ],
+    "dimensions": "40\"L x 20\"W x 56\"H",
+    "weight": "42 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 339,
+    "name": "Floating Dressing Table",
+    "price": 48000,
+    "currency": "PKR",
+    "description": "Modern floating dressing table with a backlit LED mirror and a sleek wall-mounted design.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_19.png"
+    ],
+    "materials": [
+      "MDF",
+      "LED Mirror",
+      "Wall-Mounted Design"
+    ],
+    "dimensions": "34\"L x 18\"W x 50\"H",
+    "weight": "30 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 340,
+    "name": "Victorian Dressing Table",
+    "price": 59000,
+    "currency": "PKR",
+    "description": "Ornate Victorian dressing table in solid oak with hand-carved flowers, scrollwork, and antique brass.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_20.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Ornate Carving",
+      "Antique Brass Handles"
+    ],
+    "dimensions": "42\"L x 20\"W x 58\"H",
+    "weight": "50 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 341,
+    "name": "Bamboo Dressing Table",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Eco-friendly bamboo dressing table with a smooth varnish finish and a built-in mirrored top.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_21.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Natural Varnish",
+      "Mirrored Top"
+    ],
+    "dimensions": "36\"L x 18\"W x 50\"H",
+    "weight": "24 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 342,
+    "name": "French Provincial Dressing Table",
+    "price": 55000,
+    "currency": "PKR",
+    "description": "French provincial dressing table in cherry wood with elegant curved legs and soft gold accents.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_22.png"
+    ],
+    "materials": [
+      "Cherry Wood",
+      "Curved Legs",
+      "Gold Accents"
+    ],
+    "dimensions": "40\"L x 20\"W x 54\"H",
+    "weight": "45 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 343,
+    "name": "Industrial Dressing Table",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Industrial style dressing table with a reclaimed wood top, steel pipe frame, and exposed hardware.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_23.png"
+    ],
+    "materials": [
+      "Steel Frame",
+      "Reclaimed Wood Top",
+      "Industrial Pipes"
+    ],
+    "dimensions": "38\"L x 18\"W x 52\"H",
+    "weight": "38 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 344,
+    "name": "Mirrored Dressing Table",
+    "price": 50000,
+    "currency": "PKR",
+    "description": "Fully mirrored dressing table with chrome trim and dimmable LED lighting for perfect makeup application.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_24.png"
+    ],
+    "materials": [
+      "Mirrored Glass",
+      "Chrome Frame",
+      "LED Dimmable"
+    ],
+    "dimensions": "44\"L x 22\"W x 58\"H",
+    "weight": "40 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 345,
+    "name": "Scandinavian Dressing Table",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Scandinavian dressing table in light birch with a clean white lacquer finish and minimalist silhouette.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_25.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "White Lacquer",
+      "Minimalist Design"
+    ],
+    "dimensions": "36\"L x 18\"W x 50\"H",
+    "weight": "32 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 346,
+    "name": "Elegant Walnut Dressing Table",
+    "price": 60000,
+    "currency": "PKR",
+    "description": "Elegant walnut dressing table with hand-inlaid brass details and a rich natural oil finish.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_26.png"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Brass Inlay",
+      "Natural Oil Finish"
+    ],
+    "dimensions": "42\"L x 20\"W x 56\"H",
+    "weight": "48 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 347,
+    "name": "White Gloss Dressing Table",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "High-gloss white dressing table with chrome handles, LED mirror, and sleek contemporary design.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_27.png"
+    ],
+    "materials": [
+      "High-Gloss MDF",
+      "White Finish",
+      "Chrome Handles"
+    ],
+    "dimensions": "40\"L x 20\"W x 54\"H",
+    "weight": "35 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 348,
+    "name": "Vintage Dressing Table",
+    "price": 48000,
+    "currency": "PKR",
+    "description": "Vintage-inspired dressing table with a distressed rubberwood finish, curved mirror, and ceramic knobs.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_28.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Distressed Finish",
+      "Vintage Knobs"
+    ],
+    "dimensions": "38\"L x 18\"W x 52\"H",
+    "weight": "38 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 349,
+    "name": "Contemporary Dressing Table",
+    "price": 52000,
+    "currency": "PKR",
+    "description": "Contemporary acacia wood dressing table with black metal legs, clean lines, and a warm natural grain.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_29.png"
+    ],
+    "materials": [
+      "Acacia Wood",
+      "Black Metal Legs",
+      "Clean Lines"
+    ],
+    "dimensions": "40\"L x 18\"W x 52\"H",
+    "weight": "36 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 350,
+    "name": "Heritage Dressing Table",
+    "price": 68000,
+    "currency": "PKR",
+    "description": "Heritage carved sheesham dressing table with traditional motifs, spacious drawers, and a rich walnut stain.",
+    "category": "dressing-tables",
+    "images": [
+      "/assets/images/dressing_table_30.png"
+    ],
+    "materials": [
+      "Sheesham Wood",
+      "Hand-Carved Motifs",
+      "Heritage Finish"
+    ],
+    "dimensions": "44\"L x 22\"W x 58\"H",
+    "weight": "50 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 351,
+    "name": "Grand Curio Showcase",
+    "price": 85000,
+    "currency": "PKR",
+    "description": "Majestic curio cabinet with glass shelves and mirrored back, perfect for displaying your finest collectibles.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_1.png"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Glass Shelves",
+      "Mirrored Back"
+    ],
+    "dimensions": "36\"L x 16\"W x 72\"H",
+    "weight": "95 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 352,
+    "name": "Modern Glass Showcase",
+    "price": 72000,
+    "currency": "PKR",
+    "description": "Sleek modern showcase with tempered glass panels and a brushed steel frame for contemporary interiors.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_2.png"
+    ],
+    "materials": [
+      "Tempered Glass",
+      "Brushed Steel",
+      "LED Lighting"
+    ],
+    "dimensions": "40\"L x 14\"W x 68\"H",
+    "weight": "78 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 353,
+    "name": "Rustic Wall Showcase",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Rustic wall-mounted showcase crafted from reclaimed barn wood with wrought iron brackets.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_3.png"
+    ],
+    "materials": [
+      "Reclaimed Barn Wood",
+      "Wrought Iron",
+      "Glass Door"
+    ],
+    "dimensions": "32\"L x 10\"W x 36\"H",
+    "weight": "42 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 354,
+    "name": "Art Deco Display Cabinet",
+    "price": 95000,
+    "currency": "PKR",
+    "description": "Art deco inspired display cabinet with geometric brass inlay and a stepped silhouette.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_4.png"
+    ],
+    "materials": [
+      "Mahogany",
+      "Brass Inlay",
+      "Velvet Interior"
+    ],
+    "dimensions": "38\"L x 18\"W x 60\"H",
+    "weight": "110 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 355,
+    "name": "Corner Glass Showcase",
+    "price": 55000,
+    "currency": "PKR",
+    "description": "Space-saving corner showcase with curved glass shelves and a compact triangular footprint.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_5.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Curved Glass",
+      "Chrome Accents"
+    ],
+    "dimensions": "28\"L x 28\"W x 64\"H",
+    "weight": "65 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 356,
+    "name": "Minimalist Floating Showcase",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Floating wall showcase with clean lines and hidden mounting system for a seamless look.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_6.png"
+    ],
+    "materials": [
+      "MDF",
+      "White Lacquer",
+      "Tempered Glass"
+    ],
+    "dimensions": "30\"L x 8\"W x 30\"H",
+    "weight": "28 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 357,
+    "name": "Victorian Glass Cabinet",
+    "price": 89000,
+    "currency": "PKR",
+    "description": "Ornate Victorian glass cabinet with carved wood details, claw feet, and brass hardware.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_7.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Brass Hardware",
+      "Bevelled Glass"
+    ],
+    "dimensions": "40\"L x 18\"W x 78\"H",
+    "weight": "135 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 358,
+    "name": "LED Illuminated Showcase",
+    "price": 78000,
+    "currency": "PKR",
+    "description": "Premium showcase with integrated LED lighting, adjustable glass shelves, and lockable door.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_8.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "LED Strips",
+      "Tempered Glass"
+    ],
+    "dimensions": "36\"L x 14\"W x 70\"H",
+    "weight": "72 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 359,
+    "name": "Tall Sliding Door Showcase",
+    "price": 65000,
+    "currency": "PKR",
+    "description": "Tall showcase with sliding glass doors and multiple adjustable shelves for flexible display.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_9.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Sliding Glass",
+      "Aluminum Track"
+    ],
+    "dimensions": "34\"L x 15\"W x 74\"H",
+    "weight": "85 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 360,
+    "name": "Tabletop Display Case",
+    "price": 25000,
+    "currency": "PKR",
+    "description": "Compact tabletop display case with hinged glass lid and velvet-lined interior for small treasures.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_10.png"
+    ],
+    "materials": [
+      "Mango Wood",
+      "Glass Lid",
+      "Velvet Lining"
+    ],
+    "dimensions": "20\"L x 12\"W x 14\"H",
+    "weight": "15 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 361,
+    "name": "Curved Glass Showcase",
+    "price": 92000,
+    "currency": "PKR",
+    "description": "Elegant curved glass showcase with a walnut base and lockable curved glass door.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_11.png"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Curved Glass",
+      "Brass Lock"
+    ],
+    "dimensions": "42\"L x 16\"W x 66\"H",
+    "weight": "105 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 362,
+    "name": "Industrial Pipe Showcase",
+    "price": 48000,
+    "currency": "PKR",
+    "description": "Industrial style showcase with black iron pipe frame and reclaimed wood shelves.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_12.png"
+    ],
+    "materials": [
+      "Black Iron Pipe",
+      "Reclaimed Wood",
+      "Steel Hardware"
+    ],
+    "dimensions": "36\"L x 14\"W x 60\"H",
+    "weight": "55 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 363,
+    "name": "French Provincial Display",
+    "price": 82000,
+    "currency": "PKR",
+    "description": "French provincial display cabinet with carved details, glass doors, and antique white finish.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_13.png"
+    ],
+    "materials": [
+      "Cherry Wood",
+      "Glass Panels",
+      "Antique Brass"
+    ],
+    "dimensions": "38\"L x 16\"W x 72\"H",
+    "weight": "98 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 364,
+    "name": "Wall-Mounted Shadow Box",
+    "price": 22000,
+    "currency": "PKR",
+    "description": "Set of three wall-mounted shadow boxes for creating curated gallery displays.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_14.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Acrylic Front",
+      "Floating Mount"
+    ],
+    "dimensions": "16\"L x 4\"W x 20\"H",
+    "weight": "8 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 365,
+    "name": "Jewelry Display Showcase",
+    "price": 35000,
+    "currency": "PKR",
+    "description": "Specialized jewelry showcase with velvet-lined drawers, necklace hooks, and ring rolls.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_15.png"
+    ],
+    "materials": [
+      "MDF",
+      "Velvet Interior",
+      "Glass Top"
+    ],
+    "dimensions": "24\"L x 12\"W x 32\"H",
+    "weight": "35 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 366,
+    "name": "Black Lacquer Showcase",
+    "price": 68000,
+    "currency": "PKR",
+    "description": "Striking black lacquer showcase with mirrored interior and chrome-finished adjustable shelves.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_16.png"
+    ],
+    "materials": [
+      "MDF",
+      "Black Lacquer",
+      "Chrome Shelves"
+    ],
+    "dimensions": "36\"L x 14\"W x 66\"H",
+    "weight": "60 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 367,
+    "name": "Rattan Display Cabinet",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "Bohemian rattan display cabinet with woven doors and natural wood frame.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_17.png"
+    ],
+    "materials": [
+      "Natural Rattan",
+      "Mango Wood",
+      "Glass Shelves"
+    ],
+    "dimensions": "32\"L x 14\"W x 58\"H",
+    "weight": "38 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 368,
+    "name": "Gold Leaf Showcase",
+    "price": 110000,
+    "currency": "PKR",
+    "description": "Opulent gold leaf showcase with mirrored shelves and crystal handles for ultra-luxury displays.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_18.png"
+    ],
+    "materials": [
+      "Gold Leaf",
+      "MDF Core",
+      "Crystal Handles"
+    ],
+    "dimensions": "36\"L x 16\"W x 70\"H",
+    "weight": "85 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 369,
+    "name": "Scandinavian Display Shelf",
+    "price": 32000,
+    "currency": "PKR",
+    "description": "Clean-lined Scandinavian display shelf with asymmetrical compartments and light birch finish.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_19.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "White Lacquer",
+      "Floating Design"
+    ],
+    "dimensions": "40\"L x 10\"W x 24\"H",
+    "weight": "22 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 370,
+    "name": "Heritage China Cabinet",
+    "price": 98000,
+    "currency": "PKR",
+    "description": "Traditional china cabinet with glass upper doors, carved lower drawers, and rich mahogany finish.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_20.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Glass Panels",
+      "Brass Hardware"
+    ],
+    "dimensions": "44\"L x 20\"W x 80\"H",
+    "weight": "145 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 371,
+    "name": "Modern Display Cabinet",
+    "price": 52000,
+    "currency": "PKR",
+    "description": "Sleek modern display cabinet with clean lines and ample storage for showcasing your treasured pieces.",
+    "category": "showcase",
+    "images": [
+      "/assets/images/showcase_21.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Tempered Glass",
+      "Chrome Accents"
+    ],
+    "dimensions": "36\"L x 16\"W x 66\"H",
+    "weight": "52 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 372,
+    "name": "Classic Mahogany Door",
+    "price": 85000,
+    "currency": "PKR",
+    "description": "Solid mahogany door with rich grain patterns and traditional panel construction, offering timeless elegance for any entrance.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_1.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Brass Hardware",
+      "Polyurethane Finish"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.75\"W",
+    "weight": "85 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 373,
+    "name": "Modern Oak Entry Door",
+    "price": 72000,
+    "currency": "PKR",
+    "description": "Sleek modern oak door with clean lines and a minimalist design, perfect for contemporary homes.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_2.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Steel Frame",
+      "Matte Finish"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.75\"W",
+    "weight": "78 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 374,
+    "name": "Rustic Barn Door",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Sliding barn door crafted from reclaimed pine with wrought iron hardware for a rustic farmhouse look.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_3.png"
+    ],
+    "materials": [
+      "Reclaimed Pine",
+      "Wrought Iron",
+      "Natural Varnish"
+    ],
+    "dimensions": "42\"L x 84\"H x 1.5\"W",
+    "weight": "65 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 375,
+    "name": "French Panel Door",
+    "price": 95000,
+    "currency": "PKR",
+    "description": "Elegant French door with multiple glass panels framed in solid wood, flooding interiors with natural light.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_4.png"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Tempered Glass",
+      "Brass Handles"
+    ],
+    "dimensions": "60\"L x 80\"H x 1.75\"W",
+    "weight": "110 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 376,
+    "name": "Carved Walnut Door",
+    "price": 110000,
+    "currency": "PKR",
+    "description": "Hand-carved walnut door with intricate floral motifs and a deep hand-rubbed oil finish.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_5.png"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Hand-Carved Details",
+      "Natural Oil Finish"
+    ],
+    "dimensions": "36\"L x 80\"H x 2\"W",
+    "weight": "95 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 377,
+    "name": "Industrial Steel Door",
+    "price": 68000,
+    "currency": "PKR",
+    "description": "Sturdy industrial steel door with a powder-coated matte black finish and minimalist hardware.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_6.png"
+    ],
+    "materials": [
+      "Steel",
+      "Powder Coat Finish",
+      "Industrial Hardware"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.5\"W",
+    "weight": "120 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 378,
+    "name": "Victorian Glass Door",
+    "price": 88000,
+    "currency": "PKR",
+    "description": "Ornate Victorian-style door with bevelled glass inserts and decorative carved wood trim.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_7.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Bevelled Glass",
+      "Antique Brass"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.75\"W",
+    "weight": "90 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 379,
+    "name": "Minimalist Flush Door",
+    "price": 35000,
+    "currency": "PKR",
+    "description": "Clean, seamless flush door with a smooth lacquered finish for a minimalist aesthetic.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_8.png"
+    ],
+    "materials": [
+      "MDF",
+      "Lacquer Finish",
+      "Concealed Hinges"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.5\"W",
+    "weight": "45 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 380,
+    "name": "Dutch Split Door",
+    "price": 78000,
+    "currency": "PKR",
+    "description": "Charming Dutch door with independently opening top and bottom halves for ventilation and versatility.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_9.png"
+    ],
+    "materials": [
+      "Solid Pine",
+      "Steel Hardware",
+      "Paint Finish"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.75\"W",
+    "weight": "72 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 381,
+    "name": "Arched Solid Door",
+    "price": 98000,
+    "currency": "PKR",
+    "description": "Grand arched doorway crafted from solid wood, making a dramatic architectural statement in any space.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_10.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Brass Hinges",
+      "Shellac Finish"
+    ],
+    "dimensions": "40\"L x 96\"H x 2\"W",
+    "weight": "130 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 382,
+    "name": "Double Panel Door",
+    "price": 145000,
+    "currency": "PKR",
+    "description": "Impressive double door set with raised panels and matching hardware for grand entrances.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_11.png"
+    ],
+    "materials": [
+      "Solid Cherry",
+      "Brass Hardware",
+      "Satin Finish"
+    ],
+    "dimensions": "72\"L x 80\"H x 1.75\"W",
+    "weight": "165 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 383,
+    "name": "Scandinavian Pine Door",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "Light Scandinavian-style door in natural pine with clean lines and a subtle grain pattern.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_12.png"
+    ],
+    "materials": [
+      "Solid Pine",
+      "Natural Varnish",
+      "Steel Hinges"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.5\"W",
+    "weight": "55 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 384,
+    "name": "Ornate Bronze Door",
+    "price": 158000,
+    "currency": "PKR",
+    "description": "Statement bronze door with ornate relief patterns and a rich patina finish for luxury properties.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_13.png"
+    ],
+    "materials": [
+      "Bronze",
+      "Steel Core",
+      "Patina Finish"
+    ],
+    "dimensions": "40\"L x 90\"H x 2.5\"W",
+    "weight": "220 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 385,
+    "name": "Sliding Barn Door",
+    "price": 52000,
+    "currency": "PKR",
+    "description": "Modern sliding barn door with a sleek track system and minimalist wooden panel design.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_14.png"
+    ],
+    "materials": [
+      "Reclaimed Wood",
+      "Steel Track",
+      "Industrial Rollers"
+    ],
+    "dimensions": "42\"L x 84\"H x 1.5\"W",
+    "weight": "62 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 386,
+    "name": "Leaded Glass Door",
+    "price": 92000,
+    "currency": "PKR",
+    "description": "Elegant door with decorative leaded glass panels framed in rich mahogany for timeless appeal.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_15.png"
+    ],
+    "materials": [
+      "Solid Mahogany",
+      "Leaded Glass",
+      "Brass Details"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.75\"W",
+    "weight": "88 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 387,
+    "name": "Contemporary Pivot Door",
+    "price": 125000,
+    "currency": "PKR",
+    "description": "Dramatic pivot door with a full-height design and concealed pivot hinge system for a floating effect.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_16.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Aluminum Frame",
+      "Pivot Hinge"
+    ],
+    "dimensions": "48\"L x 96\"H x 2\"W",
+    "weight": "150 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 388,
+    "name": "Traditional Brass Door",
+    "price": 75000,
+    "currency": "PKR",
+    "description": "Classic wooden door with brass accents, raised panels, and traditional joinery craftsmanship.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_17.png"
+    ],
+    "materials": [
+      "Sheesham Wood",
+      "Brass Accents",
+      "Lacquer Finish"
+    ],
+    "dimensions": "36\"L x 80\"H x 1.75\"W",
+    "weight": "82 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 389,
+    "name": "Reclaimed Wood Door",
+    "price": 58000,
+    "currency": "PKR",
+    "description": "Eco-friendly door crafted from reclaimed barn wood with a distressed finish and character-rich patina.",
+    "category": "doors",
+    "images": [
+      "/assets/images/door_18.png"
+    ],
+    "materials": [
+      "Reclaimed Barn Wood",
+      "Steel Hardware",
+      "Natural Sealant"
+    ],
+    "dimensions": "36\"L x 80\"H x 2\"W",
+    "weight": "70 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 390,
+    "name": "Oak Console Table",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Sleek oak console table with clean lines and a natural finish, perfect for hallways and entryways.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_1.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Natural Varnish",
+      "Steel Brackets"
+    ],
+    "dimensions": "40\"L x 14\"W x 30\"H",
+    "weight": "28 lbs",
+    "inStock": false,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 391,
+    "name": "Walnut Writing Table",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "Elegant walnut writing table with a smooth worksurface and tapered legs for a timeless study piece.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_2.png"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Brass Accents",
+      "Oil Finish"
+    ],
+    "dimensions": "48\"L x 24\"W x 30\"H",
+    "weight": "35 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 392,
+    "name": "Minimalist White Table",
+    "price": 25000,
+    "currency": "PKR",
+    "description": "Clean white minimalist table with a matte lacquer finish, ideal for small spaces and modern interiors.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_3.png"
+    ],
+    "materials": [
+      "MDF",
+      "White Lacquer",
+      "Plastic Glides"
+    ],
+    "dimensions": "36\"L x 18\"W x 28\"H",
+    "weight": "18 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 393,
+    "name": "Acacia Wood Side Table",
+    "price": 18000,
+    "currency": "PKR",
+    "description": "Compact acacia wood side table with a live edge and hairpin legs for a touch of rustic charm.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_4.png"
+    ],
+    "materials": [
+      "Acacia Wood",
+      "Steel Legs",
+      "Natural Sealant"
+    ],
+    "dimensions": "20\"L x 18\"W x 22\"H",
+    "weight": "12 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 394,
+    "name": "Scandinavian Desk",
+    "price": 35000,
+    "currency": "PKR",
+    "description": "Light Scandinavian desk in birch wood with a clean silhouette and practical drawer storage.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_5.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "White Laminate",
+      "Metal Handles"
+    ],
+    "dimensions": "44\"L x 20\"W x 30\"H",
+    "weight": "30 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 395,
+    "name": "Industrial Pipe Table",
+    "price": 32000,
+    "currency": "PKR",
+    "description": "Rugged industrial table with a reclaimed wood top and black iron pipe legs for a workshop aesthetic.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_6.png"
+    ],
+    "materials": [
+      "Reclaimed Wood",
+      "Black Iron Pipe",
+      "Steel Hardware"
+    ],
+    "dimensions": "48\"L x 24\"W x 30\"H",
+    "weight": "42 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 396,
+    "name": "Glass Top Coffee Table",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Modern coffee table with a tempered glass top and a chrome-finished base for contemporary living rooms.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_7.png"
+    ],
+    "materials": [
+      "Tempered Glass",
+      "Chrome Frame",
+      "Rubber Pads"
+    ],
+    "dimensions": "42\"L x 24\"W x 18\"H",
+    "weight": "22 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 397,
+    "name": "Marble Accent Table",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Luxurious marble accent table with a brass base, perfect as a statement piece in any room.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_8.png"
+    ],
+    "materials": [
+      "Italian Marble",
+      "Brass Base",
+      "Felt Pads"
+    ],
+    "dimensions": "20\"L x 20\"W x 24\"H",
+    "weight": "38 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 398,
+    "name": "Folding Utility Table",
+    "price": 12000,
+    "currency": "PKR",
+    "description": "Practical folding table with a lightweight design, ideal for temporary workspaces and gatherings.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_9.png"
+    ],
+    "materials": [
+      "Pine Wood",
+      "Steel Hinges",
+      "Natural Finish"
+    ],
+    "dimensions": "48\"L x 24\"W x 29\"H",
+    "weight": "15 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 399,
+    "name": "Teak Outdoor Table",
+    "price": 55000,
+    "currency": "PKR",
+    "description": "Weather-resistant teak outdoor table with a slatted top and sturdy construction for patio dining.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_10.png"
+    ],
+    "materials": [
+      "Solid Teak",
+      "Stainless Steel",
+      "Teak Oil"
+    ],
+    "dimensions": "60\"L x 36\"W x 30\"H",
+    "weight": "55 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 400,
+    "name": "Nesting Table Set",
+    "price": 22000,
+    "currency": "PKR",
+    "description": "Set of three nesting tables in graduated sizes, offering flexible surface space for any arrangement.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_11.png"
+    ],
+    "materials": [
+      "Mango Wood",
+      "Lacquer Finish",
+      "Brass Details"
+    ],
+    "dimensions": "18\"L x 14\"W x 20\"H",
+    "weight": "18 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 401,
+    "name": "Bamboo Console Table",
+    "price": 15000,
+    "currency": "PKR",
+    "description": "Eco-friendly bamboo console table with a natural finish and open shelving for display and storage.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_12.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Natural Varnish",
+      "Steel Brackets"
+    ],
+    "dimensions": "36\"L x 12\"W x 32\"H",
+    "weight": "14 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 402,
+    "name": "Cherry Wood Desk",
+    "price": 48000,
+    "currency": "PKR",
+    "description": "Classic cherry wood desk with dovetail drawers and a warm hand-rubbed finish for traditional offices.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_13.png"
+    ],
+    "materials": [
+      "Solid Cherry",
+      "Brass Hardware",
+      "Shellac Finish"
+    ],
+    "dimensions": "48\"L x 24\"W x 30\"H",
+    "weight": "42 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 403,
+    "name": "C-shaped Side Table",
+    "price": 16000,
+    "currency": "PKR",
+    "description": "Versatile C-shaped side table that slides over sofas and beds for convenient laptop and snack use.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_14.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Steel Frame",
+      "Matte Finish"
+    ],
+    "dimensions": "22\"L x 14\"W x 26\"H",
+    "weight": "10 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 404,
+    "name": "Live Edge Slab Table",
+    "price": 65000,
+    "currency": "PKR",
+    "description": "Stunning live edge slab table with natural bark edge and epoxy river inlay for a one-of-a-kind look.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_15.png"
+    ],
+    "materials": [
+      "Reclaimed Elm",
+      "Epoxy Resin",
+      "Steel Legs"
+    ],
+    "dimensions": "60\"L x 30\"W x 30\"H",
+    "weight": "75 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 405,
+    "name": "Pedestal Breakfast Table",
+    "price": 34000,
+    "currency": "PKR",
+    "description": "Space-saving pedestal table with a round top, perfect for breakfast nooks and small dining areas.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_16.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Pedestal Base",
+      "Natural Finish"
+    ],
+    "dimensions": "36\"Dia x 30\"H",
+    "weight": "32 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 406,
+    "name": "Lacquered Console Table",
+    "price": 40000,
+    "currency": "PKR",
+    "description": "High-gloss lacquered console table with a dramatic silhouette and gold-tipped legs for glam interiors.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_17.png"
+    ],
+    "materials": [
+      "MDF",
+      "High-Gloss Lacquer",
+      "Gold Metal Legs"
+    ],
+    "dimensions": "42\"L x 16\"W x 32\"H",
+    "weight": "28 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 407,
+    "name": "Rustic Farmhouse Table",
+    "price": 52000,
+    "currency": "PKR",
+    "description": "Charming farmhouse table in reclaimed pine with turned legs and a distressed painted finish.",
+    "category": "simple-tables",
+    "images": [
+      "/assets/images/simple_table_18.png"
+    ],
+    "materials": [
+      "Reclaimed Pine",
+      "Chalk Paint",
+      "Steel Hardware"
+    ],
+    "dimensions": "48\"L x 30\"W x 30\"H",
+    "weight": "48 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 408,
+    "name": "Classic Wooden Bench",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Timeless wooden bench with a smooth finish and sturdy construction, perfect for entryways and gardens.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_1.png"
+    ],
+    "materials": [
+      "Solid Teak",
+      "Natural Varnish",
+      "Steel Hardware"
+    ],
+    "dimensions": "48\"L x 14\"W x 18\"H",
+    "weight": "22 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 409,
+    "name": "Upholstered Entry Bench",
+    "price": 35000,
+    "currency": "PKR",
+    "description": "Elegant upholstered bench with a padded seat and tapered wooden legs for a welcoming entryway.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_2.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Rubberwood",
+      "Foam Padding"
+    ],
+    "dimensions": "42\"L x 16\"W x 20\"H",
+    "weight": "28 lbs",
+    "inStock": false,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 410,
+    "name": "Rustic Farmhouse Bench",
+    "price": 22000,
+    "currency": "PKR",
+    "description": "Charming farmhouse bench crafted from reclaimed pine with a distressed finish and turned legs.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_3.png"
+    ],
+    "materials": [
+      "Reclaimed Pine",
+      "Chalk Paint",
+      "Steel Hardware"
+    ],
+    "dimensions": "48\"L x 14\"W x 18\"H",
+    "weight": "24 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 411,
+    "name": "Modern Leather Bench",
+    "price": 45000,
+    "currency": "PKR",
+    "description": "Sleek modern bench upholstered in premium leather with a black metal frame for contemporary interiors.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_4.png"
+    ],
+    "materials": [
+      "Top-Grain Leather",
+      "Steel Frame",
+      "High-Density Foam"
+    ],
+    "dimensions": "48\"L x 16\"W x 19\"H",
+    "weight": "35 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 412,
+    "name": "Carved Wooden Bench",
+    "price": 38000,
+    "currency": "PKR",
+    "description": "Hand-carved wooden bench with intricate floral motifs and a rich walnut finish for traditional spaces.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_5.png"
+    ],
+    "materials": [
+      "Solid Walnut",
+      "Hand-Carved Details",
+      "Shellac Finish"
+    ],
+    "dimensions": "48\"L x 15\"W x 18\"H",
+    "weight": "32 lbs",
+    "inStock": true,
+    "featured": true,
+    "threeDModel": false
+  },
+  {
+    "id": 413,
+    "name": "Garden Patio Bench",
+    "price": 18000,
+    "currency": "PKR",
+    "description": "Weather-resistant garden bench in natural acacia wood with curved slats for outdoor comfort.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_6.png"
+    ],
+    "materials": [
+      "Acacia Wood",
+      "Stainless Steel",
+      "Teak Oil"
+    ],
+    "dimensions": "54\"L x 14\"W x 18\"H",
+    "weight": "20 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 414,
+    "name": "Velvet Accent Bench",
+    "price": 32000,
+    "currency": "PKR",
+    "description": "Luxurious velvet bench with a gold metal frame and plush cushioning for glamorous interiors.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_7.png"
+    ],
+    "materials": [
+      "Velvet",
+      "Gold Metal Frame",
+      "High-Resilience Foam"
+    ],
+    "dimensions": "40\"L x 16\"W x 20\"H",
+    "weight": "25 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 415,
+    "name": "Minimalist Oak Bench",
+    "price": 25000,
+    "currency": "PKR",
+    "description": "Clean-lined oak bench with a minimalist design and natural grain finish for modern homes.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_8.png"
+    ],
+    "materials": [
+      "Solid Oak",
+      "Natural Oil Finish",
+      "Plastic Glides"
+    ],
+    "dimensions": "48\"L x 14\"W x 18\"H",
+    "weight": "26 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 416,
+    "name": "Industrial Metal Bench",
+    "price": 20000,
+    "currency": "PKR",
+    "description": "Sturdy industrial bench with a steel frame and wooden slat seat, perfect for loft-style spaces.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_9.png"
+    ],
+    "materials": [
+      "Steel",
+      "Pine Wood",
+      "Powder Coat"
+    ],
+    "dimensions": "48\"L x 14\"W x 18\"H",
+    "weight": "30 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 417,
+    "name": "Storage Bench with Cushion",
+    "price": 42000,
+    "currency": "PKR",
+    "description": "Multi-functional storage bench with a hinged seat and plush cushion for organized seating.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_10.png"
+    ],
+    "materials": [
+      "Engineered Wood",
+      "Polyester Cushion",
+      "Brass Handles"
+    ],
+    "dimensions": "44\"L x 18\"W x 22\"H",
+    "weight": "38 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 418,
+    "name": "Bamboo Garden Bench",
+    "price": 15000,
+    "currency": "PKR",
+    "description": "Eco-friendly bamboo bench with a natural finish and lightweight design for outdoor relaxation.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_11.png"
+    ],
+    "materials": [
+      "Bamboo",
+      "Natural Varnish",
+      "Rope Details"
+    ],
+    "dimensions": "48\"L x 14\"W x 18\"H",
+    "weight": "16 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 419,
+    "name": "Scandinavian Bench",
+    "price": 28000,
+    "currency": "PKR",
+    "description": "Light Scandinavian bench in birch wood with tapered legs and a clean silhouette.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_12.png"
+    ],
+    "materials": [
+      "Birch Wood",
+      "White Lacquer",
+      "Steel Brackets"
+    ],
+    "dimensions": "48\"L x 14\"W x 18\"H",
+    "weight": "22 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 420,
+    "name": "Tufted Ottoman Bench",
+    "price": 36000,
+    "currency": "PKR",
+    "description": "Elegant tufted ottoman bench with button detailing and brass nailhead trim for classic charm.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_13.png"
+    ],
+    "materials": [
+      "Polyester Fabric",
+      "Rubberwood",
+      "Brass Nailheads"
+    ],
+    "dimensions": "42\"L x 16\"W x 20\"H",
+    "weight": "30 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 421,
+    "name": "Wrought Iron Bench",
+    "price": 26000,
+    "currency": "PKR",
+    "description": "Classic wrought iron bench with decorative scrollwork and a durable powder-coated finish.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_14.png"
+    ],
+    "materials": [
+      "Wrought Iron",
+      "Powder Coat",
+      "Steel Hardware"
+    ],
+    "dimensions": "48\"L x 16\"W x 36\"H",
+    "weight": "35 lbs",
+    "inStock": false,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 422,
+    "name": "Folding Wooden Bench",
+    "price": 12000,
+    "currency": "PKR",
+    "description": "Practical folding bench that stores flat when not in use, ideal for extra seating at gatherings.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_15.png"
+    ],
+    "materials": [
+      "Pine Wood",
+      "Steel Hinges",
+      "Natural Finish"
+    ],
+    "dimensions": "48\"L x 12\"W x 18\"H",
+    "weight": "14 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 423,
+    "name": "Rattan Bench",
+    "price": 30000,
+    "currency": "PKR",
+    "description": "Natural rattan bench with a handwoven seat and mango wood frame for bohemian-inspired spaces.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_16.png"
+    ],
+    "materials": [
+      "Natural Rattan",
+      "Mango Wood",
+      "Handwoven"
+    ],
+    "dimensions": "44\"L x 16\"W x 20\"H",
+    "weight": "18 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 424,
+    "name": "Marble Top Bench",
+    "price": 55000,
+    "currency": "PKR",
+    "description": "Luxurious bench with a polished marble top and brass-finished base for opulent entryway seating.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_17.png"
+    ],
+    "materials": [
+      "Italian Marble",
+      "Brass Frame",
+      "Felt Pads"
+    ],
+    "dimensions": "40\"L x 14\"W x 19\"H",
+    "weight": "55 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  },
+  {
+    "id": 425,
+    "name": "Slatted Wood Bench",
+    "price": 16000,
+    "currency": "PKR",
+    "description": "Simple slatted wood bench with a natural finish, perfect for mudrooms and casual seating areas.",
+    "category": "bench",
+    "images": [
+      "/assets/images/bench_18.png"
+    ],
+    "materials": [
+      "Rubberwood",
+      "Natural Varnish",
+      "Steel Brackets"
+    ],
+    "dimensions": "48\"L x 14\"W x 18\"H",
+    "weight": "18 lbs",
+    "inStock": true,
+    "featured": false,
+    "threeDModel": false
+  }
+]

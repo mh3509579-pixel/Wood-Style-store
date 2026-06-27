@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Products — Wood Style Furniture</title>
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #F5F0E8; color: #1A1A1A; }
+    .sidebar { position: fixed; left: 0; top: 0; width: 240px; height: 100vh; background: #1A1A1A; color: #fff; padding: 2rem 1.5rem; }
+    .sidebar h2 { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 500; margin-bottom: 2rem; color: #C9A96E; }
+    .sidebar a { display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.85rem; transition: all 0.3s; border-radius: 4px; margin-bottom: 0.25rem; }
+    .sidebar a:hover, .sidebar a.active { background: rgba(255,255,255,0.08); color: #fff; }
+    .sidebar .logout { margin-top: 2rem; color: rgba(255,255,255,0.4); border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1.5rem; }
+    .main { margin-left: 240px; padding: 2rem; }
+    .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem; }
+    .top-bar h1 { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 500; color: #2D1F14; }
+    .btn { padding: 0.65rem 1.25rem; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; border: none; cursor: pointer; transition: all 0.3s; display: inline-flex; align-items: center; gap: 0.4rem; }
+    .btn-primary { background: #4A3728; color: #fff; } .btn-primary:hover { background: #2D1F14; }
+    .btn-gold { background: #C9A96E; color: #fff; } .btn-gold:hover { background: #A8884A; }
+    .btn-danger { background: #9B2226; color: #fff; } .btn-danger:hover { background: #7A1B1E; }
+    .btn-sm { padding: 0.4rem 0.75rem; font-size: 0.7rem; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #D4C9B8; font-size: 0.85rem; }
+    th { text-align: left; padding: 0.75rem 0.5rem; border-bottom: 2px solid #D4C9B8; color: #4A3728; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; background: #FAF7F2; }
+    td { padding: 0.65rem 0.5rem; border-bottom: 1px solid #E8E0D4; vertical-align: middle; }
+    tr:hover td { background: #FAF7F2; }
+    .thumb { width: 48px; height: 48px; object-fit: cover; background: #E8E0D4; }
+    .badge { display: inline-block; padding: 0.15rem 0.5rem; font-size: 0.65rem; font-weight: 600; }
+    .badge-yes { background: #2D6A4F; color: #fff; }
+    .badge-no { background: #9B2226; color: #fff; }
+    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 1000; align-items: center; justify-content: center; }
+    .modal-overlay.open { display: flex; }
+    .modal { background: #fff; padding: 2rem; width: 600px; max-width: 95vw; max-height: 90vh; overflow-y: auto; }
+    .modal h2 { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 500; color: #2D1F14; margin-bottom: 1.25rem; }
+    .field { margin-bottom: 1rem; }
+    .field label { display: block; font-size: 0.78rem; font-weight: 500; margin-bottom: 0.3rem; color: #4A3728; text-transform: uppercase; letter-spacing: 0.05em; }
+    .field input, .field select, .field textarea { width: 100%; padding: 0.7rem 0.85rem; border: 1.5px solid #D4C9B8; font-family: 'Inter', sans-serif; font-size: 0.85rem; outline: none; transition: border-color 0.3s; }
+    .field input:focus, .field select:focus, .field textarea:focus { border-color: #4A3728; }
+    .field textarea { min-height: 80px; resize: vertical; }
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .modal-actions { display: flex; gap: 0.75rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #D4C9B8; }
+    .checkbox-group { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .checkbox-group label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; text-transform: none; letter-spacing: 0; font-weight: 400; cursor: pointer; }
+    .search-bar { display: flex; gap: 0.75rem; margin-bottom: 1.5rem; }
+    .search-bar input { flex: 1; padding: 0.65rem 1rem; border: 1.5px solid #D4C9B8; font-family: 'Inter', sans-serif; font-size: 0.85rem; outline: none; }
+    @media (max-width: 768px) { .sidebar { width: 100%; height: auto; position: relative; padding: 1rem; } .main { margin-left: 0; overflow-x: auto; } .field-row { grid-template-columns: 1fr; } }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Wood Style</h2>
+    <a href="/admin-dashboard.html">&#9679; Dashboard</a>
+    <a href="/admin-products.html" class="active">&#9632; Products</a>
+    <a href="#" onclick="event.preventDefault();window.open('http://localhost:3000','_blank');">&#9678; View Store</a>
+    <a href="/index.html">&#127968; Home</a>
+    <a href="/collections.html">&#9784; Collections</a>
+    <a href="/product.html?id=1">&#9994; Shop</a>
+    <a href="/cart.html"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:inline-block;vertical-align:middle"> Cart</a>
+    <a href="/blog.html">&#128214; Journal</a>
+    <a href="/about.html">&#9432; About</a>
+    <a href="/contact.html">&#9993; Contact</a>
+    <div style="border-top:1px solid rgba(255,255,255,0.08);margin:1rem 0 0.5rem;padding-top:1rem;"><span style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.3);padding:0 1rem;">Policies</span></div>
+    <a href="/shipping-returns.html">&#128230; Shipping &amp; Returns</a>
+    <a href="/care-guide.html">&#128214; Care Guide</a>
+    <a href="/warranty.html">&#128737; Warranty</a>
+    <a href="/faq.html">&#123;?&#125; FAQ</a>
+    <a href="/privacy-policy.html">&#128274; Privacy Policy</a>
+    <a href="#" class="logout" onclick="localStorage.removeItem('admin_token');localStorage.removeItem('admin_user');window.location.href='/admin-login.html';">&#10007; Logout</a>
+  </div>
+  <div class="main">
+    <div class="top-bar">
+      <h1>Products</h1>
+      <button class="btn btn-gold" onclick="openModal()">+ Add New Product</button>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search products..." oninput="filterProducts()">
+      <select id="category-filter" onchange="filterProducts()" style="padding:0.65rem 1rem;border:1.5px solid #D4C9B8;font-family:'Inter',sans-serif;font-size:0.85rem;outline:none;">
+        <option value="all">All Categories</option>
+        <option value="showcase">Showcase</option>
+        <option value="doors">Doors</option>
+        <option value="simple-tables">Simple Tables</option>
+        <option value="bench">Bench</option>
+        <option value="side-tables">Side Tables</option>
+        <option value="dining-tables">Dining Tables</option>
+        <option value="dining-chairs">Dining Chairs</option>
+        <option value="dressing-tables">Dressing Tables</option>
+        <option value="sofa">Sofa</option>
+        <option value="beds">Beds</option>
+        <option value="stool">Stool</option>
+      </select>
+    </div>
+
+    <div id="products-table"><p style="text-align:center;padding:2rem;color:#6B6B6B;">Loading...</p></div>
+  </div>
+
+  <!-- Add/Edit Modal -->
+  <div class="modal-overlay" id="product-modal">
+    <div class="modal">
+      <h2 id="modal-title">Add New Product</h2>
+      <form id="product-form" onsubmit="return saveProduct(event)">
+        <input type="hidden" id="edit-id" value="">
+        <div class="field-row">
+          <div class="field"><label>Product Name</label><input type="text" id="p-name" required></div>
+          <div class="field"><label>Price (PKR)</label><input type="number" id="p-price" required></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label>Category</label>
+            <select id="p-category" required>
+              <option value="showcase">Showcase</option>
+              <option value="doors">Doors</option>
+              <option value="simple-tables">Simple Tables</option>
+              <option value="bench">Bench</option>
+              <option value="side-tables">Side Tables</option>
+              <option value="dining-tables">Dining Tables</option>
+              <option value="dining-chairs">Dining Chairs</option>
+              <option value="dressing-tables">Dressing Tables</option>
+              <option value="sofa">Sofa</option>
+              <option value="beds">Beds</option>
+              <option value="stool">Stool</option>
+            </select>
+          </div>
+          <div class="field"><label>Dimensions</label><input type="text" id="p-dimensions" placeholder='e.g. 72"L x 36"W'></div>
+        </div>
+        <div class="field"><label>Description</label><textarea id="p-description"></textarea></div>
+        <div class="field"><label>Image URLs (comma separated)</label><input type="text" id="p-images" placeholder="https://...jpg, https://...jpg"></div>
+        <div class="field-row">
+          <div class="field"><label>Materials (comma separated)</label><input type="text" id="p-materials" placeholder="Wood, Brass"></div>
+          <div class="field"><label>Weight</label><input type="text" id="p-weight" placeholder="e.g. 85 lbs"></div>
+        </div>
+        <div class="field">
+          <div class="checkbox-group">
+            <label><input type="checkbox" id="p-stock" checked> In Stock</label>
+            <label><input type="checkbox" id="p-featured"> Featured</label>
+            <label><input type="checkbox" id="p-3d"> 3D Model</label>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-primary" id="save-btn">Save Product</button>
+          <button type="button" class="btn" style="background:#E8E0D4;color:#1A1A1A;" onclick="closeModal()">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const token = localStorage.getItem('admin_token');
+    if (!token) window.location.href = '/admin-login.html';
+
+    let allProducts = [];
+
+    async function loadProducts() {
+      try {
+        const res = await fetch('/api/admin/products', { headers: { 'Authorization': 'Bearer ' + token } });
+        allProducts = await res.json();
+        renderProducts(allProducts);
+      } catch { document.getElementById('products-table').innerHTML = '<p style="text-align:center;padding:2rem;color:#9B2226;">Failed to load products. Server running?</p>'; }
+    }
+
+    function renderProducts(products) {
+      const container = document.getElementById('products-table');
+      if (products.length === 0) {
+        container.innerHTML = '<p style="text-align:center;padding:2rem;color:#6B6B6B;">No products found</p>';
+        return;
+      }
+      container.innerHTML = `
+        <table>
+          <thead><tr><th></th><th>Name</th><th>Category</th><th>Price</th><th>Stock</th><th>Featured</th><th style="width:120px;">Actions</th></tr></thead>
+          <tbody>${products.map(p => `
+            <tr>
+              <td><img class="thumb" src="${p.images?.[0] || 'https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?w=100'}" alt=""></td>
+              <td><strong>${p.name}</strong></td>
+              <td style="text-transform:capitalize;">${p.category}</td>
+              <td>Rs. ${Number(p.price).toLocaleString('en-PK')}</td>
+              <td><span class="badge ${p.inStock ? 'badge-yes' : 'badge-no'}">${p.inStock ? 'In Stock' : 'Out'}</span></td>
+              <td>${p.featured ? '&#9733;' : '&#9734;'}</td>
+              <td>
+                <button class="btn btn-primary btn-sm" onclick="editProduct(${p.id})">Edit</button>
+                <button class="btn btn-danger btn-sm" onclick="deleteProduct(${p.id})">Del</button>
+              </td>
+            </tr>
+          `).join('')}</tbody>
+        </table>`;
+    }
+
+    function filterProducts() {
+      const search = document.getElementById('search-input').value.toLowerCase();
+      const category = document.getElementById('category-filter').value;
+      const filtered = allProducts.filter(p => {
+        const matchName = p.name.toLowerCase().includes(search);
+        const matchCat = category === 'all' || p.category === category;
+        return matchName && matchCat;
+      });
+      renderProducts(filtered);
+    }
+
+    function openModal(product) {
+      document.getElementById('product-modal').classList.add('open');
+      if (product) {
+        document.getElementById('modal-title').textContent = 'Edit Product';
+        document.getElementById('edit-id').value = product.id;
+        document.getElementById('p-name').value = product.name;
+        document.getElementById('p-price').value = product.price;
+        document.getElementById('p-category').value = product.category;
+        document.getElementById('p-description').value = product.description || '';
+        document.getElementById('p-images').value = (product.images || []).join(', ');
+        document.getElementById('p-materials').value = (product.materials || []).join(', ');
+        document.getElementById('p-dimensions').value = product.dimensions || '';
+        document.getElementById('p-weight').value = product.weight || '';
+        document.getElementById('p-stock').checked = product.inStock;
+        document.getElementById('p-featured').checked = product.featured;
+        document.getElementById('p-3d').checked = product.threeDModel;
+        document.getElementById('save-btn').textContent = 'Update Product';
+      } else {
+        document.getElementById('modal-title').textContent = 'Add New Product';
+        document.getElementById('edit-id').value = '';
+        document.getElementById('product-form').reset();
+        document.getElementById('p-stock').checked = true;
+        document.getElementById('save-btn').textContent = 'Save Product';
+      }
+    }
+
+    function closeModal() { document.getElementById('product-modal').classList.remove('open'); }
+
+    async function saveProduct(e) {
+      e.preventDefault();
+      const id = document.getElementById('edit-id').value;
+      const data = {
+        name: document.getElementById('p-name').value,
+        price: Number(document.getElementById('p-price').value),
+        category: document.getElementById('p-category').value,
+        description: document.getElementById('p-description').value,
+        images: document.getElementById('p-images').value.split(',').map(s => s.trim()).filter(Boolean),
+        materials: document.getElementById('p-materials').value.split(',').map(s => s.trim()).filter(Boolean),
+        dimensions: document.getElementById('p-dimensions').value,
+        weight: document.getElementById('p-weight').value,
+        inStock: document.getElementById('p-stock').checked,
+        featured: document.getElementById('p-featured').checked,
+        threeDModel: document.getElementById('p-3d').checked
+      };
+      try {
+        const url = id ? `/api/admin/products/${id}` : '/api/admin/products';
+        const method = id ? 'PUT' : 'POST';
+        const res = await fetch(url, {
+          method,
+          headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
+          body: JSON.stringify(data)
+        });
+        if (res.ok) {
+          alert(id ? 'Product updated!' : 'Product added!');
+          closeModal();
+          loadProducts();
+        } else {
+          const err = await res.json();
+          alert('Error: ' + (err.error || 'Unknown error'));
+        }
+      } catch { alert('Failed to save product'); }
+      return false;
+    }
+
+    async function editProduct(id) {
+      const product = allProducts.find(p => p.id === id);
+      if (product) openModal(product);
+    }
+
+    async function deleteProduct(id) {
+      if (!confirm('Delete this product? This cannot be undone.')) return;
+      try {
+        const res = await fetch(`/api/admin/products/${id}`, {
+          method: 'DELETE',
+          headers: { 'Authorization': 'Bearer ' + token }
+        });
+        if (res.ok) { loadProducts(); alert('Product deleted'); }
+        else { alert('Failed to delete'); }
+      } catch { alert('Failed to delete'); }
+    }
+
+    loadProducts();
+  </script>
+</body>
+</html>

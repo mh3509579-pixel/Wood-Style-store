@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login — Wood Style Furniture</title>
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #F5F0E8; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+    .login-box { background: #fff; padding: 3rem; width: 400px; max-width: 90vw; border: 1px solid #D4C9B8; }
+    h1 { font-family: 'Playfair Display', serif; color: #2D1F14; text-align: center; margin-bottom: 0.5rem; font-weight: 500; }
+    .sub { text-align: center; color: #6B6B6B; font-size: 0.85rem; margin-bottom: 2rem; }
+    .field { margin-bottom: 1.25rem; }
+    label { display: block; font-size: 0.82rem; font-weight: 500; color: #1A1A1A; margin-bottom: 0.4rem; }
+    input { width: 100%; padding: 0.85rem 1rem; border: 1.5px solid #D4C9B8; font-family: 'Inter', sans-serif; font-size: 0.9rem; outline: none; transition: border-color 0.3s; }
+    input:focus { border-color: #4A3728; }
+    button { width: 100%; padding: 1rem; background: #4A3728; color: #fff; border: none; font-family: 'Inter', sans-serif; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer; transition: background 0.3s; }
+    button:hover { background: #2D1F14; }
+    .error { color: #9B2226; font-size: 0.85rem; text-align: center; margin-top: 1rem; display: none; }
+    .logo-img { display: block; margin: 0 auto 1.5rem; height: 40px; }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login-box">
+    <img src="/assets/images/logo.png" alt="Logo" class="logo-img">
+    <h1>Admin Login</h1>
+    <p class="sub">Sign in to manage your store</p>
+    <form id="login-form" onsubmit="return handleLogin(event)">
+      <div class="field">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="admin" required>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="admin123" required>
+      </div>
+      <button type="submit">Sign In</button>
+      <p class="error" id="login-error">Invalid credentials</p>
+    </form>
+  </div>
+  <script>
+    async function handleLogin(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button');
+      btn.disabled = true;
+      btn.textContent = 'Signing in...';
+      try {
+        const res = await fetch('/api/admin/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ username: document.getElementById('username').value, password: document.getElementById('password').value })
+        });
+        const data = await res.json();
+        if (data.success) {
+          localStorage.setItem('admin_token', data.token);
+          localStorage.setItem('admin_user', data.user.username);
+          window.location.href = '/admin-dashboard.html';
+        } else {
+          document.getElementById('login-error').style.display = 'block';
+        }
+      } catch {
+        document.getElementById('login-error').textContent = 'Server error. Make sure server is running.';
+        document.getElementById('login-error').style.display = 'block';
+      }
+      btn.disabled = false;
+      btn.textContent = 'Sign In';
+      return false;
+    }
+  </script>
+</body>
+</html>

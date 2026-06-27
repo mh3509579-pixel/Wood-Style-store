@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections — Wood Style Furniture</title>
+  <meta name="description" content="Explore the Wood Style Furniture collection of luxury furniture, decor, lighting, and textiles.">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { walnut: { DEFAULT: '#4A3728', light: '#6B5340', dark: '#2D1F14' }, ivory: { DEFAULT: '#F5F0E8', dark: '#E8E0D4' }, black: { DEFAULT: '#1A1A1A', light: '#2A2A2A' }, gold: { DEFAULT: '#C9A96E', light: '#DFC08A', dark: '#A8884A' } },
+          fontFamily: { playfair: ['Playfair Display', 'Georgia', 'serif'], inter: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <script src="/js/main.js"></script>
+  <script src="/js/cart.js" defer></script>
+</head>
+<body>
+
+<div class="announcement-bar" id="announcement-bar"><span class="announcement-bar-inner">Complimentary shipping on orders over Rs. 500,000 &mdash; <a href="/collections.html">Explore the collection</a></span></div>
+
+<header class="header">
+  <div class="header-inner">
+    <button class="mobile-toggle" id="mobile-open">&#9776;</button>
+    <a href="/" class="logo"><img src="/assets/images/logo.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <div class="nav-item">
+        <a href="/collections.html" class="active">Collections</a>
+        <div class="dropdown">
+          <a href="/beds.html">Beds</a>
+          <a href="/sofa.html">Sofa</a>
+          <a href="/dining-tables.html">Dining Tables</a>
+          <a href="/stool.html">Stool</a>
+          <a href="/dining-chairs.html">Dining Chairs</a>
+          <a href="/side-tables.html">Side Tables</a>
+          <a href="/dressing-tables.html">Dressing Tables</a>
+          <a href="/showcase.html">Showcase</a>
+          <a href="/doors.html">Doors</a>
+          <a href="/simple-tables.html">Simple Tables</a>
+          <a href="/bench.html">Bench</a>
+          <a href="/collections.html">All Collections</a>
+        </div>
+      </div>
+      <a href="/product.html?id=1">Shop</a>
+      <a href="/blog.html">Journal</a>
+      <a href="/about.html">Our Story</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button onclick="window.location.href='/collections.html'"><img src="/assets/images/search.png" alt="Search" style="width:22px;height:22px;display:block"></button>
+      <button onclick="window.location.href='/cart.html'"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"><span class="cart-count">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-nav-close" id="mobile-close">&times;</button>
+  <nav class="mobile-nav-links">
+    <a href="/">Home</a>
+    <a href="/collections.html">Collections</a>
+    <a href="/product.html?id=1">Shop</a>
+    <a href="/blog.html">Journal</a>
+    <a href="/about.html">Our Story</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div>
+
+<section class="page-header">
+  <h1>The Collection</h1>
+  <p>Each piece is a conversation between material, maker, and muse.</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="collection-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="beds">Beds</button>
+      <button class="filter-btn" data-filter="sofa">Sofa</button>
+      <button class="filter-btn" data-filter="dining-tables">Dining Tables</button>
+      <button class="filter-btn" data-filter="stool">Stool</button>
+      <button class="filter-btn" data-filter="dining-chairs">Dining Chairs</button>
+      <button class="filter-btn" data-filter="side-tables">Side Tables</button>
+      <button class="filter-btn" data-filter="dressing-tables">Dressing Tables</button>
+      <button class="filter-btn" data-filter="showcase">Showcase</button>
+      <button class="filter-btn" data-filter="doors">Doors</button>
+      <button class="filter-btn" data-filter="simple-tables">Simple Tables</button>
+      <button class="filter-btn" data-filter="bench">Bench</button>
+    </div>
+    <div class="product-grid" id="collection-grid">
+      <div class="spinner"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+    <a href="/" class="logo"><img src="/assets/images/footerlogo_image.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+        <p class="footer-desc">Handcrafted luxury furniture, objects, and textiles for the discerning home.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">&#119816;</a>
+          <a href="#" aria-label="Pinterest">&#119822;</a>
+          <a href="#" aria-label="Facebook">&#119815;</a>
+          <a href="#" aria-label="Twitter">&#120143;</a>
+        </div>
+      </div>
+      <div><h4>Collections</h4><ul class="footer-links"><li><a href="/beds.html">Beds</a></li><li><a href="/sofa.html">Sofa</a></li><li><a href="/dining-tables.html">Dining Tables</a></li><li><a href="/stool.html">Stool</a></li><li><a href="/dining-chairs.html">Dining Chairs</a></li><li><a href="/side-tables.html">Side Tables</a></li><li><a href="/dressing-tables.html">Dressing Tables</a></li><li><a href="/showcase.html">Showcase</a></li><li><a href="/doors.html">Doors</a></li><li><a href="/simple-tables.html">Simple Tables</a></li><li><a href="/bench.html">Bench</a></li></ul></div>
+      <div><h4>Company</h4><ul class="footer-links"><li><a href="/about.html">Our Story</a></li><li><a href="/blog.html">Journal</a></li><li><a href="/contact.html">Contact</a></li><li><a href="#">Careers</a></li></ul></div>
+      <div><h4>Support</h4><ul class="footer-links"><li><a href="/shipping-returns.html">Shipping &amp; Returns</a></li><li><a href="/care-guide.html">Care Guide</a></li><li><a href="/warranty.html">Warranty</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/privacy-policy.html">Privacy Policy</a></li><li><a href="/admin-login.html">Admin</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Wood Style Furniture. All rights reserved.</p>
+      <div class="footer-payments"><span>Visa</span><span>MC</span><span>Amex</span><span>PayPal</span><span>JazzCash</span><span>EasyPaisa</span></div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923215173146" target="_blank" rel="noopener" class="whatsapp-float"><img src="/assets/images/wattsapp_green%20icon.png" alt="WhatsApp" style="width:40px;height:40px;display:block"></a>
+
+<script>
+async function loadAnnouncement() {
+  try {
+    const res = await fetch('/api/admin/announcement');
+    const data = await res.json();
+    const bar = document.getElementById('announcement-bar');
+    if (bar && data.text) {
+      bar.innerHTML = '<span class="announcement-bar-inner">' + data.text + ' &mdash; <a href="/collections.html">Explore the collection</a></span>';
+    }
+  } catch {}
+}
+loadAnnouncement();
+
+document.addEventListener('DOMContentLoaded', async () => {
+  const grid = document.getElementById('collection-grid');
+  const urlParams = new URLSearchParams(window.location.search);
+  const initialCategory = urlParams.get('category');
+
+  async function loadAllProducts() {
+    try {
+      const res = await fetch('/api/products');
+      return await res.json();
+    } catch { return []; }
+  }
+
+  const products = await loadAllProducts();
+
+  function renderProducts(category = 'all') {
+    const filtered = category === 'all' ? products : products.filter(p => p.category === category);
+
+    if (filtered.length === 0) {
+      grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--text-light);">No pieces in this category yet. Our collection is growing.</p>';
+      return;
+    }
+
+    grid.innerHTML = filtered.map(p => `
+      <div class="product-card" data-category="${p.category}" onclick="window.location.href='/product.html?id=${p.id}'">
+        <div class="product-card-image">
+          <img src="${p.images?.[0] || 'https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?w=600'}" alt="${p.name}" loading="lazy">
+          ${p.featured ? '<span class="product-card-badge">Featured</span>' : ''}
+          <div class="product-card-actions">
+            <button onclick="event.stopPropagation();cart.add(${JSON.stringify(p).replace(/"/g, '&quot;')})" title="Add to cart"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"></button>
+            <button onclick="event.stopPropagation();window.location.href='/product.html?id=${p.id}'" title="Quick view">&#128065;</button>
+          </div>
+        </div>
+        <div class="product-card-info">
+          <p class="product-card-category">${p.category}</p>
+          <h3 class="product-card-name">${p.name}</h3>
+          <p class="product-card-price">Rs. ${p.price.toLocaleString("en-PK")}</p>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  if (initialCategory) {
+    const btn = document.querySelector(`.filter-btn[data-filter="${initialCategory}"]`);
+    if (btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+    renderProducts(initialCategory);
+  } else {
+    renderProducts('all');
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderProducts(btn.dataset.filter);
+    });
+  });
+});
+</script>
+</body>
+</html>

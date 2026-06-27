@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showcase — Wood Style Furniture</title>
+  <meta name="description" content="Explore our luxury showcase collection — stunning display cases for your most treasured possessions.">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { walnut: { DEFAULT: '#4A3728', light: '#6B5340', dark: '#2D1F14' }, ivory: { DEFAULT: '#F5F0E8', dark: '#E8E0D4' }, black: { DEFAULT: '#1A1A1A', light: '#2A2A2A' }, gold: { DEFAULT: '#C9A96E', light: '#DFC08A', dark: '#A8884A' } },
+          fontFamily: { playfair: ['Playfair Display', 'Georgia', 'serif'], inter: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <script src="/js/main.js"></script>
+  <script src="/js/cart.js" defer></script>
+</head>
+<body>
+
+<div class="announcement-bar" id="announcement-bar"><span class="announcement-bar-inner">Complimentary shipping on orders over Rs. 500,000 &mdash; <a href="/collections.html">Explore the collection</a></span></div>
+
+<header class="header">
+  <div class="header-inner">
+    <button class="mobile-toggle" id="mobile-open">&#9776;</button>
+    <a href="/" class="logo"><img src="/assets/images/logo.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <div class="nav-item">
+        <a href="/collections.html">Collections</a>
+        <div class="dropdown">
+          <a href="/beds.html">Beds</a>
+          <a href="/sofa.html">Sofa</a>
+          <a href="/dining-tables.html">Dining Tables</a>
+          <a href="/stool.html">Stool</a>
+          <a href="/dining-chairs.html">Dining Chairs</a>
+          <a href="/side-tables.html">Side Tables</a>
+          <a href="/dressing-tables.html">Dressing Tables</a>
+          <a href="/showcase.html">Showcase</a>
+          <a href="/doors.html">Doors</a>
+          <a href="/simple-tables.html">Simple Tables</a>
+          <a href="/bench.html">Bench</a>
+          <a href="/collections.html">All Collections</a>
+        </div>
+      </div>
+      <a href="/product.html?id=1">Shop</a>
+      <a href="/blog.html">Journal</a>
+      <a href="/about.html">Our Story</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button onclick="window.location.href='/collections.html'"><img src="/assets/images/search.png" alt="Search" style="width:22px;height:22px;display:block"></button>
+      <button onclick="window.location.href='/cart.html'"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"><span class="cart-count">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-nav-close" id="mobile-close">&times;</button>
+  <nav class="mobile-nav-links">
+    <a href="/">Home</a>
+    <a href="/collections.html">Collections</a>
+    <a href="/product.html?id=1">Shop</a>
+    <a href="/blog.html">Journal</a>
+    <a href="/about.html">Our Story</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div>
+
+<section class="page-header">
+  <h1>Showcase</h1>
+  <p>Stunning display cases to showcase your most treasured possessions.</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="product-grid" id="category-grid"></div>
+  </div>
+</section>
+
+<!-- Quick View Modal -->
+<div class="quickview-overlay" id="quickview-overlay" onclick="closeQuickView()"></div>
+<div class="quickview-modal" id="quickview-modal">
+  <button class="quickview-close" onclick="closeQuickView()">&times;</button>
+  <div class="quickview-content" id="quickview-content">
+    <div class="quickview-image">
+      <img id="qv-image" src="" alt="">
+    </div>
+    <div class="quickview-details">
+      <p class="quickview-category" id="qv-category">showcase</p>
+      <h2 class="quickview-name" id="qv-name"></h2>
+      <p class="quickview-price" id="qv-price"></p>
+      <p class="quickview-desc" id="qv-desc"></p>
+      <div class="quickview-meta" id="qv-meta"></div>
+      <div class="quickview-actions">
+        <div class="qty-selector">
+          <button onclick="qvAdjustQty(-1)">−</button>
+          <input type="text" id="qv-qty" value="1" readonly>
+          <button onclick="qvAdjustQty(1)">+</button>
+        </div>
+        <button class="btn btn-primary" id="qv-add-btn" style="flex:1;">Add to Cart</button>
+      </div>
+      <button class="btn btn-gold" id="qv-order-btn" style="width:100%;margin-top:0.75rem;">Order Now</button>
+      <button class="btn btn-secondary btn-sm" id="qv-view-btn" style="width:100%;margin-top:0.5rem;">View Full Details</button>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+    <a href="/" class="logo"><img src="/assets/images/footerlogo_image.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+        <p class="footer-desc">Handcrafted luxury furniture, objects, and textiles for the discerning home.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">&#119816;</a>
+          <a href="#" aria-label="Pinterest">&#119822;</a>
+          <a href="#" aria-label="Facebook">&#119815;</a>
+          <a href="#" aria-label="Twitter">&#120143;</a>
+        </div>
+      </div>
+      <div><h4>Collections</h4><ul class="footer-links"><li><a href="/beds.html">Beds</a></li><li><a href="/sofa.html">Sofa</a></li><li><a href="/dining-tables.html">Dining Tables</a></li><li><a href="/stool.html">Stool</a></li><li><a href="/dining-chairs.html">Dining Chairs</a></li><li><a href="/side-tables.html">Side Tables</a></li><li><a href="/dressing-tables.html">Dressing Tables</a></li><li><a href="/showcase.html">Showcase</a></li><li><a href="/doors.html">Doors</a></li><li><a href="/simple-tables.html">Simple Tables</a></li><li><a href="/bench.html">Bench</a></li></ul></div>
+      <div><h4>Company</h4><ul class="footer-links"><li><a href="/about.html">Our Story</a></li><li><a href="/blog.html">Journal</a></li><li><a href="/contact.html">Contact</a></li><li><a href="#">Careers</a></li></ul></div>
+      <div><h4>Support</h4><ul class="footer-links"><li><a href="/shipping-returns.html">Shipping &amp; Returns</a></li><li><a href="/care-guide.html">Care Guide</a></li><li><a href="/warranty.html">Warranty</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/privacy-policy.html">Privacy Policy</a></li><li><a href="/admin-login.html">Admin</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Wood Style Furniture. All rights reserved.</p>
+      <div class="footer-payments"><span>Visa</span><span>MC</span><span>Amex</span><span>PayPal</span><span>JazzCash</span><span>EasyPaisa</span></div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923215173146" target="_blank" rel="noopener" class="whatsapp-float"><img src="/assets/images/wattsapp_green%20icon.png" alt="WhatsApp" style="width:40px;height:40px;display:block"></a>
+
+<style>
+.category-empty { grid-column: 1 / -1; text-align: center; padding: 4rem 2rem; }
+.category-empty .icon { font-size: 3rem; margin-bottom: 1rem; }
+.category-empty h3 { font-family: var(--font-heading); font-size: 1.5rem; color: var(--walnut-dark); margin-bottom: 0.5rem; }
+.category-empty p { color: var(--text-light); margin-bottom: 1.5rem; }
+
+.quickview-overlay { position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:999; opacity:0; pointer-events:none; transition:opacity 0.3s ease; }
+.quickview-overlay.show { opacity:1; pointer-events:auto; }
+.quickview-modal { position:fixed; top:50%; left:50%; transform:translate(-50%,-50%) scale(0.95); background:var(--white); z-index:1000; width:90%; max-width:800px; max-height:90vh; overflow-y:auto; border-radius:4px; opacity:0; pointer-events:none; transition:all 0.3s ease; box-shadow:0 20px 60px rgba(0,0,0,0.3); }
+.quickview-modal.show { opacity:1; pointer-events:auto; transform:translate(-50%,-50%) scale(1); }
+.quickview-close { position:absolute; top:1rem; right:1rem; background:none; border:none; font-size:2rem; cursor:pointer; color:var(--text-light); z-index:1; line-height:1; padding:0.25rem; }
+.quickview-close:hover { color:var(--walnut-dark); }
+.quickview-content { display:flex; gap:2rem; padding:2rem; }
+.quickview-image { flex:1; min-width:0; }
+.quickview-image img { width:100%; height:auto; border-radius:2px; }
+.quickview-details { flex:1; display:flex; flex-direction:column; gap:0.75rem; }
+.quickview-category { font-size:0.7rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--text-light); }
+.quickview-name { font-family:var(--font-heading); font-size:1.6rem; font-weight:500; color:var(--walnut-dark); line-height:1.2; }
+.quickview-price { font-size:1.3rem; font-weight:600; color:var(--walnut); }
+.quickview-desc { font-size:0.85rem; color:var(--text-light); line-height:1.6; }
+.quickview-meta { font-size:0.8rem; color:var(--text-light); }
+.quickview-meta strong { color:var(--walnut-dark); }
+.quickview-actions { display:flex; gap:1rem; align-items:center; margin-top:0.5rem; }
+@media (max-width:640px) { .quickview-content { flex-direction:column; padding:1.5rem; } }
+</style>
+
+<script>
+async function loadAnnouncement() {
+  try { const res = await fetch('/api/admin/announcement'); const data = await res.json(); const bar = document.getElementById('announcement-bar'); if (bar && data.text) { bar.innerHTML = '<span class="announcement-bar-inner">' + data.text + ' &mdash; <a href="/collections.html">Explore the collection</a></span>'; } } catch {}
+}
+loadAnnouncement();
+
+document.addEventListener('DOMContentLoaded', async () => {
+  document.title = 'Showcase — Wood Style Furniture';
+  const grid = document.getElementById('category-grid');
+  try {
+    const res = await fetch('/api/products/category/showcase');
+    const products = await res.json();
+    if (products.length === 0) throw new Error('No products');
+    grid.innerHTML = products.map(p => `
+      <div class="product-card" data-category="showcase">
+        <div class="product-card-image">
+          <img src="${p.images?.[0] || 'https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?w=600'}" alt="${p.name}" loading="lazy">
+          ${p.featured ? '<span class="product-card-badge">Featured</span>' : ''}
+          <div class="product-card-actions">
+            <button onclick="event.stopPropagation();cart.add(${JSON.stringify(p).replace(/"/g, '&quot;')});return false;" title="Add to cart"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"></button>
+            <button onclick="event.stopPropagation();openQuickView(${JSON.stringify(p).replace(/"/g, '&quot;')});return false;" title="Quick view">&#128065;</button>
+          </div>
+        </div>
+        <div class="product-card-info">
+          <p class="product-card-category">showcase</p>
+          <h3 class="product-card-name">${p.name}</h3>
+          <p class="product-card-price">Rs. ${p.price.toLocaleString("en-PK")}</p>
+          <p class="product-card-materials" style="font-size:0.75rem;color:var(--text-light);margin-top:0.25rem;">${(p.materials || []).slice(0, 2).join(', ')}</p>
+          <div style="display:flex;gap:0.5rem;margin-top:0.75rem;">
+            <button class="btn btn-primary btn-sm" onclick="event.stopPropagation();cart.add(${JSON.stringify(p).replace(/"/g, '&quot;')});return false;" style="flex:1;">Add to Cart</button>
+            <button class="btn btn-gold btn-sm" onclick="event.stopPropagation();cart.add(${JSON.stringify(p).replace(/"/g, '&quot;')});window.location.href='/checkout.html';return false;" style="flex:1;">Order Now</button>
+          </div>
+        </div>
+      </div>
+    `).join('');
+  } catch {
+    grid.innerHTML = '<div class="category-empty"><div class="icon"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"></div><h3>Unable to load products</h3><p>Please make sure the backend server is running. Try again later.</p></div>';
+  }
+});
+
+let qvProduct = null;
+
+function openQuickView(p) {
+  qvProduct = p;
+  document.getElementById('qv-image').src = p.images[0];
+  document.getElementById('qv-image').alt = p.name;
+  document.getElementById('qv-name').textContent = p.name;
+  document.getElementById('qv-price').textContent = 'Rs. ' + p.price.toLocaleString('en-PK');
+  document.getElementById('qv-desc').textContent = p.description;
+  document.getElementById('qv-meta').innerHTML = `
+    <strong>Materials:</strong> ${p.materials.join(', ')}<br>
+    <strong>Dimensions:</strong> ${p.dimensions}<br>
+    <strong>Weight:</strong> ${p.weight}<br>
+    <strong>Availability:</strong> ${p.inStock ? '<span style="color:var(--success);">In Stock</span>' : '<span style="color:var(--error);">Made to Order</span>'}
+  `;
+  document.getElementById('qv-qty').value = 1;
+  document.getElementById('qv-add-btn').onclick = () => {
+    const qty = parseInt(document.getElementById('qv-qty').value) || 1;
+    cart.add(p, qty);
+    closeQuickView();
+  };
+  document.getElementById('qv-order-btn').onclick = () => {
+    const qty = parseInt(document.getElementById('qv-qty').value) || 1;
+    cart.add(p, qty);
+    window.location.href = '/checkout.html';
+  };
+  document.getElementById('qv-view-btn').onclick = () => {
+    window.location.href = '/product.html?id=' + p.id;
+  };
+  document.getElementById('quickview-overlay').classList.add('show');
+  document.getElementById('quickview-modal').classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeQuickView() {
+  document.getElementById('quickview-overlay').classList.remove('show');
+  document.getElementById('quickview-modal').classList.remove('show');
+  document.body.style.overflow = '';
+}
+
+function qvAdjustQty(delta) {
+  const input = document.getElementById('qv-qty');
+  const val = parseInt(input.value) || 1;
+  input.value = Math.max(1, val + delta);
+}
+</script>
+</body>
+</html>

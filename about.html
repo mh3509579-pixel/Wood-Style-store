@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story — Wood Style Furniture</title>
+  <meta name="description" content="Discover the story behind Wood Style Furniture — where heritage craftsmanship meets modern design.">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { walnut: { DEFAULT: '#4A3728', light: '#6B5340', dark: '#2D1F14' }, ivory: { DEFAULT: '#F5F0E8', dark: '#E8E0D4' }, black: { DEFAULT: '#1A1A1A', light: '#2A2A2A' }, gold: { DEFAULT: '#C9A96E', light: '#DFC08A', dark: '#A8884A' } },
+          fontFamily: { playfair: ['Playfair Display', 'Georgia', 'serif'], inter: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <script src="/js/main.js"></script>
+  <script src="/js/cart.js" defer></script>
+</head>
+<body>
+
+<div class="announcement-bar" id="announcement-bar"><span class="announcement-bar-inner">Complimentary shipping on orders over Rs. 500,000 &mdash; <a href="/collections.html">Explore the collection</a></span></div>
+
+<header class="header">
+  <div class="header-inner">
+    <button class="mobile-toggle" id="mobile-open">&#9776;</button>
+    <a href="/" class="logo"><img src="/assets/images/logo.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <div class="nav-item">
+        <a href="/collections.html">Collections</a>
+        <div class="dropdown">
+          <a href="/beds.html">Beds</a>
+          <a href="/sofa.html">Sofa</a>
+          <a href="/dining-tables.html">Dining Tables</a>
+          <a href="/stool.html">Stool</a>
+          <a href="/dining-chairs.html">Dining Chairs</a>
+          <a href="/side-tables.html">Side Tables</a>
+          <a href="/dressing-tables.html">Dressing Tables</a>
+          <a href="/showcase.html">Showcase</a>
+          <a href="/doors.html">Doors</a>
+          <a href="/simple-tables.html">Simple Tables</a>
+          <a href="/bench.html">Bench</a>
+          <a href="/collections.html">All Collections</a>
+        </div>
+      </div>
+      <a href="/product.html?id=1">Shop</a>
+      <a href="/blog.html">Journal</a>
+      <a href="/about.html" class="active">Our Story</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button onclick="window.location.href='/collections.html'"><img src="/assets/images/search.png" alt="Search" style="width:22px;height:22px;display:block"></button>
+      <button onclick="window.location.href='/cart.html'"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"><span class="cart-count">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-nav-close" id="mobile-close">&times;</button>
+  <nav class="mobile-nav-links">
+    <a href="/">Home</a>
+    <a href="/collections.html">Collections</a>
+    <a href="/product.html?id=1">Shop</a>
+    <a href="/blog.html">Journal</a>
+    <a href="/about.html">Our Story</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</div>
+
+<section class="about-hero">
+  <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600" alt="Wood Style Furniture studio" loading="lazy">
+  <div class="about-hero-content">
+    <h1>Our Story</h1>
+    <p>Crafted at the intersection of heritage and modernity.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="about-story">
+      <img class="about-story-image" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800" alt="Artisan workshop" loading="lazy">
+      <div class="about-story-text">
+        <h2>The Art of Making</h2>
+        <p>Wood Style Furniture was born from a belief that the objects in our homes should be as meaningful as they are beautiful. Founded in 2025, we work directly with master artisans across the globe — from the walnut forests of Tuscany to the cashmere highlands of Mongolia.</p>
+        <p>Every piece in our collection is a collaboration: between the designer who conceives it, the artisan who shapes it, and the natural materials that give it character. We believe in slowing down production to honor the process, using techniques that have been refined over centuries rather than optimized for speed.</p>
+        <p>Our name reflects our dedication to the warmth, character, and enduring beauty of fine wood and quality craftsmanship — a reminder that true luxury is found in the raw, the authentic, and the carefully crafted.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--white);">
+  <div class="container">
+    <h2 class="section-title">Our Values</h2>
+    <p class="section-subtitle">The principles that guide every decision we make.</p>
+    <div class="values-grid">
+      <div class="value-card">
+        <span class="icon">&#9733;</span>
+        <h3>Heritage Craft</h3>
+        <p>We preserve traditional techniques by working with master artisans who have honed their skills over decades. Each piece carries the memory of the hands that made it.</p>
+      </div>
+      <div class="value-card">
+        <span class="icon">&#9851;</span>
+        <h3>Sustainable Luxury</h3>
+        <p>We source from certified forests, ethical workshops, and natural suppliers. Our pieces are designed to last generations — the most sustainable choice is to buy once, buy well.</p>
+      </div>
+      <div class="value-card">
+        <span class="icon">&#9850;</span>
+        <h3>Radical Transparency</h3>
+        <p>We trace every material back to its source and share the story with you. From the quarry to the kiln, the loom to the workshop — you deserve to know where your objects come from.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section newsletter" style="background:var(--walnut-dark);">
+  <h2 class="newsletter-title">Become Part of Our World</h2>
+  <p class="newsletter-text">Subscribe to receive stories from our workshops, early access to new collections, and invitations to private events.</p>
+  <form class="newsletter-form" onsubmit="event.preventDefault();alert('Thank you for subscribing.');">
+    <input type="email" placeholder="Enter your email address" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo"><img src="/assets/images/footerlogo_image.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+        <p class="footer-desc">Handcrafted luxury furniture, objects, and textiles for the discerning home.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">&#119816;</a>
+          <a href="#" aria-label="Pinterest">&#119822;</a>
+          <a href="#" aria-label="Facebook">&#119815;</a>
+          <a href="#" aria-label="Twitter">&#120143;</a>
+        </div>
+      </div>
+      <div><h4>Collections</h4><ul class="footer-links"><li><a href="/beds.html">Beds</a></li><li><a href="/sofa.html">Sofa</a></li><li><a href="/dining-tables.html">Dining Tables</a></li><li><a href="/stool.html">Stool</a></li><li><a href="/dining-chairs.html">Dining Chairs</a></li><li><a href="/side-tables.html">Side Tables</a></li><li><a href="/dressing-tables.html">Dressing Tables</a></li><li><a href="/showcase.html">Showcase</a></li><li><a href="/doors.html">Doors</a></li><li><a href="/simple-tables.html">Simple Tables</a></li><li><a href="/bench.html">Bench</a></li></ul></div>
+      <div><h4>Company</h4><ul class="footer-links"><li><a href="/about.html">Our Story</a></li><li><a href="/blog.html">Journal</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
+      <div><h4>Support</h4><ul class="footer-links"><li><a href="/shipping-returns.html">Shipping &amp; Returns</a></li><li><a href="/care-guide.html">Care Guide</a></li><li><a href="/warranty.html">Warranty</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/privacy-policy.html">Privacy Policy</a></li><li><a href="/admin-login.html">Admin</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Wood Style Furniture. All rights reserved.</p>
+      <div class="footer-payments"><span>Visa</span><span>MC</span><span>Amex</span><span>PayPal</span><span>JazzCash</span><span>EasyPaisa</span></div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923215173146" target="_blank" rel="noopener" class="whatsapp-float"><img src="/assets/images/wattsapp_green%20icon.png" alt="WhatsApp" style="width:40px;height:40px;display:block"></a>
+<script>
+async function loadAnnouncement() {
+  try {
+    const res = await fetch('/api/admin/announcement');
+    const data = await res.json();
+    const bar = document.getElementById('announcement-bar');
+    if (bar && data.text) {
+      bar.innerHTML = '<span class="announcement-bar-inner">' + data.text + ' &mdash; <a href="/collections.html">Explore the collection</a></span>';
+    }
+  } catch {}
+}
+loadAnnouncement();
+</script>
+</body>
+</html>

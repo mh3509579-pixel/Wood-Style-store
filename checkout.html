@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — Wood Style Furniture</title>
+  <meta name="description" content="Complete your order at Wood Style Furniture.">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { walnut: { DEFAULT: '#4A3728', light: '#6B5340', dark: '#2D1F14' }, ivory: { DEFAULT: '#F5F0E8', dark: '#E8E0D4' }, black: { DEFAULT: '#1A1A1A', light: '#2A2A2A' }, gold: { DEFAULT: '#C9A96E', light: '#DFC08A', dark: '#A8884A' } },
+          fontFamily: { playfair: ['Playfair Display', 'Georgia', 'serif'], inter: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/images/iconWoodStyle.png" type="image/png">
+  <script src="/js/main.js"></script>
+  <script src="/js/cart.js" defer></script>
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+
+<div class="announcement-bar" id="announcement-bar"><span class="announcement-bar-inner">Complimentary shipping on orders over Rs. 500,000</span></div>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="/" class="logo"><img src="/assets/images/logo.png" alt="Wood Style Furniture" style="height:36px;width:auto;display:block;"></a>
+    <div class="header-actions">
+      <button onclick="window.location.href='/cart.html'"><img src="/assets/images/cart_icon.gif" alt="Cart" style="width:22px;height:22px;display:block"><span class="cart-count">0</span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-header" style="padding:3rem 2rem;">
+  <h1>Checkout</h1>
+  <p>You're just a few steps away from owning a piece of art.</p>
+</section>
+
+<section class="section" style="padding-top:2rem;">
+  <div class="container">
+    <div class="checkout-layout">
+      <div>
+        <div class="checkout-form-section">
+          <h3>Contact Information</h3>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" placeholder="your@email.com" required>
+          </div>
+        </div>
+
+        <div class="checkout-form-section">
+          <h3>Shipping Address</h3>
+          <div class="form-group">
+            <label for="firstName">Full Name</label>
+            <input type="text" id="firstName" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="123 Luxury Lane" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="city">City</label>
+              <input type="text" id="city" placeholder="New York" required>
+            </div>
+            <div class="form-group">
+              <label for="country">Country</label>
+              <select id="country" required>
+                <option value="">Select country</option>
+                <option value="US">United States</option>
+                <option value="UK">United Kingdom</option>
+                <option value="PK">Pakistan</option>
+                <option value="AE">UAE</option>
+                <option value="DE">Germany</option>
+                <option value="FR">France</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="zip">ZIP / Postal Code</label>
+              <input type="text" id="zip" placeholder="10001">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" placeholder="+1 234 567 890">
+            </div>
+          </div>
+        </div>
+
+        <div class="checkout-form-section">
+          <h3>Payment Method</h3>
+          <div style="display:flex;flex-wrap:wrap;gap:0.75rem;margin-bottom:1.5rem;">
+            <label style="display:flex;align-items:center;gap:0.5rem;padding:0.75rem 1.25rem;background:var(--white);border:1.5px solid var(--walnut);cursor:pointer;font-size:0.85rem;font-weight:500;">
+              <input type="radio" name="payment" value="stripe" checked> Credit Card
+            </label>
+            <label style="display:flex;align-items:center;gap:0.5rem;padding:0.75rem 1.25rem;background:var(--white);border:1.5px solid var(--border);cursor:pointer;font-size:0.85rem;">
+              <input type="radio" name="payment" value="paypal"> PayPal
+            </label>
+            <label style="display:flex;align-items:center;gap:0.5rem;padding:0.75rem 1.25rem;background:var(--white);border:1.5px solid var(--border);cursor:pointer;font-size:0.85rem;">
+              <input type="radio" name="payment" value="jazzcash"> JazzCash
+            </label>
+            <label style="display:flex;align-items:center;gap:0.5rem;padding:0.75rem 1.25rem;background:var(--white);border:1.5px solid var(--border);cursor:pointer;font-size:0.85rem;">
+              <input type="radio" name="payment" value="easypaisa"> EasyPaisa
+            </label>
+          </div>
+          <div id="card-element-container" style="padding:1rem;background:var(--white);border:1px solid var(--border);">
+            <div id="card-element"></div>
+          </div>
+        </div>
+
+        <button class="btn btn-gold btn-lg" onclick="placeOrder()" style="width:100%;margin-top:1rem;" id="place-order-btn">
+          Place Order
+        </button>
+        <p style="font-size:0.78rem;color:var(--text-light);text-align:center;margin-top:0.75rem;">Your order is protected by SSL encryption.</p>
+      </div>
+      <div id="checkout-summary">
+        <div class="spinner"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <p>&copy; 2025 Wood Style Furniture. All rights reserved.</p>
+      <div class="footer-payments"><span>Visa</span><span>MC</span><span>Amex</span><span>PayPal</span><span>JazzCash</span><span>EasyPaisa</span></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+let stripe, card;
+
+document.addEventListener('DOMContentLoaded', async () => {
+  if (typeof Stripe !== 'undefined') {
+    stripe = Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+    const elements = stripe.elements();
+    card = elements.create('card', {
+      style: {
+        base: {
+          fontSize: '16px',
+          color: '#1A1A1A',
+          fontFamily: 'Inter, sans-serif',
+          '::placeholder': { color: '#A0A0A0' }
+        }
+      }
+    });
+    card.mount('#card-element');
+  }
+
+  document.querySelectorAll('input[name="payment"]').forEach(radio => {
+    radio.addEventListener('change', () => {
+      const container = document.getElementById('card-element-container');
+      container.style.display = radio.value === 'stripe' ? 'block' : 'none';
+    });
+  });
+});
+
+async function placeOrder() {
+  const btn = document.getElementById('place-order-btn');
+  btn.disabled = true;
+  btn.textContent = 'Processing...';
+
+  const paymentMethod = document.querySelector('input[name="payment"]:checked')?.value || 'stripe';
+
+  const orderData = {
+    email: document.getElementById('email')?.value || 'guest@example.com',
+    name: document.getElementById('firstName')?.value || 'Guest',
+    address: document.getElementById('address')?.value || '',
+    city: document.getElementById('city')?.value || '',
+    country: document.getElementById('country')?.value || '',
+    paymentMethod,
+    items: cart.items,
+    total: cart.total
+  };
+
+  // Simulate order processing
+  await new Promise(resolve => setTimeout(resolve, 1500));
+
+  // Store order in localStorage for verification
+  localStorage.setItem('last_order', JSON.stringify(orderData));
+
+  alert(`Order placed successfully!\n\nPayment Method: ${paymentMethod.toUpperCase()}\nTotal: Rs. ${cart.total.toLocaleString("en-PK")}\n\nThank you for choosing Wood Style Furniture.`);
+
+  // Clear cart
+  cart.items = [];
+  cart.save();
+
+  window.location.href = '/';
+}
+</script>
+<script>
+async function loadAnnouncement() {
+  try {
+    const res = await fetch('/api/admin/announcement');
+    const data = await res.json();
+    const bar = document.getElementById('announcement-bar');
+    if (bar && data.text) {
+      bar.innerHTML = '<span class="announcement-bar-inner">' + data.text + '</span>';
+    }
+  } catch {}
+}
+loadAnnouncement();
+</script>
+</body>
+</html>
