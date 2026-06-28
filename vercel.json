@@ -2,6 +2,7 @@
   "version": 2,
   "builds": [
     { "src": "backend/server.js", "use": "@vercel/node" },
+    { "src": "api/test.js", "use": "@vercel/node" },
     { "src": "*.html", "use": "@vercel/static" },
     { "src": "css/*.css", "use": "@vercel/static" },
     { "src": "js/*.js", "use": "@vercel/static" },
@@ -9,6 +10,7 @@
     { "src": "data/**", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/api/test", "dest": "api/test.js" },
     { "src": "/api/(.*)", "dest": "backend/server.js" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
