@@ -5,14 +5,26 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 try { require('dotenv').config(); } catch (e) {}
 
-const app = express();
+let app;
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+function initApp() {
+  app = express();
 
-app.use(express.static(path.join(__dirname, '..')));
+  app.use(cors());
+  app.use(bodyParser.json());
+  app.use(bodyParser.urlencoded({ extended: true }));
+
+  app.use(express.static(path.join(__dirname, '..')));
+}
+
+try { initApp(); } catch (e) { console.error('Init error:', e); }
+
+// If init failed, create minimal fallback
+if (!app) {
+  app = express();
+  app.all('*', (req, res) => res.status(500).json({ error: 'Server initialization failed', detail: process.env.VERCEL ? 'vercel' : 'local' }));
+}
 
 let nextProductId = 163;
 
