@@ -46,8 +46,9 @@
       const btn = e.target.querySelector('button');
       btn.disabled = true;
       btn.textContent = 'Signing in...';
+      let res;
       try {
-        const res = await fetch('/api/admin/login', {
+        res = await fetch('/api/admin/login', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ username: document.getElementById('username').value, password: document.getElementById('password').value })
@@ -62,7 +63,9 @@
           document.getElementById('login-error').style.display = 'block';
         }
       } catch (err) {
-        document.getElementById('login-error').textContent = 'Network/JS error: ' + (err.message || 'unknown');
+        let msg = 'Network/JS error: ' + (err.message || 'unknown');
+        if (res) { try { const text = await res.text(); msg += ' | Server response: ' + text.substring(0, 300); } catch {} }
+        document.getElementById('login-error').textContent = msg;
         document.getElementById('login-error').style.display = 'block';
       }
       btn.disabled = false;

@@ -43,7 +43,7 @@ const products = [
   {
     id: 1,
     name: 'Heritage Walnut Desk',
-    price: 81000,
+    price: 10000,
     currency: 'PKR',
     description: 'Hand-carved from century-old walnut wood, this executive desk features dovetail joinery and a hand-rubbed oil finish that deepens with age. Each piece is unique.',
     category: 'simple-tables',
@@ -1447,6 +1447,10 @@ app.post('/api/create-payment-intent', async (req, res) => {
   }
 });
 
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok', environment: isVercel ? 'vercel' : 'local', timestamp: Date.now(), vercel: !!process.env.VERCEL });
+});
+
 // ============== ADMIN PANEL API ==============
 
 app.post('/api/admin/login', (req, res) => {
@@ -1556,7 +1560,7 @@ app.put('/api/admin/orders/:id', adminAuth, (req, res) => {
 });
 
 const users = loadJSON('users.json', []);
-if (!fs.existsSync(path.join(DATA_DIR, 'users.json'))) saveJSON('users.json', users);
+if (!isVercel && !fs.existsSync(path.join(DATA_DIR, 'users.json'))) saveJSON('users.json', users);
 
 app.post('/api/users/register', (req, res) => {
   const { name, email, phone, address, city } = req.body;
@@ -1574,7 +1578,7 @@ app.get('/api/admin/users', adminAuth, (req, res) => {
 });
 
 const appData = loadJSON('app-data.json', { announcementText: 'Complimentary shipping on orders over Rs. 140,000', salePopup: { text: '', enabled: false } });
-if (!fs.existsSync(path.join(DATA_DIR, 'app-data.json'))) saveJSON('app-data.json', appData);
+if (!isVercel && !fs.existsSync(path.join(DATA_DIR, 'app-data.json'))) saveJSON('app-data.json', appData);
 
 app.post('/api/admin/announcement', adminAuth, (req, res) => {
   const { text } = req.body;
@@ -1623,4 +1627,11 @@ if (!process.env.VERCEL) {
   });
 }
 
-module.exports = app;
+module.exports = (req, res) => {
+  try {
+    app(req, res);
+  } catch (e) {
+    console.error('Fatal:', e);
+    res.status(500).json({ error: 'Internal server error', detail: e.message });
+  }
+};
